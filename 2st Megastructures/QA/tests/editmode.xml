@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="107" result="Failed" total="107" passed="104" failed="1" inconclusive="1" skipped="1" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-30 05:16:51Z" end-time="2026-10-30 05:19:05Z" duration="133.738489">
+  <test-suite type="TestSuite" name="The Ring" fullname="The Ring" result="Failed" label="Failed(Child)" duration="133.738489" asserts="0" total="107" passed="104" failed="1" skipped="1" inconclusive="1">
+    <failure>
+      <message>One or more child tests had errors</message>
+      <stack-trace />
+    </failure>
+    <test-suite type="Assembly" name="Megastructure.Tests.EditMode.dll" fullname="W:/YouTube/Megastructures/2nd Megastructures/2nd Megastructures/Library/ScriptAssemblies/Megastructure.Tests.EditMode.dll" result="Failed" label="Failed(Child)" duration="133.722047" asserts="0" total="107" passed="104" failed="1" skipped="1" inconclusive="1">
+      <failure>
+        <message>One or more child tests had errors</message>
+        <stack-trace />
+      </failure>
+      <test-suite type="TestSuite" name="Megastructure" fullname="Megastructure" result="Failed" label="Failed(Child)" duration="133.720456" asserts="0" total="107" passed="104" failed="1" skipped="1" inconclusive="1">
+        <failure>
+          <message>One or more child tests had errors</message>
+          <stack-trace />
+        </failure>
+        <test-suite type="TestSuite" name="Tests" fullname="Megastructure.Tests" result="Failed" label="Failed(Child)" duration="133.718892" asserts="0" total="107" passed="104" failed="1" skipped="1" inconclusive="1">
+          <failure>
+            <message>One or more child tests had errors</message>
+            <stack-trace />
+          </failure>
+          <test-suite type="TestSuite" name="AudioTests" fullname="Megastructure.Tests.AudioTests" result="Passed" label="Passed" duration="66.170115" asserts="0" total="24" passed="22" failed="0" skipped="1" inconclusive="1">
+            <test-case name="ArkPanIsContinuousThroughTheBack" fullname="Megastructure.Tests.AudioTests.ArkPanIsContinuousThroughTheBack" result="Passed" label="Passed" duration="0.205576" asserts="0" />
+            <test-case name="BeaconPingsLockToThePulsePeaks" fullname="Megastructure.Tests.AudioTests.BeaconPingsLockToThePulsePeaks" result="Passed" label="Passed" duration="1.105535" asserts="0" />
+            <test-case name="DcBlockerRemovesOffset" fullname="Megastructure.Tests.AudioTests.DcBlockerRemovesOffset" result="Passed" label="Passed" duration="0.003334" asserts="0" />
+            <test-case name="FitTrims" fullname="Megastructure.Tests.AudioTests.FitTrims" result="Skipped" label="Skipped:Explicit" duration="0.000323" asserts="0">
+              <reason>
+                <message>re-fits the trims; paste the result into AudioTrims.KnotDb</message>
+              </reason>
+            </test-case>
+            <test-case name="FootstepsPeakAtMinus30DbfsOnEverySurface" fullname="Megastructure.Tests.AudioTests.FootstepsPeakAtMinus30DbfsOnEverySurface" result="Passed" label="Passed" duration="0.538047" asserts="0" />
+            <test-case name="GustIsDeterministicSmoothAndShared" fullname="Megastructure.Tests.AudioTests.GustIsDeterministicSmoothAndShared" result="Passed" label="Passed" duration="0.326387" asserts="0" />
+            <test-case name="GustLoudnessCompensationHoldsTheThreeSecondLevel" fullname="Megastructure.Tests.AudioTests.GustLoudnessCompensationHoldsTheThreeSecondLevel" result="Passed" label="Passed" duration="0.206385" asserts="0">
+              <output>[Ring] W1 3 s gust level: 6.59 dB band uncompensated, 1.56 dB compensated (exponent 0.85); gain std 0.33 dB; grid step 0.0185</output>
+            </test-case>
+            <test-case name="HatchSweepPeaksAtMinus30Dbfs" fullname="Megastructure.Tests.AudioTests.HatchSweepPeaksAtMinus30Dbfs" result="Passed" label="Passed" duration="0.073026" asserts="0" />
+            <test-case name="LimiterHoldsTheCeilingAndIsTransparentBelowThreshold" fullname="Megastructure.Tests.AudioTests.LimiterHoldsTheCeilingAndIsTransparentBelowThreshold" result="Passed" label="Passed" duration="0.028169" asserts="0" />
+            <test-case name="ManualAndBriskWalksAreClean" fullname="Megastructure.Tests.AudioTests.ManualAndBriskWalksAreClean" result="Passed" label="Passed" duration="34.257552" asserts="0">
+              <output>[Ring] Audio offline walk (1.5 m/s): 647.9 s rendered in 21211 ms
+[Ring] Audio QA 1.5 m/s walk: 647.9 s in 21211 ms; B1 tp -18.6 rms 0.0/0.0 (0% in tol); B2 tp -13.0 rms -27.0/-27.0 (100% in tol); B3 tp -8.8 rms -23.9/-24.0 (100% in tol); B4 tp -12.9 rms -29.4/-29.6 (100% in tol); B5 tp -20.3 rms -36.0/-36.0 (100% in tol); B6 tp -20.4 rms -36.0/-36.0 (100% in tol); B7 tp -14.7 rms -27.9/-28.0 (100% in tol); pings 11, ticks 20, steps 1280
+[Ring] Audio offline walk (2.5 m/s): 392.8 s rendered in 13037 ms
+[Ring] Audio QA 2.5 m/s walk: 392.8 s in 13037 ms; B1 tp -19.9 rms 0.0/0.0 (0% in tol); B2 tp -12.8 rms -27.1/-27.0 (100% in tol); B3 tp -9.2 rms -24.0/-24.0 (100% in tol); B4 tp -12.1 rms -29.4/-29.6 (100% in tol); B5 tp -19.8 rms -36.0/-36.0 (100% in tol); B6 tp -19.7 rms -36.0/-36.0 (100% in tol); B7 tp -14.6 rms -28.0/-28.0 (100% in tol); pings 8, ticks 20, steps 1130</output>
+            </test-case>
+            <test-case name="OfflineWalkMeetsTheMasterSpec" fullname="Megastructure.Tests.AudioTests.OfflineWalkMeetsTheMasterSpec" result="Passed" label="Passed" duration="26.536181" asserts="0">
+              <output>[Ring] Audio offline walk (1.5 m/s, holds): 704.2 s rendered in 25133 ms
+[Ring] Audio QA: 704.2 s in 25133 ms; B1 tp -18.4 rms -38.0/-38.0 (100% in tol); B2 tp -11.6 rms -27.0/-27.0 (100% in tol); B3 tp -8.6 rms -24.0/-24.0 (100% in tol); B4 tp -13.6 rms -29.5/-29.5 (100% in tol); B5 tp -18.7 rms -36.0/-36.0 (100% in tol); B6 tp -20.4 rms -36.0/-36.0 (100% in tol); B7 tp -13.7 rms -28.0/-28.0 (100% in tol); pings 14, ticks 20, steps 1280</output>
+            </test-case>
+            <test-case name="PauseDucksTwelveDbInPointFourSeconds" fullname="Megastructure.Tests.AudioTests.PauseDucksTwelveDbInPointFourSeconds" result="Passed" label="Passed" duration="0.371326" asserts="0" />
+            <test-case name="PinkIsFlatPerOctaveAndBrownFallsSixDb" fullname="Megastructure.Tests.AudioTests.PinkIsFlatPerOctaveAndBrownFallsSixDb" result="Passed" label="Passed" duration="0.064746" asserts="0" />
+            <test-case name="RenderIsAllocationFree" fullname="Megastructure.Tests.AudioTests.RenderIsAllocationFree" result="Inconclusive" label="Inconclusive" duration="0.003862" asserts="0" />
+            <test-case name="ReverbZonesFollowTheSoundBible" fullname="Megastructure.Tests.AudioTests.ReverbZonesFollowTheSoundBible" result="Passed" label="Passed" duration="0.014622" asserts="0" />
+            <test-case name="RibTicksOnePerRibPassed" fullname="Megastructure.Tests.AudioTests.RibTicksOnePerRibPassed" result="Passed" label="Passed" duration="1.498663" asserts="0" />
+            <test-case name="SampleRateChangeMidStreamIsClean" fullname="Megastructure.Tests.AudioTests.SampleRateChangeMidStreamIsClean" result="Passed" label="Passed" duration="0.240919" asserts="0" />
+            <test-case name="SeqlockHandOffNeverTears" fullname="Megastructure.Tests.AudioTests.SeqlockHandOffNeverTears" result="Passed" label="Passed" duration="0.403051" asserts="0" />
+            <test-case name="SilentWhenTheFadeIsClosedAndAnyChannelCountWorks" fullname="Megastructure.Tests.AudioTests.SilentWhenTheFadeIsClosedAndAnyChannelCountWorks" result="Passed" label="Passed" duration="0.189705" asserts="0" />
+            <test-case name="SpecMirrorsRingConstants" fullname="Megastructure.Tests.AudioTests.SpecMirrorsRingConstants" result="Passed" label="Passed" duration="0.037028" asserts="0" />
+            <test-case name="SvfStaysStableUnderPerSampleModulation" fullname="Megastructure.Tests.AudioTests.SvfStaysStableUnderPerSampleModulation" result="Passed" label="Passed" duration="0.012024" asserts="0" />
+            <test-case name="TrimTableIsConsistent" fullname="Megastructure.Tests.AudioTests.TrimTableIsConsistent" result="Passed" label="Passed" duration="0.000811" asserts="0" />
+            <test-case name="TruePeakMeterReadsInterSamplePeaks" fullname="Megastructure.Tests.AudioTests.TruePeakMeterReadsInterSamplePeaks" result="Passed" label="Passed" duration="0.018282" asserts="0" />
+            <test-case name="WavWriterRoundTrips" fullname="Megastructure.Tests.AudioTests.WavWriterRoundTrips" result="Passed" label="Passed" duration="0.008928" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="ConstantsTests" fullname="Megastructure.Tests.ConstantsTests" result="Passed" label="Passed" duration="0.047217" asserts="0" total="11" passed="11" failed="0" skipped="0" inconclusive="0">
+            <test-case name="Ark_ShipShadow_CloudShadows" fullname="Megastructure.Tests.ConstantsTests.Ark_ShipShadow_CloudShadows" result="Passed" label="Passed" duration="0.003197" asserts="0" />
+            <test-case name="Beats_Waypoints" fullname="Megastructure.Tests.ConstantsTests.Beats_Waypoints" result="Passed" label="Passed" duration="0.001736" asserts="0" />
+            <test-case name="Bridge_River_Clipmap" fullname="Megastructure.Tests.ConstantsTests.Bridge_River_Clipmap" result="Passed" label="Passed" duration="0.000885" asserts="0" />
+            <test-case name="Capsule_Porthole_Hatch" fullname="Megastructure.Tests.ConstantsTests.Capsule_Porthole_Hatch" result="Passed" label="Passed" duration="0.001629" asserts="0" />
+            <test-case name="Fog_Fov_Far_Slew_Holds_UiTiming" fullname="Megastructure.Tests.ConstantsTests.Fog_Fov_Far_Slew_Holds_UiTiming" result="Passed" label="Passed" duration="0.000536" asserts="0" />
+            <test-case name="Hull_Swarm_Beacon" fullname="Megastructure.Tests.ConstantsTests.Hull_Swarm_Beacon" result="Passed" label="Passed" duration="0.001355" asserts="0" />
+            <test-case name="KS04_ShipGeometryInBentSpace" fullname="Megastructure.Tests.ConstantsTests.KS04_ShipGeometryInBentSpace" result="Passed" label="Passed" duration="0.001044" asserts="0" />
+            <test-case name="Palette_HasEveryToken" fullname="Megastructure.Tests.ConstantsTests.Palette_HasEveryToken" result="Passed" label="Passed" duration="0.007098" asserts="0" />
+            <test-case name="Ring_Star_Player" fullname="Megastructure.Tests.ConstantsTests.Ring_Star_Player" result="Passed" label="Passed" duration="0.000847" asserts="0" />
+            <test-case name="Sunset_Levee_Underpass" fullname="Megastructure.Tests.ConstantsTests.Sunset_Levee_Underpass" result="Passed" label="Passed" duration="0.001224" asserts="0" />
+            <test-case name="Wall_Tunnel_Platform" fullname="Megastructure.Tests.ConstantsTests.Wall_Tunnel_Platform" result="Passed" label="Passed" duration="0.00181" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="CoreMathTests" fullname="Megastructure.Tests.CoreMathTests" result="Passed" label="Passed" duration="0.020924" asserts="0" total="19" passed="19" failed="0" skipped="0" inconclusive="0">
+            <test-case name="Bend_Float32MatchesDouble_Far_Within5mm" fullname="Megastructure.Tests.CoreMathTests.Bend_Float32MatchesDouble_Far_Within5mm" result="Passed" label="Passed" duration="0.00554" asserts="0" />
+            <test-case name="Bend_Float32MatchesDouble_Near_Within0p1mm" fullname="Megastructure.Tests.CoreMathTests.Bend_Float32MatchesDouble_Near_Within0p1mm" result="Passed" label="Passed" duration="0.002114" asserts="0" />
+            <test-case name="Bend_StableFormBeatsNaiveForm_NearCamera" fullname="Megastructure.Tests.CoreMathTests.Bend_StableFormBeatsNaiveForm_NearCamera" result="Passed" label="Passed" duration="0.000489" asserts="0" />
+            <test-suite type="TestSuite" name="GroundElevation_IsHalfTheta" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta" result="Passed" label="Passed" duration="0.003971" asserts="0" total="5" passed="5" failed="0" skipped="0" inconclusive="0">
+              <test-case name="GroundElevation_IsHalfTheta(1000.0f,1.8f)" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta(1000.0f,1.8f)" result="Passed" label="Passed" duration="0.000728" asserts="0" />
+              <test-case name="GroundElevation_IsHalfTheta(2000.0f,3.6f)" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta(2000.0f,3.6f)" result="Passed" label="Passed" duration="0.000187" asserts="0" />
+              <test-case name="GroundElevation_IsHalfTheta(4000.0f,7.2f)" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta(4000.0f,7.2f)" result="Passed" label="Passed" duration="0.000229" asserts="0" />
+              <test-case name="GroundElevation_IsHalfTheta(8192.0f,14.7f)" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta(8192.0f,14.7f)" result="Passed" label="Passed" duration="0.000189" asserts="0" />
+              <test-case name="GroundElevation_IsHalfTheta(12000.0f,21.5f)" fullname="Megastructure.Tests.CoreMathTests.GroundElevation_IsHalfTheta(12000.0f,21.5f)" result="Passed" label="Passed" duration="0.000142" asserts="0" />
+            </test-suite>
+            <test-case name="InflateBounds_CoversTheBentGeometry" fullname="Megastructure.Tests.CoreMathTests.InflateBounds_CoversTheBentGeometry" result="Passed" label="Passed" duration="0.001402" asserts="0" />
+            <test-case name="KS02_TerrainEdgeElevation_14p67" fullname="Megastructure.Tests.CoreMathTests.KS02_TerrainEdgeElevation_14p67" result="Passed" label="Passed" duration="0.00112" asserts="0" />
+            <test-suite type="TestSuite" name="NdotL_FlatTerrain_0p438_WithRotatedKey" fullname="Megastructure.Tests.CoreMathTests.NdotL_FlatTerrain_0p438_WithRotatedKey" result="Passed" label="Passed" duration="0.001429" asserts="0" total="3" passed="3" failed="0" skipped="0" inconclusive="0">
+              <test-case name="NdotL_FlatTerrain_0p438_WithRotatedKey(0.0f)" fullname="Megastructure.Tests.CoreMathTests.NdotL_FlatTerrain_0p438_WithRotatedKey(0.0f)" result="Passed" label="Passed" duration="0.000602" asserts="0" />
+              <test-case name="NdotL_FlatTerrain_0p438_WithRotatedKey(3000.0f)" fullname="Megastructure.Tests.CoreMathTests.NdotL_FlatTerrain_0p438_WithRotatedKey(3000.0f)" result="Passed" label="Passed" duration="0.000053" asserts="0" />
+              <test-case name="NdotL_FlatTerrain_0p438_WithRotatedKey(8000.0f)" fullname="Megastructure.Tests.CoreMathTests.NdotL_FlatTerrain_0p438_WithRotatedKey(8000.0f)" result="Passed" label="Passed" duration="0.000048" asserts="0" />
+            </test-suite>
+            <test-suite type="TestSuite" name="Rise_MatchesSpec" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec" result="Passed" label="Passed" duration="0.001293" asserts="0" total="5" passed="5" failed="0" skipped="0" inconclusive="0">
+              <test-case name="Rise_MatchesSpec(1000.0f,31.0f)" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec(1000.0f,31.0f)" result="Passed" label="Passed" duration="0.000184" asserts="0" />
+              <test-case name="Rise_MatchesSpec(2000.0f,125.0f)" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec(2000.0f,125.0f)" result="Passed" label="Passed" duration="0.000072" asserts="0" />
+              <test-case name="Rise_MatchesSpec(4000.0f,497.0f)" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec(4000.0f,497.0f)" result="Passed" label="Passed" duration="0.000061" asserts="0" />
+              <test-case name="Rise_MatchesSpec(8192.0f,2052.0f)" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec(8192.0f,2052.0f)" result="Passed" label="Passed" duration="0.000059" asserts="0" />
+              <test-case name="Rise_MatchesSpec(12000.0f,4293.0f)" fullname="Megastructure.Tests.CoreMathTests.Rise_MatchesSpec(12000.0f,4293.0f)" result="Passed" label="Passed" duration="0.000068" asserts="0" />
+            </test-suite>
+            <test-case name="StarDirections_MatchTheTable" fullname="Megastructure.Tests.CoreMathTests.StarDirections_MatchTheTable" result="Passed" label="Passed" duration="0.000308" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="KeyShotTests" fullname="Megastructure.Tests.KeyShotTests" result="Passed" label="Passed" duration="0.110859" asserts="0" total="7" passed="7" failed="0" skipped="0" inconclusive="0">
+            <test-case name="Composition_KeyShotsAnalytic" fullname="Megastructure.Tests.KeyShotTests.Composition_KeyShotsAnalytic" result="Passed" label="Passed" duration="0.018824" asserts="0" />
+            <test-case name="Composition_KS05StarAndKS02Edge" fullname="Megastructure.Tests.KeyShotTests.Composition_KS05StarAndKS02Edge" result="Passed" label="Passed" duration="0.056475" asserts="0" />
+            <test-case name="FileNames_FollowThePattern" fullname="Megastructure.Tests.KeyShotTests.FileNames_FollowThePattern" result="Passed" label="Passed" duration="0.001378" asserts="0" />
+            <test-case name="Plans_AllContainsEveryRequiredImage" fullname="Megastructure.Tests.KeyShotTests.Plans_AllContainsEveryRequiredImage" result="Passed" label="Passed" duration="0.02258" asserts="0" />
+            <test-case name="Sequences_AllPlansAreWellFormed" fullname="Megastructure.Tests.KeyShotTests.Sequences_AllPlansAreWellFormed" result="Passed" label="Passed" duration="0.006627" asserts="0" />
+            <test-case name="Table_EyesLieOnThePathAtEyeHeight" fullname="Megastructure.Tests.KeyShotTests.Table_EyesLieOnThePathAtEyeHeight" result="Passed" label="Passed" duration="0.000486" asserts="0" />
+            <test-case name="Table_HasSixteenUniqueShots" fullname="Megastructure.Tests.KeyShotTests.Table_HasSixteenUniqueShots" result="Passed" label="Passed" duration="0.000964" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="PathScheduleTests" fullname="Megastructure.Tests.PathScheduleTests" result="Passed" label="Passed" duration="0.560698" asserts="0" total="11" passed="11" failed="0" skipped="0" inconclusive="0">
+            <test-case name="ArchHaze_HlslSourceMatchesTwin" fullname="Megastructure.Tests.PathScheduleTests.ArchHaze_HlslSourceMatchesTwin" result="Passed" label="Passed" duration="0.001459" asserts="0" />
+            <test-case name="ArchHaze_MonotoneAndAnchored" fullname="Megastructure.Tests.PathScheduleTests.ArchHaze_MonotoneAndAnchored" result="Passed" label="Passed" duration="0.128189" asserts="0" />
+            <test-case name="Beats_LengthsAndDurations" fullname="Megastructure.Tests.PathScheduleTests.Beats_LengthsAndDurations" result="Passed" label="Passed" duration="0.000985" asserts="0" />
+            <test-case name="KeyShots_VfovEqualsSchedule" fullname="Megastructure.Tests.PathScheduleTests.KeyShots_VfovEqualsSchedule" result="Passed" label="Passed" duration="0.000355" asserts="0" />
+            <test-case name="Path_Length960_AndWaypointProgress" fullname="Megastructure.Tests.PathScheduleTests.Path_Length960_AndWaypointProgress" result="Passed" label="Passed" duration="0.000506" asserts="0" />
+            <test-case name="Path_ProjectIsConsistentWithPointAt" fullname="Megastructure.Tests.PathScheduleTests.Path_ProjectIsConsistentWithPointAt" result="Passed" label="Passed" duration="0.003497" asserts="0" />
+            <test-case name="QaPath_FloorAndEyes" fullname="Megastructure.Tests.PathScheduleTests.QaPath_FloorAndEyes" result="Passed" label="Passed" duration="0.123388" asserts="0" />
+            <test-case name="QaPath_OffsetPathsStayInsideTheLane" fullname="Megastructure.Tests.PathScheduleTests.QaPath_OffsetPathsStayInsideTheLane" result="Passed" label="Passed" duration="0.022751" asserts="0" />
+            <test-case name="Schedule_ContinuitySweep_CaptureMode" fullname="Megastructure.Tests.PathScheduleTests.Schedule_ContinuitySweep_CaptureMode" result="Passed" label="Passed" duration="0.265732" asserts="0" />
+            <test-case name="Sunset_KeyAndExposure" fullname="Megastructure.Tests.PathScheduleTests.Sunset_KeyAndExposure" result="Passed" label="Passed" duration="0.008103" asserts="0" />
+            <test-case name="Sunset_StarVisibility" fullname="Megastructure.Tests.PathScheduleTests.Sunset_StarVisibility" result="Passed" label="Passed" duration="0.001886" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="ProjectSanityTests" fullname="Megastructure.Tests.ProjectSanityTests" result="Passed" label="Passed" duration="64.863518" asserts="0" total="6" passed="6" failed="0" skipped="0" inconclusive="0">
+            <test-case name="BuildSettings_OnlyMainScene" fullname="Megastructure.Tests.ProjectSanityTests.BuildSettings_OnlyMainScene" result="Passed" label="Passed" duration="0.002312" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="MainScene_HasNoMissingScripts" fullname="Megastructure.Tests.ProjectSanityTests.MainScene_HasNoMissingScripts" result="Passed" label="Passed" duration="0.183848" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="Prefabs_HaveNoMissingScripts" fullname="Megastructure.Tests.ProjectSanityTests.Prefabs_HaveNoMissingScripts" result="Passed" label="Passed" duration="0.007955" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="RingAssets_MaterialsHaveSupportedShaders" fullname="Megastructure.Tests.ProjectSanityTests.RingAssets_MaterialsHaveSupportedShaders" result="Passed" label="Passed" duration="0.002189" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="Shaders_CompileWithoutErrors" fullname="Megastructure.Tests.ProjectSanityTests.Shaders_CompileWithoutErrors" result="Passed" label="Passed" duration="0.007387" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="Shaders_VariantsCompileOnD3D11" fullname="Megastructure.Tests.ProjectSanityTests.Shaders_VariantsCompileOnD3D11" result="Passed" label="Passed" duration="64.654617" asserts="0">
+              <output>
+IgnoreFailingMessages:true
+variant compiles: 456</output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestSuite" name="QaContractTests" fullname="Megastructure.Tests.QaContractTests" result="Passed" label="Passed" duration="0.036269" asserts="0" total="6" passed="6" failed="0" skipped="0" inconclusive="0">
+            <test-case name="AutoWalker_RequestAcceptsQaModes" fullname="Megastructure.Tests.QaContractTests.AutoWalker_RequestAcceptsQaModes" result="Passed" label="Passed" duration="0.002257" asserts="0" />
+            <test-case name="CameraRig_PlayerController_AtmosphereDriver_Statics" fullname="Megastructure.Tests.QaContractTests.CameraRig_PlayerController_AtmosphereDriver_Statics" result="Passed" label="Passed" duration="0.004401" asserts="0" />
+            <test-case name="CaptureHooks_FindTheFieldSubmitters" fullname="Megastructure.Tests.QaContractTests.CaptureHooks_FindTheFieldSubmitters" result="Passed" label="Passed" duration="0.004912" asserts="0">
+              <output>[Ring] QA capture hooks: reflection:SubmitAllFor[InstancedField]
+reflection:SubmitAllFor[InstancedField]</output>
+            </test-case>
+            <test-case name="GazeSchedule_Resolves" fullname="Megastructure.Tests.QaContractTests.GazeSchedule_Resolves" result="Passed" label="Passed" duration="0.000509" asserts="0" />
+            <test-case name="PathGuide_LaneWidthsAndSamples" fullname="Megastructure.Tests.QaContractTests.PathGuide_LaneWidthsAndSamples" result="Passed" label="Passed" duration="0.003774" asserts="0" />
+            <test-case name="QaJson_WritesValidJson" fullname="Megastructure.Tests.QaContractTests.QaJson_WritesValidJson" result="Passed" label="Passed" duration="0.001904" asserts="0" />
+          </test-suite>
+          <test-suite type="TestSuite" name="WorldBuildTests" fullname="Megastructure.Tests.WorldBuildTests" result="Failed" label="Failed(Child)" duration="1.901643" asserts="0" total="23" passed="22" failed="1" skipped="0" inconclusive="0">
+            <failure>
+              <message>One or more child tests had errors</message>
+              <stack-trace />
+            </failure>
+            <test-case name="Build_RunsEveryBuilderWithoutErrors" fullname="Megastructure.Tests.WorldBuildTests.Build_RunsEveryBuilderWithoutErrors" result="Passed" label="Passed" duration="0.001182" asserts="0">
+              <output>
+IgnoreFailingMessages:true
+builders (12, 1,3 s): 0 SkyDome, 5 PathGuide, 10 Clipmap, 11 River, 12 Grass, 100 Beat01Capsule, 200 Beat02Valley, 300 Beat03Ark, 400 Beat04Sunset, 500 Beat05Wall, 600 Beat06Tunnel, 700 Beat07Outside; triangles 906925</output>
+            </test-case>
+            <test-case name="Meshes_AreValid" fullname="Megastructure.Tests.WorldBuildTests.Meshes_AreValid" result="Failed" label="Failed" duration="0.118463" asserts="0">
+              <failure>
+                <message>  invalid meshes (1 of 94):
+Set_Outside/Beacon/BeaconLens: degenerate 16, bad index 0, NaN 0, zero normals 0
+
+  Expected: 0
+  But was:  1</message>
+                <stack-trace>at Megastructure.Tests.WorldBuildTests.Meshes_AreValid () [0x0017c] in W:\YouTube\Megastructures\2nd Megastructures\2nd Megastructures\Assets\_Game\Scripts\Tests\EditMode\WorldBuildTests.cs:201</stack-trace>
+              </failure>
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="Meshes_BoundsContainVertices" fullname="Megastructure.Tests.WorldBuildTests.Meshes_BoundsContainVertices" result="Passed" label="Passed" duration="0.025392" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-case name="Meshes_WindingAgreesWithNormals" fullname="Megastructure.Tests.WorldBuildTests.Meshes_WindingAgreesWithNormals" result="Passed" label="Passed" duration="0.10454" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+            <test-suite type="TestSuite" name="Registry_Dimensions" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions" result="Passed" label="Passed" duration="0.031335" asserts="0" total="17" passed="17" failed="0" skipped="0" inconclusive="0">
+              <test-case name="Registry_Dimensions(Capsule.Interior size.x=2.6;size.y=2.5;size.z=11.0;min.y=0.9;min.z=-1.5;max.z=9.5)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Capsule.Interior size.x=2.6;size.y=2.5;size.z=11.0;min.y=0.9;min.z=-1.5;max.z=9.5)" result="Passed" label="Passed" duration="0.008992" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Capsule.Porthole centre.x=-1.46~0.05;centre.y=2.98~0.05;centre.z=5.65~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Capsule.Porthole centre.x=-1.46~0.05;centre.y=2.98~0.05;centre.z=5.65~0.05)" result="Passed" label="Passed" duration="0.000247" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Capsule.Hatch size.x=2.0;size.y=1.9;min.y=0.9~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Capsule.Hatch size.x=2.0;size.y=1.9;min.y=0.9~0.05)" result="Passed" label="Passed" duration="0.00029" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Bridge.Deck max.y=3.0~0.01;size.x=5.0;min.z=120~0.05;max.z=180~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Bridge.Deck max.y=3.0~0.01;size.x=5.0;min.z=120~0.05;max.z=180~0.05)" result="Passed" label="Passed" duration="0.001412" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Bridge.Rail max.y=4.0~0.01)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Bridge.Rail max.y=4.0~0.01)" result="Passed" label="Passed" duration="0.001384" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(River.Ribbon max.y=-2.2~0.05;size.y=0~0.1)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(River.Ribbon max.y=-2.2~0.05;size.y=0~0.1)" result="Passed" label="Passed" duration="0.000949" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Ark.Hull size.x=3000~5;size.y=260~5;size.z=420~5;centre.y=1800~1;centre.z=3180~5)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Ark.Hull size.x=3000~5;size.y=260~5;size.z=420~5;centre.y=1800~1;centre.z=3180~5)" result="Passed" label="Passed" duration="0.000289" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Footbridge.Opening size.x=4.2;size.y=3.2;size.z=8.0;min.z=396~0.05;max.z=404~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Footbridge.Opening size.x=4.2;size.y=3.2;size.z=8.0;min.z=396~0.05;max.z=404~0.05)" result="Passed" label="Passed" duration="0.000273" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Underpass size.y=2.9;min.z=558;max.x=18;min.x=-1.4;max.z=577.4)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Underpass size.y=2.9;min.z=558;max.x=18;min.x=-1.4;max.z=577.4)" result="Passed" label="Passed" duration="0.000369" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Levee min.x=-70~0.05;max.x=18~0.05;min.z=558~0.05;max.z=640~0.05;max.y=14~0.15)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Levee min.x=-70~0.05;max.x=18~0.05;min.z=558~0.05;max.z=640~0.05;max.y=14~0.15)" result="Passed" label="Passed" duration="0.000282" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Wall face.x=114~0.01;max.y=12000~1;min.z=-9000~1;max.z=9000~1)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Wall face.x=114~0.01;max.y=12000~1;min.z=-9000~1;max.z=9000~1)" result="Passed" label="Passed" duration="0.002079" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Door.Opening size.z=2.6;size.y=3.0;min.y=0~0.02;centre.z=660~0.02)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Door.Opening size.z=2.6;size.y=3.0;min.y=0~0.02;centre.z=660~0.02)" result="Passed" label="Passed" duration="0.000211" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Tunnel size.z=2.6;size.y=3.0;spanmin.x=114.8;spanmax.x=234)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Tunnel size.z=2.6;size.y=3.0;spanmin.x=114.8;spanmax.x=234)" result="Passed" label="Passed" duration="0.000301" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Tunnel.Rib0 centre.x=117~0.01;size.x=0.40)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Tunnel.Rib0 centre.x=117~0.01;size.x=0.40)" result="Passed" label="Passed" duration="0.000219" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Platform.Deck size.x=72~0.05;size.z=30~0.05;min.x=234~0.05;max.x=306~0.05;min.z=645~0.05;max.z=675~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Platform.Deck size.x=72~0.05;size.z=30~0.05;min.x=234~0.05;max.x=306~0.05;min.z=645~0.05;max.z=675~0.05)" result="Passed" label="Passed" duration="0.000278" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Beacon size.y=1.3;centre.x=301~0.05;centre.z=660~0.05)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Beacon size.y=1.3;centre.x=301~0.05;centre.z=660~0.05)" result="Passed" label="Passed" duration="0.000344" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+              <test-case name="Registry_Dimensions(Swarm count=24000)" fullname="Megastructure.Tests.WorldBuildTests.Registry_Dimensions(Swarm count=24000)" result="Passed" label="Passed" duration="0.00188" asserts="0">
+                <output>
+IgnoreFailingMessages:true</output>
+              </test-case>
+            </test-suite>
+            <test-case name="Registry_ExpectedKeysPresent" fullname="Megastructure.Tests.WorldBuildTests.Registry_ExpectedKeysPresent" result="Passed" label="Passed" duration="0.000908" asserts="0">
+              <output>
+IgnoreFailingMessages:true
+registry keys: Sky.Dome, Corridor.Root, Corridor.Capsule.Floor, Corridor.Capsule.WallL, Corridor.Capsule.WallR, Corridor.Capsule.Rear, Corridor.Capsule.Ceiling, Corridor.Gangway.WallL, Corridor.Gangway.WallR, Corridor.Bridge.WallL, Corridor.Bridge.WallR, Corridor.Arch.WallL, Corridor.Arch.WallR, Corridor.Arch.Soffit, Corridor.Underpass.Ceiling, Corridor.Tunnel.WallL, Corridor.Tunnel.WallR, Corridor.Tunnel.Ceiling, Corridor.Platform.RailL, Corridor.Platform.RailR, Corridor.Platform.Front, Terrain, River.Ribbon, Grass, Grass.Plain, Flowers, Capsule.Root, Capsule.LeafLeft, Capsule.LeafRight, Gangway.Deck, Gangway.Rails, LandingPad, Capsule.Interior, Capsule.Porthole, Capsule.Hatch, Subject.Porthole, Path.Strip, Path.Kerbs, Valley.Bollards, Bridge.Deck, Bridge.Arch, Bridge.Rail, Bridge.Lamps, Bridge.Crest, Subject.Bridge, Belvedere, Subject.Belvedere, Pavilion, Pavilion.P2, Aqueduct, Ark.Hull, Subject.Ark, Ark.Root, Ark.Body, Ark.HullMesh, Ark.WindowBand, Footbridge.Opening, Footbridge, Bollard4_0, Bollard4_1, Bollard4_2, Bollard4_3, Bollard4_4, Bollard4_5, Bollard4_6, Bollard4_7, Bollard4_8, Bollard4_9, Bollard4_10, Bollard4_11, Underpass, Underpass.Mouth, Levee, Subject.Levee, Underpass.Root, Wall, Subject.Wall, Wall.Plinth, Door.FrameMesh, Door.Lintel, Door.Lamp, Door.Ticks, Door.Recess, Door.Opening, Door.Frame, Subject.Door, Apron, Bollards, Plain.Pools, Climber, Tunnel.Shell, Tunnel.Strips, Tunnel.Spill, Tunnel, Tunnel.Rib0, Tunnel.Rib1, Tunnel.Rib2, Tunnel.Rib3, Tunnel.Rib4, Tunnel.Rib5, Tunnel.Rib6, Tunnel.Rib7, Tunnel.Rib8, Tunnel.Rib9, Tunnel.Rib10, Tunnel.Rib11, Tunnel.Rib12, Tunnel.Rib13, Tunnel.Rib14, Tunnel.Rib15, Tunnel.Rib16, Tunnel.Rib17, Tunnel.Rib18, Tunnel.Rib19, Subject.TunnelMouth, Platform.Deck, Platform.Beams, Platform.Rail, Platform.Posts, Platform.Bollards, Beacon.Lens, Beacon.Light, Beacon, Subject.Beacon, OuterFace, Hull, Hull.Cap, Hull.Gantries, Swarm, Subject.Swarm, Subject.Star</output>
+            </test-case>
+            <test-case name="Registry_TunnelRibPitch" fullname="Megastructure.Tests.WorldBuildTests.Registry_TunnelRibPitch" result="Passed" label="Passed" duration="0.000512" asserts="0">
+              <output>
+IgnoreFailingMessages:true</output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

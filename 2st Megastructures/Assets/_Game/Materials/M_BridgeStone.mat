@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_BridgeStone
+  m_Shader: {fileID: 4800000, guid: 0f4ca45603e84aa4aa752d05a487aefb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AO: 1
+    - _Cull: 2
+    - _EdgeWear: 0.6
+    - _FillLight: 0
+    - _PanelLine: 0.02
+    - _Smoothness: 0.3
+    - _StripLight: 0
+    m_Colors:
+    - _BaseColor: {r: 0.78577685, g: 0.7353569, b: 0.65762764, a: 1}
+    - _FillColor: {r: 1, g: 0.78039217, b: 0.5411765, a: 1}
+    - _JointColor: {r: 0.60038805, g: 0.5610856, b: 0.5004954, a: 1}
+    - _Masonry: {r: 1, g: 0.07, b: 0.25, a: 0}
+    - _PanelSize: {r: 0.6, g: 0.3, b: 0.6, a: 0}
+    - _Sconce0: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce1: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce2: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce3: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce4: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce5: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce6: {r: 0, g: -1000, b: 0, a: 0}
+    - _Sconce7: {r: 0, g: -1000, b: 0, a: 0}
+    - _SconceColor: {r: 1, g: 0.518, b: 0.15299997, a: 1}
+    - _SconceParams: {r: 4.5, g: 0.3, b: 0.7, a: 0}
+    - _StripColor: {r: 1, g: 0.7019608, b: 0.27843133, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,722 @@
+{
+ "critic:pacing": {
+  "findings": [
+   {
+    "id": "D-01",
+    "severity": "S1",
+    "beat": 5,
+    "files": [
+     "ks07_wall_reveal_1920x1080.png",
+     "beat05_rimwall_start.png",
+     "beat04_sunset_end.png",
+     "ks08_wall_foot_1920x1080.png",
+     "ks08_wall_foot_3840x2160.png"
+    ],
+    "region": "KS07: the whole frame above the hill line y ~700 is wall; hills at y 630-1080 hide the foot line, which should be about y 800; the door should be at about x 378 y 778 but is behind the left bank",
+    "description": "After the levee underpass, the release onto the wall does not read. In beat04_sunset_end (s 593), beat05_rimwall_start (s 595) and KS07 (s 606) everything above the grass is one uniform, saturated royal-blue field. The three stills are nearly identical. In KS08 at 4K, the whole wall region spans only 58-75 luma, and a contrast stretch shows a smooth falloff with no seams. Grassy rises in the plain climb to about 5 degrees above eye level within 50-100 m. They hide the wall foot (spec: 26 % up the centre column), the apron, the bollard lead-in and the door slot (spec: 35 degrees left of centre). With no foot, no seams, no height gradient and the same hue as the night sky, viewers read this as a blue night sky over hills, not as a wall. The squeeze through the underpass releases onto nothing, and the picture stays a flat monochrome stretch until about s 684, when the turn along the wall (beat05_rimwall_mid) finally shows an edge and the door speck. The wall's vertigo starts about 90 s late.",
+    "cause": "RingTerrain: with _Set = 1 the 6 m and 1.5 m value noise still raises hills across the plain between the underpass exit (x 18) and the wall (x 114). RingWall: no lit-foot gradient, seams below visibility, and a colour far more saturated than WallNight #8FA3D6. AtmosphereDriver: the beat-4/5 EV lift (+1.6) brings sky and wall to the same mid blue.",
+    "fix": "(1) In RingHeight, scale the noise to 0 when _Set = 1 for x > 10, or clamp it to 0.5 m, so the plain is truly flat. The foot line, apron slabs, bollard row and door are then visible from the underpass exit at 1.7 m eye height. (2) RingWall: light the foot (luma 90-140 per spec) and fade it upward with an analytic height gradient toward WallNight x fog. Use a pale, low-saturation periwinkle so the wall separates from a deep-navy sky (target sky luma 15-30 behind the far rim; reduce the night EV lift). Make the 100 m seams visible near the foot (>= 6 levels) so they converge in perspective. (3) Put the climber clearly in frame during the KS07 hold as a visible warm point; today the only point light is a 3 px dot at the frame edge, x 147 y 506. (4) Re-capture KS07 and confirm the door slot and foot line are visible."
+   },
+   {
+    "id": "D-02",
+    "severity": "S1",
+    "beat": 7,
+    "files": [
+     "ks12_swarm_1920x1080.png",
+     "ks13_hull_down_1920x1080.png",
+     "ks14_beacon_1920x1080.png",
+     "beat07_outside_start.png",
+     "beat07_outside_mid.png",
+     "beat07_outside_end.png"
+    ],
+    "region": "KS12 lower third y 690-1080 (the hull horizon should sit near y 850 and shows deck tiles instead); all of KS13; beat07_outside_end x 450-1480 y 630-680 (the only hull glimpse)",
+    "description": "The 'underside of the world far below' never appears. From a 1.7 m eye the deck edge dips atan(1.7/d), and the hull horizon dips 11.4 degrees, so the hull is visible only within 8.4 m of a deck edge. KS12 is 54 m from the front edge and 15 m from the side rails; KS14 is 10 m from the front edge. Both show only deck tiles below the horizon. KS13 (pitch -28, the look-down that is the 'smallness' moment of the 8 s hold) is a frame of blank floor tiles with no subject. The hull first shows as a thin pale sliver beyond the rail in the last 2 m (beat07_outside_end). So the tunnel-to-outside release widens onto black space and an empty floor. The far depth layer of KS12 (hull ridges and gantries at 0.6-6 km) is missing from the payoff.",
+    "cause": "The platform layout in the spec (30 x 72 m deck, walk line on its centre, hull top 600 m below) hides RingHull from every staged pose. RingHull itself is rendered. The KS12 and KS13 poses follow the spec.",
+    "fix": "Bring the walk to the hull's line of sight. Option 1: from s 900, route the path 4-5 m inside the z 645 rail (edge dip about 19 degrees) and turn the s 912 hold's look-down left over that rail (yaw about 60, pitch -24), so KS13 shows the ridged hull curving away to its horizon with gantries. Option 2: narrow the deck to a 10-12 m open-sided pier. Option 3: add a 6 x 6 m grated or glass floor panel under the KS13 pose. Re-frame KS12 so a lit hull limb sits between the deck edge and the swarm as a fourth depth layer. Log the dip arithmetic in DEVELOPMENT.md: the spec's 'hull horizon 11.4 degrees below eye line' in KS12 cannot be seen from x 252."
+   },
+   {
+    "id": "D-03",
+    "severity": "S1",
+    "beat": 3,
+    "files": [
+     "ks04_ark_shadow_1920x1080.png",
+     "ks04_ark_shadow_3840x2160.png",
+     "beat03_ark_mid.png",
+     "beat03_ark_end.png",
+     "beat03_ark_free_yaw+90_p0.png",
+     "beat03_ark_free_yaw-90_p0.png"
+    ],
+    "region": "KS04 hull x 245-965 y 125-290; KS04 right half x 1300-1920 y 560-1080, where the shadow's left half should be; beat03_ark_end hull x 610-1550 y 0-115, cut by the top edge",
+    "description": "The ark beat does not produce unease. (a) The hull is a pale tan, nearly translucent sausage, lighter than the arch behind it: hull luma about 180-200 against a spec of 25-120 (ArkHull #6F7480, underside #3C414C). At 4K the window grid shows only as faint dots near the nose, and the spars and engine cones do not read at 1080p, so it looks like a friendly blimp, not a 3 km ship. (b) The 620 m hard-edged ground shadow, the trigger of the beat ('the cloud shadow is a ship'), is visible in no beat-3 still. The path runs in a cutting whose grass banks rise 10-20 degrees on both sides within 30-60 m (free-looks yaw +90 and -90), so the ground 1.4 km ahead, where the shadow lies, is hidden. The right half of KS04 is sunlit bank. (c) At the release after the footbridge arch (s 404-411, gaze pitch +10) the hull sits on the top frame edge and is cut off (beat03_ark_end). The beat's payoff frame therefore has no ship in it.",
+    "cause": "RingArk material and fog: fog pulls toward the bright sky colour, the arch bounce is too strong and the underside is not darkened. RingTerrain: cutting banks along s 280-410. GazeSchedule: release pitch too low for the ship's elevation (about 39 degrees at x_c near 0).",
+    "fix": "Darken the hull to spec (luma 25-120 in KS04): underside in self-shadow with only the star rim and a weak arch bounce, so a heavy dark mass hangs against the bright arch. Fade the 18 m window pitch into a warm band. Open the view to the shadow: cap RingHeight near the path to <= 2 m for s 300-395, or cut a gap in the right bank toward azimuth +30..+60, so the hard shadow edge on the meadow 0.5-1.5 km ahead is in frame from s 300. Alternatively, move the shadow track so its west edge crosses the path 200-400 m ahead, along the cutting's axis. Raise the release gaze (s 404-411) to pitch +22..+25 so the whole hull sits in the upper third as the sky returns."
+   },
+   {
+    "id": "D-04",
+    "severity": "S1",
+    "beat": 4,
+    "files": [
+     "ks06_night_arc_1920x1080.png",
+     "ks06_night_arc_3840x2160.png",
+     "beat04_sunset_mid.png",
+     "beat04_sunset_free_yaw180_p0.png",
+     "t3_bollard_s480_sky_1920x1080.png",
+     "beat05_rimwall_mid.png"
+    ],
+    "region": "KS06 y 450-745 full width (night band); thin lines continue over the lit arch at y 0-450",
+    "description": "The night side of the arch should hold scattered warm and cool city lights between the levee top and the terminator. It renders as a latitude-longitude lattice of thin white lines with white disc nodes (4K: lines 2-3 px, nodes 30-60 px). This reads as a debug wireframe or HUD. It is the highest-contrast structure in the frame, so the eye goes there instead of to the lit arc or the warm lit mouth. Above a straight dividing line, the lit arch is a flat full-day map (cyan lakes, white clouds), so 'the ring lights up overhead' reads as a ceiling texture, not a glowing band of day. The same grid stays in beat 5 (beat05_rimwall_mid, KS08), shows over the dusk sky at s 480, and dominates the look-back at night. Money shot 3 does not deliver awe.",
+    "cause": "RingSkyArch.hlsl: the night-side city-light or grid term draws continuous lines (it looks like lot or field-block boundaries made emissive) instead of a point lattice with footprint fade.",
+    "fix": "Implement the spec lattice: 24 m lots as point lights with fade above a 12 m footprint and clamp 6, converging to a dim warm mean (CityWarm/CityCool) with sparse brighter clusters along rivers and the +-2 % travelling wave. Draw no lines. Give the terminator a soft 6-degree edge with an orange-pink twilight rim, and dim and warm the lit arc toward it, so the arc reads as land in sunlight. Stage the KS06 gaze path: lit mouth, then bollard pools, then levee top, then twilight rim, then lit arc."
+   },
+   {
+    "id": "D-05",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "beat01_capsule_mid.png",
+     "beat01_capsule_end.png",
+     "beat02_valley_start.png",
+     "ks02_valley_crest_1920x1080.png",
+     "beat02_valley_end.png",
+     "beat03_ark_start.png"
+    ],
+    "region": "upper 40 % of frame (y 0-450) in every listed image; for example, the same lake at x 620-1050 y 0-230",
+    "description": "The biggest thing in the film is shown at minute 0:08 and then does not change for 4.4 minutes. The full far-side arch (lakes, clouds, field blocks) fills the top of the frame from the first exterior still on the gangway (s 12). It is effectively the same picture, the same lake in the same screen place, at s 12, 23, 25, 150 (KS02), 275 and 277: over 400 m of walking, the parallax at 16-32 km is under 1 degree. The crest money shot at s 150 therefore reveals nothing new. The top half of the frame is static from s 12 to s 410, about 265 s at walking speed, against the spec's limit of 'never flat for more than about 90 s'. Beat-2 intensity stays near 6 instead of rising 5 -> 8.",
+    "cause": "ArchHaze in RingSkyArch.hlsl is constant in s. GazeSchedule pitches the view up (+4 to +10) on the approach. The open meadow has no occluders.",
+    "fix": "Hold the arch back until the crest. Add an s-driven veil for e > 20 degrees, for example hz' = lerp(0.9, hz(e), smootherstep(110, 150, s)), so a morning haze burns off as the player climbs the bridge and the arch resolves for the first time in the KS02/KS03 hold. The KS02 values at s 150 stay unchanged, and the porthole keeps a faint tease. Keep the gaze at pitch 0..+2 for s 24-110 and give eye-level interest (belvedere, river, lamps). After the crest, keep the sky alive: let ArchHaze lift slowly and let arch cloud shadows drift visibly, so s 150-410 is not a frozen picture."
+   },
+   {
+    "id": "D-06",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "ks02_valley_crest_1920x1080.png",
+     "ks02_valley_crest_3840x2160.png",
+     "ks03_arch_up_1920x1080.png"
+    ],
+    "region": "KS02 y 430-690 (featureless haze band at frame centre, the terrain-edge elevation); KS03 bottom third y 700-1080",
+    "description": "In KS02 the converging rails lead the eye to the levee at the vanishing point and then into a 260 px featureless beige-white band, exactly where the land should be seen climbing to 14.7 degrees and turning into the arch. Nothing crosses that band, so land and arch read as two separate things, a flat valley under a painted ceiling, and 'the land curves up into the sky' is not seen. KS03 (pitch +38, the peak of the crest hold) is 100 % arch texture with haze at the bottom: no horizon, no foreground, no scale reference. It reads as a satellite map, not land 32 km overhead.",
+    "cause": "Staging and composition. The seam band (fog 98.5 % meeting ArchHaze 0.985, plus valley mist) has no continuous feature crossing it. The KS03 pitch leaves out every near object.",
+    "fix": "Give the eye a line that climbs. Add a straight spine feature to RingGround on the path axis (x near 0): a pale road or canal 40-60 m wide, drawn both on the terrain beyond about 1 km and on the arch at the same arc coordinate. Path, spine, haze and zenith then form one continuous leading line. Lower KS03 to pitch about +34, or make the z 162 lamp posts slightly taller, so the bridge lamp heads enter the bottom edge as a 3 m scale anchor against the 32 km arch."
+   },
+   {
+    "id": "D-07",
+    "severity": "S2",
+    "beat": 3,
+    "files": [
+     "ks04_ark_shadow_1920x1080.png",
+     "beat03_ark_end.png",
+     "beat04_sunset_start.png",
+     "ks05_sunset_squares_1920x1080.png"
+    ],
+    "region": "KS04 x 25-1065 y 0-535; beat03_ark_end and beat04_sunset_start x 0-890 y 0-470; KS05 x 815-1920 y 280-635",
+    "description": "The shadow squares carry beat 4's reveal ('evening arrives because something vast crosses the star'), but they appear during the ark beat. They are large semi-transparent panes in KS04 (s 364) and fully opaque near-black slabs at s 410-412. There they fill the left 45 % of the ark's release frame while the star is still uncovered and the sky is full day. By KS05 the viewer has watched them for about 50 s, so the eclipse is no event, and they compete with the ark for the same upper-left area. They also read as flat 2D cards hung in front of the arch: hard edges, no atmospheric haze, an odd top-dark-to-brown vertical gradient and no limb light. They do not read as 22-degree objects in orbit.",
+    "cause": "RingSkyArch.hlsl square term: the fade-in alpha smoothstep(-0.6, -0.2, u) reaches full opacity by s 390, and the square colour is not hazed by the atmosphere.",
+    "fix": "Keep the squares a faint, soft-edged darkening (alpha <= 0.15, no hard edge) until s 411, after the ark release. Ramp them to full opacity only as square A's edge reaches the disc, so the first sharp view of a square is its straight dark edge cutting the star. Composite them behind the atmosphere (lerp toward RingSkyColor by about 0.3-0.5 in daylight, falling with the sky state) and add a thin forward-scatter rim on the star-facing edges, so they read as vast and distant. Log the deviation from the 14.6 haze window."
+   },
+   {
+    "id": "D-08",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks05_sunset_squares_1920x1080.png",
+     "t3_bollard_s480_sky_1920x1080.png",
+     "beat04_sunset_mid.png"
+    ],
+    "region": "KS05 upper half y 0-560 (fully daylit arch); KS05 lower 40 % y 640-1080 (grass bank where pavilion P2 should silhouette near x 895 y 785-870)",
+    "description": "The sunset is mistimed and its midground is missing. KS05 (6 s hold, u 0.295, disc about half covered) is still a daytime picture: the arch overhead is a fully lit day map with white clouds, only the horizon is warm, and mean luma is 137 (spec 70-125). Pavilion P2, the dark silhouette meant to be the midground layer, is hidden behind the cutting's left bank, which fills the lower 40 % with lit grass; the KS05 composition check failed. The real dusk picture (pink-orange sky, lamps coming on, levee silhouette with a lit mouth, as in t3_bollard_s480_sky at s 480) happens between holds while the gaze is on the path. By the KS06 hold (s 505) it is already full night. The beat's melancholy peak is never framed.",
+    "cause": "Sky and arch tint follow u, not the eclipse, so the arch ignores V (RingSchedule/AtmosphereDriver, RingSkyArch.hlsl). RingTerrain: the bank at s 430-450 blocks the P2 sight line. GazeSchedule: hold timing.",
+    "fix": "Tie the sky state and the arch colour to V, so that as A covers the disc the whole sky, arch included, warms toward DuskKey/SkyDusk; KS05 is then golden at V about 0.5. Clear the P2 sight line (cap RingHeight along azimuth -62 from s 442, or set P2 on a 5-8 m knoll) so the pavilion silhouettes against the glow. Add a 3-4 s hold near s 475-485 looking ahead at the levee, lamps ramping on, pitch +5..+10. The s 480 framing is already the most beautiful frame of the run."
+   },
+   {
+    "id": "D-09",
+    "severity": "S2",
+    "beat": 7,
+    "files": [
+     "ks12_swarm_1920x1080.png",
+     "ks12_swarm_3840x2160.png",
+     "ks14_beacon_1920x1080.png",
+     "beat07_outside_end.png",
+     "ks11_tunnel_exit_1920x1080.png"
+    ],
+    "region": "KS12 swarm x 850-1230 y 300-700, bottom on the rail line at y ~695; KS14 bottom loop x 960-1100 y 600-720 against the beacon lens at x 245-275 y 650-675; beat07_outside_end lens x 935-985 y 630-680",
+    "description": "The payoff is staged on the horizon and loses its scale. The star sits at elevation +7 and band 3 reaches 16.7 degrees from it, so the lower loops dip below the deck horizon. The swarm's loops end exactly on the far rail line, and it reads as a 380 px sculpture standing on the platform's far end, not an object 40 km away. In KS14 and the final frame the bottom loop drops into the beacon lens, so the swarm seems to rise from the beacon like smoke. That tangency collapses the intended contrast between a 1.3 m beacon and a 40 km swarm. The bands also look like dark grey gravel with few bright specks, inside a grey bloom halo about 500 px wide that turns black space into fog. The swarm spans only about 17 % of the frame width. Neither transcendence nor smallness lands.",
+    "cause": "Star direction L7 (elevation +7) in the outside set and the KS12/KS14 pitch; beacon placement at (301, 660), directly under the star column; RingSwarmPanel shading (dark albedo, low sunward glint gain); beat-7 bloom scatter and threshold.",
+    "fix": "Raise the star to elevation about +15..+18 (hull light stays raking at NdotL about 0.26-0.31) and KS12 pitch to about +14, so the whole swarm clears the horizon with a band of black space beneath it. Move the beacon to about z 656, or offset the walk line, so from x 296 it stands 4-6 degrees left of the star column and the lowest band passes well above it. Brighten the sunward faces (forward-scatter rim plus a SpaceBounce lift) and raise glint gain within the clamp so the bands glitter instead of reading as gravel. Tighten beat-7 bloom so the halo stays within about 3x the disc radius. Consider vFOV 60 in KS12 to enlarge the swarm."
+   },
+   {
+    "id": "D-10",
+    "severity": "S3",
+    "beat": 1,
+    "files": [
+     "ks01_capsule_window_1920x1080.png",
+     "ks00_title_1920x1080.png"
+    ],
+    "region": "KS01 porthole x 680-1255 y 265-815",
+    "description": "The porthole, the only vastness in the capsule beat, shows a warm beige haze with the arch's underside in its top third: no meadow, no terrain edge, no blue (porthole blue fraction 0.3 % against a spec of >= 50 %). As a tease it reads as an overcast window and does not pose the question 'is that land up there?' for the hatch to answer. The small porthole sliver in KS00 (x 715-780 y 390-540) shows green land and is the better tease.",
+    "cause": "With the porthole axis at pitch +25, the KS01 view lands in the terrain-edge haze band. Warm interior exposure tints the opening.",
+    "fix": "Let the porthole's lower rim cut through bright green land rising into blue-white haze, with the arch only a faint shape at the very top. Either tilt the porthole bay axis down to about +18, keeping the key-glare geometry, or raise the cinematic eye slightly. Keep the porthole content cooler and bluer than the warm interior so it reads as the bright figure on a warm ground."
+   },
+   {
+    "id": "D-11",
+    "severity": "S3",
+    "beat": 6,
+    "files": [
+     "beat06_tunnel_start.png",
+     "beat06_tunnel_mid.png",
+     "ks10_tunnel_axis_1920x1080.png",
+     "ks11_tunnel_exit_1920x1080.png"
+    ],
+    "region": "whole frame; KS11 tunnel walls x 540-1380 y 100-1080",
+    "description": "Beat 6 is the best-staged squeeze in the film: converging amber strips lead to one point of light. But start (s 775), KS10 (s 800) and mid (s 834) are effectively the same picture for about 60 s of walking; only the mouth grows from about 12 to about 25 px. Near the exit, the mouth spill lights the last 12 m to a flat mid-grey (wall luma about 100 in KS11), so the dark tube becomes a plain grey corridor just before the threshold. The whole swarm is already framed in the mouth, so stepping outside adds no new subject.",
+    "cause": "RingTunnel mouth spill intensity and colour; no mid-tunnel event.",
+    "fix": "Add one slow cue between s 820 and 850: for example, faint twinkling glints visible inside the distant light point, or rib markers that dim progressively ahead of the walker. Keep the spill warm and low (wall luma cap about 40) so the tube stays dark to the threshold. Frame KS11 at pitch about -2 so the crown hides the upper bands until the exit, which leaves part of the swarm to reveal on stepping out."
+   },
+   {
+    "id": "D-12",
+    "severity": "S3",
+    "beat": 7,
+    "files": [
+     "ks15_doorway_back_1920x1080.png",
+     "beat07_outside_free_yaw180_p0.png"
+    ],
+    "region": "KS15 x 0-1920 y 0-640 (blank wall), outline x 510-1410 y 470-1080",
+    "description": "The look back at the doorway, the chance to feel how small the door is in a wall kilometres high, shows an overexposed, featureless beige plane (mean luma 166, beat-7 limit 35-105) with a thin trapezoid outline. There are no seams, no gradient and no edge, nothing that says the face rises kilometres. The door fills about 25 % of the frame width, so it reads as a normal door in a normal wall.",
+    "cause": "RingWall/RingCeramic outer face: it faces the star at NdotL 0.99, its 100 m seams are not visible, and exposure is too high. KS15 framing.",
+    "fix": "Expose the outer face to luma about 120-150 and make the 100 m seam grid visible near the deck, fading with distance. Frame KS15 obliquely (yaw about 240-250, pitch about +30) so the seams converge upward and sideways. Pull back or narrow the FOV so the door is a speck at <= 10 % of the frame width."
+   }
+  ],
+  "beat_verdicts": [
+   "Beat 1 (capsule): works as the squeeze. The warm ribbed corridor gives a clear gaze path to the dark hatch (KS00), and the porthole holds the shot, but the porthole shows beige haze instead of land rising. Held breath is delivered; the tease is weak (3 -> 5 roughly met).",
+   "Beat 2 (valley): falls flat. The full arch is given away on the gangway at s 12 and the upper half of the frame is frozen until s 410. KS02's gaze path ends in a featureless haze band and KS03 has no anchor, so the crest adds no reveal and wonder at the curvature never builds (stuck near 6, not 5 -> 8).",
+   "Beat 3 (ark): fails to unsettle. The ship is a pale blimp lighter than the sky, its ground shadow is never visible from the cutting, the shadow squares steal the frame from s 364, and the hull is cut off by the top edge at the release after the footbridge. The squeeze-then-release is staged but releases onto the wrong subject.",
+   "Beat 4 (sunset/night): mixed. The true dusk frame (s ~480: pink sky, lamps, levee with lit mouth) is the most beautiful image of the run but falls between holds. KS05 is still daylight with card-like squares and no pavilion, and KS06's night arc is dominated by a white debug-looking grid. Melancholy is weak and awe is missing.",
+   "Beat 5 (rim wall): the reveal fails. Out of the underpass the wall reads as a flat blue night sky over hills (foot and door hidden), so s 576-680 is a dull monochrome stretch. Only beat05_rimwall_mid and KS09 (the door) show a wall. Vertigo arrives late and weak.",
+   "Beat 6 (tunnel): works. The tight dark tube with converging amber strips and one growing light (KS10) is the best-staged beat and turns dread toward hope. Start and mid are near-identical for about 60 s, and the exit spill greys out the tube.",
+   "Beat 7 (outside): underdelivers. The release opens onto a blank deck and black void, the hull is never seen, and KS13 is a frame of floor tiles. The swarm is a small dark knot that seems to sit on the far end of the deck and to rise out of the beacon, so transcendence and smallness do not land."
+  ]
+ },
+ "critic:art": {
+  "findings": [
+   {
+    "id": "C01",
+    "severity": "S1",
+    "beat": 4,
+    "files": [
+     "ks06_night_arc_1920x1080.png",
+     "ks06_night_arc_3840x2160.png",
+     "ks08_wall_foot_1920x1080.png",
+     "beat04_sunset_mid.png",
+     "beat05_rimwall_mid.png",
+     "t3_bollard_s480_sky_1920x1080.png",
+     "ks03_arch_up_3840x2160.png"
+    ],
+    "region": "KS06 night band x 0-1920 y 450-745 at 1080p (4K crop x 1200-3200 y 700-1500); t3_bollard_s480 top strip y 0-170",
+    "description": "The night side of the arch looks like a coordinate grid on graph paper, not a living night world. Every road is a continuous, perfectly straight white line, and the lines form a regular lattice. Every crossing carries a white ellipse 'town'. There is no clustered warm city glow and no 24 m lot speckle. The same lattice runs across the dusk sky at s 480 and through beat 5. By day it shows as faint pale lines (KS02, KS03), with translucent round discs at the crossings. On money shot 3 it reads as a debug overlay.",
+    "cause": "RingSkyArch.hlsl RingArchColor lines 97-104. roadGlow = 0.35 x road, where road comes from RingFilteredLine(RingRoadDist, 22 m) over the perfectly regular 2 400 m x 3 141.6 m lattice in RingGround.hlsl lines 79-90. townGlow puts a blob at every crossing. CityWarm/CityCool x lamps x EV +1.6 then goes through the Neutral tonemapper and WB -16, which drives the light to neutral white.",
+    "fix": "Remove the continuous road glow, or cap it at 0.05 and only within about 1.5 km of a town. Put towns at a hashed ~30 % of crossings, with jittered size and shape. Domain-warp x and arc (low frequency, a few hundred m) before RingRoadDist so roads meander, and drop random segments. Render city light as the 24 m lot speckle described in 14.5.4: a mostly CityWarm mix (70/30) whose energy-preserving mean fades above a 12 m footprint. Author the emissive so it is still orange after WB -16, for example by pre-multiplying by the inverse WB gain."
+   },
+   {
+    "id": "C02",
+    "severity": "S1",
+    "beat": 5,
+    "files": [
+     "ks07_wall_reveal_1920x1080.png",
+     "ks08_wall_foot_1920x1080.png",
+     "ks09_wall_door_1920x1080.png",
+     "t5_wall_foot_1920x1080.png",
+     "beat04_sunset_end.png",
+     "beat05_rimwall_x6_s700_yaw90_p0_3840x2160.png"
+    ],
+    "region": "KS07 x 0-1920 y 0-790 (the whole wall area); KS08 x 650-1920 y 0-1080; KS09 y 0-640",
+    "description": "The rim wall reads as a flat, saturated royal-blue sky or blue screen. KS07 wall mean is (40,76,173), HSV saturation 0.77, sd 3 levels. There is no foot-to-top gradient, no visible 100 m seam and no panel tone. WallNight #8FA3D6 has saturation 0.33; a wall with that chroma at the measured luma would be about (64,74,100). The wall is also almost the same colour as the night fog/sky (about (45,56,127)). In KS07 and at the end of beat 4 the viewer therefore sees 'blue evening sky over a meadow'. The reveal, the scale and the upward vertigo never happen. Seam contrast is well under the 6-level acceptance near the foot.",
+    "cause": "RingWall.shader line 71 takes the already blue WallNight albedo and lights it with the blue RimFill #7FA2FF wash plus the blue night trilight, so the blue is applied twice. WB -16 cools it further. Seams are energy-preserving 6 mm grooves: coverage is about 0.006/fp, roughly 7 % at 84 m, under 3 levels. There is no macro tone. RingFog toward #1B2350 at EV +1.6 converges on almost the same hue.",
+    "fix": "At night, light a near-neutral albedo (WallTone or a light grey) so that albedo x RimFill x trilight lands on WallNight's chromaticity (saturation <= 0.35). Follow 14.5.5: wall luma 90-140 at the foot, fading to the fog colour with height and distance, so the wall separates from the sky. Keep the night fog/sky darker (luma about 40-55) for contrast. Add per-100 m-panel macro tone (+-3 %) and a visible 4-6 cm chamfered joint with a lit edge, so acceptance (3) (>= 6 levels at the foot) is met and the wall reads as built ceramic."
+   },
+   {
+    "id": "C03",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks06_night_arc_1920x1080.png",
+     "ks06_night_arc_3840x2160.png",
+     "ks08_wall_foot_1920x1080.png",
+     "beat05_rimwall_x7_s700_yaw0_p60_3840x2160.png",
+     "ks03_arch_up_1920x1080.png"
+    ],
+    "region": "KS06 rows 0-430 (lit arch above the terminator)",
+    "description": "At night the lit arch is overexposed and turns cyan. KS06 top 40 % averages (130,178,217) at saturation 0.42; lakes are (115,190,240) and clouds (201,223,253). The blue channel is >= 254 in 5.06 % of the frame (rows 35-425), and this accounts for the entire clipped_beat4 failure. The same land by day is (134,153,159) with green/tan fields (KS03 top), but at night the fields turn lilac-white. The far side therefore changes colour between beats instead of reading as the same sunlit land seen across the dark band.",
+    "cause": "RingSkyArch.hlsl RingArchColor uses a fixed day radiance (KeyLight x 3.0 x 0.438) that does not depend on the beat EV, so EV +1.6 (x3) multiplies it. The lit side keeps the day inscatter (SkyDayZenith x 1.2) at full weight. The 0.5 N(u) ArchHaze reduction removes the softening haze, and WB -16 pushes everything toward blue, where the B channel clips.",
+    "fix": "Exposure-compensate the lit side, e.g. dayCol and cloudDay x exp2(EV_day - EV_current) or a schedule-driven _ArchNightComp, targeting a lit-arch mean of 170-200. Soft-clamp the cloud radiance before the tonemapper so no channel exceeds about 0.9 of display. Desaturate the lit-side inscatter as night falls. Counter the cool WB for the sky dome, or pre-warm the arch by the WB offset, so fields stay green/wheat."
+   },
+   {
+    "id": "C04",
+    "severity": "S2",
+    "beat": 0,
+    "files": [
+     "ks02_valley_crest_1920x1080.png",
+     "ks03_arch_up_1920x1080.png",
+     "ks01_capsule_window_1920x1080.png",
+     "beat02_valley_free_yaw+90_p0.png",
+     "ks05_sunset_squares_1920x1080.png"
+    ],
+    "region": "KS02 upper third y 0-360 and horizon x 1300-1800 y 600-660; KS01 porthole x 690-1250 y 270-830",
+    "description": "The day sky and the arch haze are milky grey and never reach the palette blues, so beats 1-3 read as a hazy overcast instead of 'bright, golden hour'. The KS02 horizon on the side away from the star is (183,189,186) against SkyDay horizon away #BCD6EE (188,214,238); B-R is +3 instead of +50. The upper third averages (155,163,159) and is blue-dominant in only 31 % of pixels (acceptance (3) needs >= 60 %). The KS01 porthole is (157,156,146) and only 0.3 % blue-dominant (needs >= 50 %). The horizon toward the star is (196,188,160) against #F0D6AE. No pixel in beats 1-3 shows SkyDay zenith or mid35 blue.",
+    "cause": "The 14.2.1 hex tokens are used as scene-linear radiance and then pass through Neutral tonemapping (plus WB +10 and contrast). The Neutral curve alone maps #BCD6EE to about (158,174,187), #8DBDEB to (124,159,185) and #F0D6AE to (188,174,149), which matches what was measured. In addition, RingSkyDome lerps the arch toward RingFogHeadingColor, the 3-degree horizon colour, instead of the sky colour at the ray's elevation. The RingArchColor inscatter, T = exp(-t / 70 km), adds only 11-37 % blue.",
+    "fix": "Treat the sky and fog tokens as display targets: add one helper (RingPalette/RingAtmosphere) that converts them to scene radiance through the inverse Neutral curve at the beat's EV and WB. For e > 16 degrees, lerp the arch toward RingSkyAtmosphere(d) (the mid35/zenith blue). Keep the heading haze for e <= 16 so the terrain-edge seam is unchanged. Raise the inscatter (T = exp(-t / 30 km)). Add a palette capture test: sky at e 3/35/90 on the away side, dE76 <= 6 against the token."
+   },
+   {
+    "id": "C05",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "ks02_valley_crest_3840x2160.png",
+     "ks03_arch_up_3840x2160.png",
+     "ks03_arch_up_1920x1080.png",
+     "ks04_ark_shadow_1920x1080.png"
+    ],
+    "region": "KS02 1080p y 0-450 (4K crop x 1000-2900 y 0-800); KS03 whole upper 70 %",
+    "description": "The far-side geography reads as a stylised map or camouflage print, not as real land seen through 8-32 km of air. Fields are noise-threshold blobs (tan on teal), not 150-600 m rectilinear blocks with hedgerows. Roads form a perfectly regular white grid, and there is exactly one parallel river per grid column. Lakes are huge single-tone blue blobs with rounded-rectangle outlines and no shore or depth variation (KS02 x 640-1290 y 0-90; KS03 x 590-1200 y 260-480). Clouds are flat paper cut-outs of uniform brightness (sd about 4 levels inside a cloud) with no shaded bases. Towns are translucent round discs (KS03 4K top rows).",
+    "cause": "RingGround.hlsl RingGroundAlbedoEx: the patch noise threshold, the regular RingRoadDist lattice and the lake SDF. RingSkyArch.hlsl: RingCloudCover is a single smoothstep threshold (binary coverage), and cloudDay applies one flat lighting value to every cloud pixel.",
+    "fix": "Build fields on a jittered rectangular grid with a PCG hash per cell, 4-5 crop tones (Wheat, LeveeGreen, MeadowA/B, fallow), row striping and hedgerow lines that converge to the mean colour at large footprints. Domain-warp the road lattice and drop segments. Give rivers a few large meanders with tributaries. Give lakes warped outlines, a WaterDeep core, a lighter shelf and a Fresnel sky sheen. Make clouds density-based, with brightness rising with density and greyer edges and bases, and keep the cast-shadow offset."
+   },
+   {
+    "id": "C06",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "ks02_valley_crest_1920x1080.png",
+     "ks02_valley_crest_3840x2160.png",
+     "beat02_valley_free_yaw-90_p0.png"
+    ],
+    "region": "KS02 x 1300-1800, y 950-1060 (near), 760-850 (100-300 m), 700-740 (~1 km), 683-695 (edge)",
+    "description": "Aerial perspective is missing between 0 and 3 km. KS02 meadow HSV saturation is 0.40 near, 0.39 at 100-300 m and 0.38 at about 1 km, then drops to 0.15 only in the last ~15 px at the terrain edge. Luma rises 128 -> 142 -> 152 with no desaturation. Acceptance (6) needs a drop of >= 0.05 per depth layer. The valley reads as vivid lime turf right up to a sudden fog wall, so depth and scale are lost.",
+    "cause": "RingFog (RingAtmosphere.hlsl) is exponential-squared only. With sigma 2.5e-4 it gives about 6 % at 1 km (11 % with mist k 0.8). Its knee leaves the near field clear and then fogs abruptly. The only desaturation is the 0.25 f term.",
+    "fix": "Add a linear aerial-perspective term inside RingFog, e.g. f_lin = 0.35 (1 - exp(-d / 6 000)) toward RingSkyAtmosphere at 3 degrees, and a distance desaturation of 0.15 (1 - exp(-d / 2 000)). Combine them as 1 - (1 - f_sq)(1 - f_lin) and renormalise so the value at 8 192 m stays 0.985, keeping the seam test valid. Re-measure acceptance (6)."
+   },
+   {
+    "id": "C07",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "ks02_valley_crest_3840x2160.png",
+     "ks02_valley_crest_1920x1080.png"
+    ],
+    "region": "4K x 400-1500 y 1700-2160 (1080p x 200-750 y 850-1080) and the midground meadow 1080p y 740-900",
+    "description": "Beyond the grass-tuft radius the meadow is a bald, airbrushed green (sd 2.9 levels over the 100-300 m region). The only detail left is flower stems drawn as dark grey needles with 1-2 px heads, visible out to about 40 m, so the ground reads like pins in felt or a golf course. The 30-400 m midground of money shot 1 has no grass texture, sheen or tonal break-up.",
+    "cause": "M04: grass dithers out at 22-30 m but flowers fade at 14-40 m, and the stems are much darker than MeadowB. M02 RingGround near detail fades above a 1 m footprint, with no mid-frequency tone between that and the 420/90 m height noise.",
+    "fix": "End the flower fade at <= 28 m (inside the tuft fade) or colour the stems MeadowB. Add 2-20 m tone and hue variation to RingGround (mown or wind stripes, clover patches, +-6 % value, +-4 degrees hue). Add a view-dependent grass sheen (anisotropic lightening toward the star) that the tufts share, so the far meadow keeps a living texture."
+   },
+   {
+    "id": "C08",
+    "severity": "S2",
+    "beat": 3,
+    "files": [
+     "ks04_ark_shadow_1920x1080.png",
+     "ks04_ark_shadow_3840x2160.png",
+     "beat03_ark_mid.png"
+    ],
+    "region": "KS04 x 240-970 y 125-290 at 1080p (4K x 480-1940 y 250-580)",
+    "description": "The ark reads as a pale cream blimp, not a dark, menacing 3 km hull. Hull (165,155,136) luma 156; underside (166,159,139) luma 159, so the underside is no darker than the top. Acceptance (2) needs hull luma 25-120. The colour is warm tan instead of ArkHull #6F7480 / ArkUnderside #3C414C. Spars and engines are not legible, the window grid is a faint orange stipple, and a white glint sits on the bow tip (4K x 470-520 y 520-560). The shape looks soft and translucent against the arch.",
+    "cause": "RingFog in RingArk uses the toward-star heading horizon colour #F0D6AE at 59 % for the 3.8 km ray (14.5.3); that spec value alone yields luma about 160-190, even though the ship sits at 32 degrees elevation. The underside appears to get a strong ambient/ground bounce.",
+    "fix": "For high objects, integrate a height-dependent density along the ray (e.g. exp(-y / 1 200 m)), giving about 25-35 % at the ship's 1 800 m altitude. Colour that haze with RingSkyAtmosphere at the ship's elevation (blue mid35) rather than the heading horizon. Limit underside ambient to a dim ground-bounce term. Target hull luma 70-110 and underside 35-60, with EngineBlue cones and spars visible. Note the spec conflict (59 % fog vs luma 25-120) in DEVELOPMENT.md."
+   },
+   {
+    "id": "C09",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks05_sunset_squares_1920x1080.png",
+     "ks05_sunset_squares_3840x2160.png",
+     "ks04_ark_shadow_1920x1080.png",
+     "beat03_ark_end.png"
+    ],
+    "region": "KS05 square A x 815-1170 y 285-635, B x 1265-1590 y 335-560; KS04 x 20-1060 y 0-540",
+    "description": "The shadow squares are translucent and too light. In KS05, square A is luma 84 at the top ((80,83,96)) and 93 at the bottom ((103,91,86), warm gradient), and square B is luma 75. Acceptance (2) needs a straight dark region with luma < 40 touching the disc. In KS04 (u -0.45) the squares are about 30 % opaque glass panes; the arch and clouds show through them, and they fill the top-left of the ark key frame, pulling attention from the ship.",
+    "cause": "RingSkyArch.hlsl lines 198-205: sqCol = SquareSlate x 0.6 + atm x 0.15. Near the star, atm includes the bright Mie lobe, so the squares turn grey and warm toward the bottom. The haze fade-in multiplies coverage (col = lerp(col, sqCol, sq x alpha)), which makes a fading square transparent instead of making it emerge from haze.",
+    "fix": "Use sqCol = PAL_SquareSlate + 0.03 x atm, capped at about 0.02 linear, so KS05 squares land at luma 20-35. Fade them in by occlusion: col = lerp(col, lerp(hazeCol, sqCol, alpha), sq). A distant square then appears as a solid pale shape thickening out of the haze and never shows the arch through itself."
+   },
+   {
+    "id": "C10",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks05_sunset_squares_1920x1080.png",
+     "ks05_sunset_squares_3840x2160.png",
+     "beat04_sunset_start.png"
+    ],
+    "region": "whole frame; meadow x 100-1200 y 850-1060; horizon toward star x 300-700 y 500-640",
+    "description": "KS05 does not read as a sunset. Mean luma is 137 (spec 70-125). The meadow is still midday lime (74,108,57). The horizon toward the star is pale peach (212,186,155), where the 14.2.1 mix at this sky state should be about (241,197,149) and more orange. The arch above stays grey-teal. The frame reads as a hazy afternoon, and the 'evening arrives because something vast crosses the star' moment loses its melancholy. Dusk colours only appear later (t3_bollard_s480 peach/mauve, which is correct).",
+    "cause": "At u 0.295 RingSchedule keeps the key at 60 % with only about 34 % DuskKey (line 206: smoothstep(0.1, 0.9, V)). Day ambient is not reduced, and the tonemapper desaturates the dusk sky tokens (see C04).",
+    "fix": "Between u 0.2 and 0.5, drop ambient faster than the key (ambient x V^2), and drive the key colour with smoothstep(0.3, 1.0, V) so KS05 is >= 55 % DuskKey. Bring the Mie lobe to DuskKey earlier. Use the inverse-tonemapped dusk tokens. Target a KS05 mean of about 105 with golden-lit grass and a saturated orange glow around the eclipsed disc."
+   },
+   {
+    "id": "C11",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks07_wall_reveal_1920x1080.png",
+     "beat04_sunset_end.png",
+     "t3_bollard_s480_sky_1920x1080.png",
+     "ks09_wall_door_1920x1080.png",
+     "ks06_night_arc_1920x1080.png"
+    ],
+    "region": "bollard heads e.g. KS07 x 785-812 y 880-912, beat04_sunset_end x 650-675 y 700-720; pools KS07 x 600-760 y 1000-1070; KS09 door x 885-1050 y 455-655",
+    "description": "The night lamps lose all warmth. Bollard heads render cold white, (205,209,209) and (203,204,211). The door lamp bar is white-blue. Light pools on the grass are neutral, about (96,102,92). The PaleGold door frame reads blue-grey in KS09. The only warm accents meant to carry 'hope' against the cold night (WarmLamp #FFD9A0, PaleGold) are gone, so beats 4 and 5 become monochrome blue.",
+    "cause": "Emissive WarmLamp x 3.0 is multiplied by EV +1.6 (x3), about 9 linear, which drives the Neutral tonemapper to white; WB -16 then cools it. The pools are WarmLamp x 0.12-0.18 added over blue-lit ground (LeveeMeshes.cs, Beat05WallBuilder.cs, RenderingMaterialDefs.cs).",
+    "fix": "Author lamp emission so post-exposure radiance stays at or below about 1.2 (e.g. WarmLamp x 1.0 at EV +1.6, with bloom carrying the glow). Pre-compensate emissives for the cool WB (multiply by the inverse WB gain), or use AmberLamp for pools and lamp bands. Make sure the door lamp lights the PaleGold trim (an additional light within the 4-light budget, or an emissive rim), so the door reads as a warm speck on the cold wall."
+   },
+   {
+    "id": "C12",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "ks05_sunset_squares_1920x1080.png",
+     "ks02_valley_crest_3840x2160.png",
+     "t3_bollard_s480_sky_1920x1080.png",
+     "ks06_night_arc_1920x1080.png",
+     "ks04_ark_shadow_3840x2160.png"
+    ],
+    "region": "KS05 x 1440-1920 y 700-820; t3_bollard_s480 x 230-1130 y 270-435; KS06 x 0-1290 y 765-1035; KS04 4K footbridge x 1800-2800 y 1250-1650",
+    "description": "The levee and the footbridge mound read as graybox. The levee is three plain taupe/brown slabs: (128,113,92) in KS05 and (76,66,71) at dusk, and in KS06 a flat navy face (12,16,42) with sd 1 level filling the lower 29 % of the money-shot frame. No turf, coping highlight, joints or courses are visible. The footbridge mound is stone all the way to the top, with no LeveeGreen. These are the largest man-made shapes in the valley, and they look like untextured boxes next to the detailed bridge and path.",
+    "cause": "LeveeMeshes / Beat04SunsetBuilder: the risers are flat CeramicShade, and the 4.7 m risers with 3 m setbacks hide the turf tops from the 1.7 m eye. No M01 panel lines, chamfers or AO are on the risers. The footbridge mound has no turf cap.",
+    "fix": "Batter the risers to 60-70 degrees, or plant them, so turf reads from the path. Add 2 cm chamfered ceramic copings with lit edges, M01 triplanar panel lines and step AO. Let grass tufts break the terrace silhouettes. Give the footbridge mound its LeveeGreen top (14.5.3)."
+   },
+   {
+    "id": "C13",
+    "severity": "S2",
+    "beat": 6,
+    "files": [
+     "ks11_tunnel_exit_1920x1080.png",
+     "ks11_tunnel_exit_3840x2160.png",
+     "beat07_outside_start.png",
+     "ks12_swarm_1920x1080.png"
+    ],
+    "region": "KS11 view through the mouth x 760-1160 y 560-800; beat07_outside_start x 300-1600 y 750-1050",
+    "description": "The outside deck is unlit at the tunnel exit. Through the mouth in KS11 the deck is a dark navy slab (22,26,42), and at s 894 it is still blue-grey (48,51,58). At s 912 (KS12) the same deck is a warm (102,96,84). The release view, meant to read as 'dread turning to hope' with light pouring in, shows a dark blue floor under the star, and the platform only 'turns on' some 18 m after the exit.",
+    "cause": "AtmosphereDriver/RingSchedule apply the per-beat lighting globally: the beat-6 row has key 0 and dim night ambient, and the Rule P crossfade runs over s 882-906. The SetOutside geometry is therefore lit by tunnel/night values while the player is still inside.",
+    "fix": "Light SetOutside with its own key (StarOutside 3.4 along L7) whatever the current beat, e.g. a per-set key in RingLighting gated by world x >= 234 or by _RingSet, so the tunnel interior stays emissive-only. Alternatively, give the beat-7 key and ambient their own window starting at s 866, but only together with shadows or that x mask so no key light leaks into the tunnel."
+   },
+   {
+    "id": "C14",
+    "severity": "S2",
+    "beat": 7,
+    "files": [
+     "ks12_swarm_3840x2160.png",
+     "ks12_swarm_1920x1080.png",
+     "ks12_swarm_noglint_3840x2160.png",
+     "ks14_beacon_1920x1080.png"
+    ],
+    "region": "KS12 4K x 1600-2450 y 550-1250 (1080p x 850-1200 y 300-700)",
+    "description": "The Dyson swarm reads as three rope-like rings of dark gravel around the disc, like an atom logo, rather than a glittering swarm of 24 000 panels. Panels render as hard axis-aligned square pixels in dark slate. Glints are sparse, grey-white and similar in tone to the panels. There is no glitter or dust-lane glow along the bands, and together with the round grey corona the composition looks graphic, not vast.",
+    "cause": "RingSwarmPanel: the 2.2 px minimum footprint is drawn as square quads (no round or AA splat). Panel backs facing the viewer get only SpaceBounce x 0.08. Glint tint is neutral. The 8 % density clumps do not read at this size.",
+    "fix": "Draw panels under the clamp as round Gaussian splats with energy preservation. Add a forward-scatter edge term to the backs of panels within about 20 degrees of the star (a thin StarOutside rim). Tint glints StarOutside/warm. Add a faint additive band glow from the integrated sub-pixel reflectance (about 0.01-0.02 linear) so the bands read as glittering lanes. Exaggerate the density clumps along each band. The geometry (radii, tilts) already matches the spec."
+   },
+   {
+    "id": "C15",
+    "severity": "S2",
+    "beat": 7,
+    "files": [
+     "ks13_hull_down_1920x1080.png",
+     "ks13_hull_down_3840x2160.png",
+     "ks12_swarm_1920x1080.png",
+     "t7_platform_back_1920x1080.png",
+     "beat07_outside_free_yaw180_p60.png"
+    ],
+    "region": "KS13 whole frame (deck tiles only); KS12 below the deck edge y 700-1080",
+    "description": "The underside of the world (the hull: ridges, gantries, the 11.4-degree horizon dip) does not appear in any beat-7 capture. KS13 (pitch -28, 'hull down') shows only deck tiles. Money shot 4 loses its vertigo layer: no drop, no world falling away below.",
+    "cause": "Geometry versus camera. The 72 x 30 m deck (x 234-306, z 645-675) hides everything below about -1.8 degrees ahead and about -6.5 degrees to the sides of the eye at (252, 1.7, 660), while the hull horizon is at -11.4 degrees. 14.5.7 is internally inconsistent here.",
+    "fix": "Move the KS13 eye to the front or side rail (x >= 303 or z 672) and pitch down. Better, reshape the platform into a narrow cantilever pier (8-12 m wide, with a grated or glass section near the end) so the hull ridges and gantries are seen falling away at the rails during the walk to the beacon."
+   },
+   {
+    "id": "C16",
+    "severity": "S3",
+    "beat": 5,
+    "files": [
+     "ks07_wall_reveal_1920x1080.png",
+     "beat04_sunset_end.png",
+     "ks06_night_arc_1920x1080.png"
+    ],
+    "region": "KS07 grass x 1400-1900 y 850-1050; beat04_sunset_end lower half",
+    "description": "The night meadow is cyan-teal and over-saturated: KS07 grass is (23,61,63), hue 183, saturation 0.63. In KS06 the night grass is a neutral (31,39,41) at saturation 0.24, so the meadow changes hue between consecutive night shots, and moonlit grass this saturated looks synthetic.",
+    "cause": "MeadowA/B x the RimFill #7FA2FF wash (beat 5 row) plus WB -16 and Sat +4 in beat 5. There is no scotopic desaturation.",
+    "fix": "At night (_SkyState > 1.5), apply a scotopic desaturation in RingLighting (albedo saturation x 0.5) or set the beat 4-5 grade saturation to about -10. Use a less saturated RimFill for the ground (e.g. #9FB4E8), keeping the night grass near (30,42,48)."
+   },
+   {
+    "id": "C17",
+    "severity": "S3",
+    "beat": 2,
+    "files": [
+     "beat02_valley_free_yaw+90_p0.png",
+     "beat02_valley_free_yaw-90_p0.png",
+     "t2_bridge_down_1920x1080.png"
+    ],
+    "region": "beat02_valley_free_yaw+90_p0 river x 0-1920 y 560-1080, rail shadows x 0-1000 y 900-1080",
+    "description": "The river reads as a turquoise swimming-pool canal. Near water is a uniform (118,163,169) across the full 36 m width, with no darker WaterDeep core. The bridge rails cast crisp shadow lines onto the water as if it were a floor. The banks are straight 1:3 trapezoids with hard polygonal creases.",
+    "cause": "RingWater: the depth lerp (TealRiver -> WaterDeep over 3.2 m) is not visibly applied; the main-light shadow attenuates the whole water colour instead of only the diffuse/body term; the bank has no rounded profile or foam.",
+    "fix": "Drive the analytic depth so the centre lands on WaterDeep #0F5D66 and the shallows on TealRiver. Limit shadowing to <= 30 % on the body term only, leaving the reflection unshadowed. Round the bank-toe crease in RingHeight and add the bank foam from the bank SDF (M03)."
+   },
+   {
+    "id": "C18",
+    "severity": "S3",
+    "beat": 1,
+    "files": [
+     "ks00_title_1920x1080.png",
+     "ks01_capsule_window_1920x1080.png",
+     "beat01_capsule_start.png"
+    ],
+    "region": "KS00 walls x 0-300 / 1650-1920 y 300-700, floor x 800-1100 y 800-1000; KS01 wall x 0-400, porthole ring x 640-1100 y 830-900",
+    "description": "The capsule reads as khaki-brown cardboard, not warm-lit white ceramic. Walls are (116,96,73) at saturation 0.37-0.43 in KS00 and (77,65,53) in KS01. The floor under the same 2700 K strips stays a neutral-cool (72,72,74). The PaleGold porthole ring reads as dark brown (59,54,50).",
+    "cause": "CeramicWhite under Practical2700 with WB +4 (warmer) and no camera white-balance compensation. The floor material does not appear to pick up the strips' colour; check that _ADDITIONAL_LIGHTS and the point lights reach it. PaleGold has too little specular to read as metal.",
+    "fix": "Set beat-1 WB to about -8 (camera balanced toward 3 200 K) so the walls read warm white at saturation about 0.2. Verify the floor shader receives the strip point lights. Give the PaleGold trim a metallic/specular response (smoothness about 0.7) so it catches the key through the porthole."
+   }
+  ],
+  "beat_verdicts": [
+   "Beat 1 (capsule): PASS with S3s. The compressed, dim interior mood works (KS01 frame luma about 55-66), but the ceramic reads khaki-brown, the floor ignores the warm practicals and the porthole view is milky cream with no blue (0.3 % blue-dominant, see C04).",
+   "Beat 2 (valley, money shot 1): FAIL at S2. The calibration rule passes (near meadow luma 123-128 in 110-135), and the view toward the star is a lovely golden haze. But the sky is grey, not blue (upper third 31 % blue-dominant), the arch reads as a map/camouflage print, there is no aerial perspective in 0-3 km, and the midground meadow is bald.",
+   "Beat 3 (ark, money shot 2): FAIL at S2. The ark is a cream blimp (hull luma 156, underside not darker, acceptance 25-120), and translucent glass-pane squares dominate the top of KS04. Foreground path, flowers and the footbridge vault are fine.",
+   "Beat 4 (sunset/night, money shot 3): FAIL at S1. The dusk palette is right at s 480 (peach/mauve), but KS05 is too bright and not dusky (luma 137) and its squares are grey (luma 75-93, need < 40). In KS06 the night band is a white graticule, the lit arch clips cyan (5.06 % blue-channel clip), the lamps are cold white and the levee is a flat box.",
+   "Beat 5 (rim wall): FAIL at S1. The wall is a saturated royal-blue field (saturation 0.77 vs WallNight 0.33) with no seams, tone or foot gradient, almost the night-sky colour, so KS07 reads as blue sky rather than an infinite wall; the door's warm accent is lost.",
+   "Beat 6 (tunnel): KS10 PASSES (dark TunnelGrey, crisp AmberLamp strips, mean luma 12, a tiny bright mouth). S2 at KS11: the outside deck seen through the mouth is a dark navy slab because the outside set is lit by tunnel/night values until s 906.",
+   "Beat 7 (outside, money shot 4): FAIL at S2. The star, the glazed deck streak, the rail shadows and the warm beacon read well. But the swarm looks like dark gravel rings or an atom logo around a grey halo rather than glittering, and the hull (the world below) is never visible, not even in KS13."
+  ]
+ },
+ "critic:scale": {
+  "findings": [
+   {
+    "id": "A1",
+    "severity": "S1",
+    "beat": 2,
+    "files": [
+     "QA/captures/run04/ks02_valley_crest_1920x1080.png",
+     "QA/captures/run04/ks02_valley_crest_3840x2160.png",
+     "QA/captures/run04/ks02_valley_crest_2560x1080.png",
+     "QA/captures/run04/beat02_valley_start.png",
+     "QA/captures/run04/beat02_valley_free_yaw180_p0.png",
+     "QA/captures/run04/beat03_ark_start.png"
+    ],
+    "region": "KS02 1920x1080: haze gap y 450-640 (elevation about 8-20 deg) across the full width; midground meadow x 1250-1900 y 740-860; arch y 0-450",
+    "description": "In money shot 1 the land does not visibly curve up into the sky. Terrain detail stops at about 7 deg elevation (y ~640). From there a featureless haze band about 12 deg tall runs up to ~20 deg, and only above it does the arch begin, as a crisp map. The terrain edge that should sit at frame centre (14.67 deg) cannot be seen, so the eye cannot follow the ground up into the arch. The arch reads as a painted ceiling over a flat plain. Aerial perspective is inverted and has a cliff in it. HSV saturation: foreground meadow 0.401, midground meadow 0.388 (a drop of 0.013; 14.5.2 (6) requires >= 0.05), far terrain 0.099, arch 0.105 (rises again). Luma std: midground meadow 3.8 (a flat, untextured green plane), far terrain 10.7, arch 13.2. The extreme-far layer has more contrast than the far layer, which makes it look near.",
+    "cause": "AtmosphereDriver / RingFog beats 1-3 sigma 2.5e-4 (55-98 % fog over the 3-8 km terrain that carries the upward sweep), and in RingSkyArch.hlsl ArchHaze falls from 0.985 to about 0.2 within roughly 10 deg, after which only exp(-t/70000) inscatter is applied (the arch keeps nearly full contrast). The RingTerrain valley meadow has almost no macro tone variation at 50-400 m.",
+    "fix": "Lower the beat 1-3 fog to sigma about 1.3e-4 (about 66 % at the 8.2 km terrain edge). Set ArchHaze(14.7 deg) to that same value and let it fall smoothly to about 0.35 at 30 deg and 0.2 at 45 deg, so field patchwork stays legible continuously from about 2 km, through the terrain edge, into the arch, then re-run the seam test. Strengthen the arch's own inscatter (e.g. T = exp(-t/25 000) toward SkyDay mid) so its saturation and contrast end up at or below those of the far terrain. Add macro variation to the valley meadow (±6-8 % tone at 40-200 m, field and mowing boundaries) so the midground has a texture gradient (luma std >= 8)."
+   },
+   {
+    "id": "A2",
+    "severity": "S2",
+    "beat": 2,
+    "files": [
+     "QA/captures/run04/ks03_arch_up_1920x1080.png",
+     "QA/captures/run04/ks03_arch_up_3840x2160.png",
+     "QA/captures/run04/ks02_valley_crest_1920x1080.png",
+     "QA/captures/run04/ks04_ark_shadow_3840x2160.png",
+     "QA/captures/run04/beat05_rimwall_x7_s700_yaw0_p60_3840x2160.png"
+    ],
+    "region": "KS03 1920x1080: row of pale discs x 450-1100 y 0-60; grid lines over the whole arch; 4K x 800-2400 y 0-600 for the detail",
+    "description": "At 20-32 km the arch reads as a printed map or ceiling decal, not as land. A regular graticule of thin pale road lines covers it. Soft pale discs (towns) sit at every crossing in a strict lattice and look like lens dust or pegboard holes. Four equally spaced parallel rivers meander in step. The field patchwork is camouflage-like blotches rather than parcels. Cloud shadows are dark slate blobs as dark as the lakes. The eye reads the regularity, and regularity collapses scale.",
+    "cause": "RingGround.hlsl: RingRoadDist (roads every 2 400 m of x and 3 141.6 m of arc, 22 m wide but drawn about 2-3 px wide), RingTownDensity (towns only at road crossings, round), RingArchRiverSdf (4 rivers at a fixed 5 600 m spacing), domain-warped hash fields. RingSkyArch.hlsl cloud-shadow darkening.",
+    "fix": "Make road contrast energy-preserving below 1 px true width, so 22 m roads are effectively invisible at 20-30 km by day. Put towns at only about 25 % of crossings, jittered up to about 800 m, noise-shaped, with radii 100-900 m. Vary river spacing and width and add tributaries and oxbows. Turn fields into rectangular strips aligned to the roads, with lower contrast. Offset cloud shadows from their clouds along the star direction and limit their darkening to about 35 %."
+   },
+   {
+    "id": "A3",
+    "severity": "S1",
+    "beat": 3,
+    "files": [
+     "QA/captures/run04/ks04_ark_shadow_1920x1080.png",
+     "QA/captures/run04/ks04_ark_shadow_3840x2160.png",
+     "QA/captures/run04/beat03_ark_mid.png",
+     "QA/captures/run04/beat03_ark_end.png"
+    ],
+    "region": "KS04 1920x1080 x 245-965 y 125-295 (4K x 490-1930 y 250-590)",
+    "description": "In money shot 2 the ark reads as a pale, almost translucent tan blimp or pill, not a 3 km ship. Hull luma is 155-168 against neighbouring sky at 150-160, so there is almost no figure/ground contrast (spec: hull luma 25-120). The hull is warm tan (saturation 0.18) rather than ArkHull slate. Its underside is no darker than its top, so it has no mass or weight. The silhouette is a smooth capsule. At 4K the window grid shows only as faint dashes near the bow; spars, keel and engine cones are not legible in KS04. Nothing breaks the outline, so its size cannot be read.",
+    "cause": "RingArk: RingFog at about 59 % toward the bright star-side horizon haze (#F0D6AE), plus ambient/arch fill lifting the downward-facing underside. Possibly the albedo is lighter and warmer than ArkHull/ArkUnderside. The detail features are too small to survive at 3.8 km.",
+    "fix": "Use ArkHull #6F7480 / ArkUnderside #3C414C and suppress sky fill on downward normals (underside luma target 40-70). Give the ship altitude-aware extinction: the slant path to 1 800 m crosses less valley air, so cap fog at about 35-40 % and take the fog colour from the sky at the ship's own elevation. Add a thin star rim light along the upper edge. Make the window band a brighter, energy-preserving warm band. Enlarge silhouette breakers (spars as about 40 m fins, the keel, engine cones with EngineBlue glow) so the outline reads as built structure. Target a hull/sky luma ratio <= 0.5 in KS04."
+   },
+   {
+    "id": "A4",
+    "severity": "S1",
+    "beat": 3,
+    "files": [
+     "QA/captures/run04/ks04_ark_shadow_1920x1080.png",
+     "QA/captures/run04/ks05_sunset_squares_1920x1080.png",
+     "QA/captures/run04/ks07_wall_reveal_1920x1080.png",
+     "QA/captures/run04/ks07_wall_reveal_3840x2160.png",
+     "QA/captures/run04/beat03_ark_start.png",
+     "QA/captures/run04/beat03_ark_mid.png",
+     "QA/captures/run04/beat03_ark_end.png",
+     "QA/captures/run04/beat05_rimwall_start.png"
+    ],
+    "region": "KS04: left bank x 0-900 y 500-900, right bank x 1300-1920 y 560-800. KS05: hill x 0-1350 y 650-1080 covering pavilion P2 at x 850-935 y 778-872. KS07: left hill x 0-1000 y 690-800 covering the door at x 342-372 y 765-793 (positions from the report.json composition registry)",
+    "description": "From about s 280 to 520 and on the plain leg near s 606, the path runs in a trench. Grass banks 5-8 m high rise within 6-16 m of the kerb and hide the midground layer and the human-scale subjects that each key frame relies on. In KS04 the right bank hides the plain where the 3 km ark shadow should fall; no ark shadow is visible in any beat-3 capture. In KS05 pavilion P2 (the midground silhouette, acceptance (2)) is completely behind the hill. In KS07 the door (the 'speck' that gives the wall its scale) and the wall foot line are hidden behind the left hill. All three frames lose their midground and scale reference.",
+    "cause": "RingGround.hlsl RingHeight (and its C# twin RingWorld.Height): noise of ±7.5 m is ramped in by smoothstep(6, 16, PathDist), giving 30-35 degree banks wherever the noise is positive. The x > 40 attenuation is only partial at x 30-80, where KS07 looks across.",
+    "fix": "Widen the ramp to about smoothstep(10, 80, pd) and clamp near-path land, e.g. n = min(n, 1.5 + 0.08 (pd - 10)), so nothing within about 60 m rises more than 2-4 m. Add explicit sight-line flattening wedges for KS04 (az +10..+60 from (0, 364), to 3 km), KS05 (az -75..-50 from (0, 442), to 130 m) and KS07 (from (30, 576) to the door at (114, 660)). Change the C# and HLSL twins together (colliders, grass)."
+   },
+   {
+    "id": "A5",
+    "severity": "S2",
+    "beat": 4,
+    "files": [
+     "QA/captures/run04/ks04_ark_shadow_1920x1080.png",
+     "QA/captures/run04/ks04_ark_shadow_3840x2160.png",
+     "QA/captures/run04/beat03_ark_end.png",
+     "QA/captures/run04/ks05_sunset_squares_1920x1080.png",
+     "QA/captures/run04/ks05_sunset_squares_3840x2160.png",
+     "QA/captures/run04/ks06_night_arc_1920x1080.png"
+    ],
+    "region": "KS04 x 25-1060 y 0-535 (translucent panes; triangle bottom cut flat at y ~535); beat03_ark_end bottom cut at y ~465; KS05 squares x 815-1590 y 283-633, square C a wedge at the right edge x 1710-1920 y 470-550",
+    "description": "The shadow squares do not read as vast, distant objects. (1) In KS04, during their fade-in, they are see-through grey glass panes with the arch fields visible through them. They upstage the ark in its own key frame and spoil the sunset reveal. (2) They get no aerial perspective. Their lower edges are sliced by a perfectly horizontal line in open sky (KS04 y ~535, beat03_ark_end y ~465), where the 98.5 %-fogged far terrain occludes them. That terrain is the same colour as the haze, so the occlusion looks like a clipping bug instead of proof that the land rises. (3) In KS05 they are uniform flat grey cards (luma 74-91, saturation 0.13) with crisp edges, laid over the crisp arch map, so they read as nearer than land 30 km away. Square C is cut by the frame edge into a sliver.",
+    "cause": "RingSkyArch.hlsl: squares are alpha-composited over the arch during the haze fade (u -0.6..-0.2 = s 348-390) and are not attenuated by ArchHaze or inscatter at their elevation. KS05 framing (yaw -58, hFOV about 96) puts C's right edge at about +52 deg, beyond the +48 deg frame edge.",
+    "fix": "Fade the squares in toward the local haze colour, never toward transparency (the arch must stay hidden behind them). Apply the same ArchHaze(e) and inscatter the ground gets at that elevation, so the squares melt into the haze toward the terrain edge and the cut line disappears. Add a thin bright fringe where an edge crosses the aureole. Move the fade window to about u -0.25..0.05 (s 385-416) so the squares stay out of KS04 and the ark's release. Reframe KS05 to yaw about -52 so square C is whole."
+   },
+   {
+    "id": "A6",
+    "severity": "S1",
+    "beat": 4,
+    "files": [
+     "QA/captures/run04/ks06_night_arc_1920x1080.png",
+     "QA/captures/run04/ks06_night_arc_3840x2160.png",
+     "QA/captures/run04/ks06_night_arc_2560x1080.png",
+     "QA/captures/run04/beat04_sunset_mid.png",
+     "QA/captures/run04/beat05_rimwall_mid.png",
+     "QA/captures/run04/ks08_wall_foot_1920x1080.png"
+    ],
+    "region": "KS06 1920x1080: night band y 450-745 full width; terminator at y ~450; lit arch y 0-450",
+    "description": "In money shot 3 the night side of the ring reads as a planetarium coordinate grid, not as cities 20-30 km overhead. Thin white lines in a regular lattice (about 170-250 px apart), many broken into dashes, carry 15-25 px white elliptical blobs at every intersection over flat navy. There are no individual lights, no warm/cool mix and no clustering. Above an almost hard horizontal split (about 2 deg soft), the lit arch is saturated daytime cyan. The frame reads as a split-screen dome a few hundred metres up.",
+    "cause": "RingSkyArch.hlsl night branch: city = townGlow (towns only at road crossings via RingTownDensity) + roadGlow (0.35 x the 22 m road line from RingGroundAlbedoEx). The spec's CityWarm/CityCool lattice of 24 m lots is not implemented. Terminator smoothstep(D-3, D+3) in arc angle projects to about 2 deg on screen.",
+    "fix": "Implement the 24 m lot lattice. Hash each lot to lit/unlit, warm/cool and an intensity; filter to an energy-preserving mean per footprint, with sparse sub-pixel sparkle within clamp 6. Drive density with large-scale population noise (towns, corridors along some roads, dark countryside). Keep road strings at <= 10 % of town luminance, with no minimum width. Widen the terminator into an 8-12 deg twilight gradient (ArchGlow to dusk mid) so day and night blend instead of cutting."
+   },
+   {
+    "id": "A7",
+    "severity": "S1",
+    "beat": 5,
+    "files": [
+     "QA/captures/run04/ks07_wall_reveal_1920x1080.png",
+     "QA/captures/run04/ks08_wall_foot_1920x1080.png",
+     "QA/captures/run04/ks09_wall_door_1920x1080.png",
+     "QA/captures/run04/ks09_wall_door_3840x2160.png",
+     "QA/captures/run04/beat04_sunset_end.png",
+     "QA/captures/run04/beat05_rimwall_start.png",
+     "QA/captures/run04/beat05_rimwall_mid.png",
+     "QA/captures/run04/beat05_rimwall_x6_s700_yaw90_p0_3840x2160.png",
+     "QA/captures/run04/beat05_rimwall_x7_s700_yaw0_p60_3840x2160.png"
+    ],
+    "region": "KS07 x 0-1920 y 0-790; KS08 x 650-1920 y 0-1080; KS09 x 0-1920 y 0-640",
+    "description": "The rim wall reads as flat night sky, so it induces no vertigo. Wall luma is 64-80 from the foot to the top of the frame, with no height gradient (spec: 90-140 at the foot, fading with height). Row std is < 1.0 level; the only seam found is a 3-4 level step at 4K (spec >= 6 near the foot). The colour is hyper-saturated blue, about sRGB (40, 77, 175), HSV saturation about 0.77, versus WallNight #8FA3D6 at 0.33. At the underpass exit (beat04_sunset_end, beat05_rimwall_start) and in KS07 the viewer cannot tell they face a wall. In KS08 there are no converging seams; the foot's rise into the sky collapses into a rounded corner, and the far-rim boundary is a plain vertical cut. Only KS09's door, ticks and apron give any scale, and there it is a door in a blue void.",
+    "cause": "RingWall (M06): WallNight albedo under the blue RimFill wash and WB -16 (blue on blue on blue). A directional wash on a plane is uniform, and fog is below 1 % within 1 km, so nothing varies with height. Seam grooves are too weak.",
+    "fix": "Use neutral WallTone under RimFill (or WallNight under neutral light) to bring saturation to about 0.3. Add an art-directed vertical gradient: foot about 120 luma (bollard pools plus ground bounce), about 60 at 300 m, then fog colour. Add a darker plinth band and a soft contact shadow at the foot. Show 100 m seams vertically and horizontally at >= 8 levels near the foot, fading by footprint, so horizontal seams recede and visibly bend up with the ring (the KS08 'converging seams'). Add faint ±3 % tone variation over 400 m panels."
+   },
+   {
+    "id": "A8",
+    "severity": "S1",
+    "beat": 7,
+    "files": [
+     "QA/captures/run04/ks12_swarm_1920x1080.png",
+     "QA/captures/run04/ks12_swarm_3840x2160.png",
+     "QA/captures/run04/ks12_swarm_noglint_3840x2160.png",
+     "QA/captures/run04/ks14_beacon_1920x1080.png",
+     "QA/captures/run04/ks11_tunnel_exit_1920x1080.png",
+     "QA/captures/run04/beat07_outside_mid.png"
+    ],
+    "region": "KS12 1920x1080 x 850-1170 y 305-700 (band bottoms end on the rail line y ~690); KS14 band tail touching the beacon lens at x 1040 y 720",
+    "description": "In money shot 4 the swarm reads as a small bead necklace or atom logo standing on the platform, not as thousands of panels around a star 40 km away. The three bands are thick ropes of chunky grey specks (4-6 px at 4K) over a large grey corona (luma about 90-110 out to about 15 deg), which reads as soot or gravel rather than glitter. Near and far sides of each orbit have identical speck size and brightness, so there is no depth. The lower lobes vanish exactly at the deck rail, so the swarm seems to rest on the deck. In KS14 its tail meets the beacon lens like an attached ornament.",
+    "cause": "RingSwarmPanel dark panels drawn with the 2.2 px floor against the M11 corona 6/(1+(r/1.6 deg)^2), which is about 0.15 at 10 deg (RingSkyArch.hlsl RingOutsideSky). The outside star at elevation +7 with bands of ±16.7 deg puts the lower half of the system below the deck-edge depression (1.8 deg).",
+    "fix": "Steepen the corona's far wing (e.g. multiply by exp(-(r/5 deg)^2) beyond about 3 deg) so the band region is near SpaceBlack. Panels then read as glints and as silhouettes only in front of the disc and aureole. Raise the outside star to about +20 deg elevation (re-derive L7) and KS12 pitch to about +18, leaving >= 4 deg of black space between the deck edge and the lowest band. Dim panels on the far half of each orbit by 30-50 %. Add a sparse outer population (2-4 k panels, radii 20-40 km) so panels surround the frame. Use thinner, denser band cores with soft fringes."
+   },
+   {
+    "id": "A9",
+    "severity": "S1",
+    "beat": 7,
+    "files": [
+     "QA/captures/run04/ks13_hull_down_1920x1080.png",
+     "QA/captures/run04/ks13_hull_down_3840x2160.png",
+     "QA/captures/run04/ks12_swarm_1920x1080.png",
+     "QA/captures/run04/ks14_beacon_1920x1080.png",
+     "QA/captures/run04/t7_platform_back_1920x1080.png",
+     "QA/captures/run04/beat07_outside_free_yaw+90_p0.png",
+     "QA/captures/run04/beat07_outside_free_yaw-90_p0.png"
+    ],
+    "region": "KS13 whole frame (the registry's Hull.Horizon at y ~292 lands on deck tiles); KS12 lower third",
+    "description": "The underside of the world far below, a core element of beat 7, is never visible, and KS13 is an empty tiled floor. The geometry makes it impossible. From the lane centre the side edges are 15 m away (depression 6.5 deg) and the far end 54 m (1.8 deg), but the hull horizon is 11.4 deg below eye level. The hull is therefore occluded everywhere except within 8.5 m of an edge (1.7 / tan 11.4). No beat-7 shot has a far layer, there is no drop and no vertigo, and the deck reads as a car park in a black void.",
+    "cause": "SetOutside deck dimensions (30 x 72 m, lane 28.3 m) conflict with the hull cap 600 m below (a Part 1.6 arbitration case). KS13's pose (pitch -28 from the deck centre) can only see deck.",
+    "fix": "Narrow the walked deck to a pier <= 8 m wide (z 656-664), ending in a small platform at the beacon, so the hull fills the lower sides of every beat-7 frame (side-edge depression about 23 deg > 11.4). Alternatively cut the deck sides back to ±4 m with rails there. Move KS13 to the rail, e.g. eye (300, 1.7, 663), yaw 30-60, pitch -35, so ridges, gantries and the 11.4 deg horizon are in frame."
+   },
+   {
+    "id": "A10",
+    "severity": "S3",
+    "beat": 7,
+    "files": [
+     "QA/captures/run04/ks15_doorway_back_1920x1080.png",
+     "QA/captures/run04/ks15_doorway_back_3840x2160.png",
+     "QA/captures/run04/beat07_outside_free_yaw180_p60.png",
+     "QA/captures/run04/beat07_outside_free_yaw+90_p0.png"
+    ],
+    "region": "KS15 x 0-1920 y 0-640 (uniform cream, luma 169-184, row std < 1)",
+    "description": "The outer face of a 12 km wall reads as a plain house wall around a doorway. It is uniform cream with seams at about 1 level, no gradient and no structure. Shot 6 m away with its top far out of frame, nothing implies height. The doorway, the only scale cue, sits in the lower 40 % with blank wall above.",
+    "cause": "Outer face plane x 234 (RingWall/RingHull outer-face material) is lit almost head-on (NdotL 0.99) and has no height-dependent term; KS15 pose is too close to the wall.",
+    "fix": "Move KS15 to about x 274 (40 m out) with pitch +35..40, so the doorway is a small lit slot at the bottom and the face rises out of frame. Raise seam contrast to >= 6 levels. Darken the face toward SpaceBlack with height, not only with length, and add horizontal rib bands every 500 m. This also brings luma into the 35-105 range."
+   },
+   {
+    "id": "A11",
+    "severity": "S3",
+    "beat": 2,
+    "files": [
+     "QA/captures/run04/ks03_arch_up_1920x1080.png",
+     "QA/captures/run04/ks03_arch_up_3840x2160.png"
+    ],
+    "region": "whole frame; lower 25 % (y 800-1080) is pure haze",
+    "description": "KS03 has no anchor: only arch and haze, no foreground and no human-scale object. The arch is a texture of indeterminate size, against the 1.2.1 and 1.2.2 principles for key shots.",
+    "cause": "KS03 pose pitch +38 with vFOV 64 puts the bottom edge at +6 deg, above every near object (lamp heads on the crest are at about +2 deg).",
+    "fix": "Use pitch about +26 (bottom edge -6 deg), so lamp heads, rail tops, the aqueduct and the footbridge sit in the bottom strip under the arch as a scale ladder. Alternatively hold a lamp head in a lower corner."
+   },
+   {
+    "id": "A12",
+    "severity": "S3",
+    "beat": 1,
+    "files": [
+     "QA/captures/run04/ks01_capsule_window_1920x1080.png",
+     "QA/captures/run04/ks01_capsule_window_3840x2160.png"
+    ],
+    "region": "porthole x 680-1255 y 265-830",
+    "description": "The porthole shows only arch fields with clouds above a warm haze. The 'rising meadow and terrain edge' layer (3-8 km) is absent, so the first glimpse looks like an aircraft window over clouds rather than land climbing into the sky. The warm sun patch on the right wall is also not evident in the frame.",
+    "cause": "Same fog/ArchHaze setting as A1. At yaw -45 the terrain edge is only about 10.5 deg high, inside the 98 % fog band at the bottom of the hole.",
+    "fix": "Mostly resolved by the A1 fog/ArchHaze change. Otherwise aim the porthole axis toward yaw about -25 / pitch +18, so the climbing land toward +Z crosses the lower half of the opening."
+   },
+   {
+    "id": "A13",
+    "severity": "S3",
+    "beat": 4,
+    "files": [
+     "QA/captures/run04/ks05_sunset_squares_1920x1080.png",
+     "QA/captures/run04/ks02_valley_crest_3840x2160.png",
+     "QA/captures/run04/ks04_ark_shadow_1920x1080.png",
+     "QA/captures/run04/beat03_ark_end.png"
+    ],
+    "region": "KS05 x 1440-1920 y 700-810; KS04 x 865-1225 y 688-720; beat03_ark_end x 590-1190 y 610-690",
+    "description": "The levee terraces read as an untextured taupe stepped box of no particular size. They are the same tone as the aqueduct, have no LeveeGreen tops, no courses and no stairs or rails, so the 14 m mound beside the 2.8 m mouth gives no scale and looks like graybox.",
+    "cause": "TerracedMound material/geometry (RingCeramic with no grass tops or detail).",
+    "fix": "Give the terraces LeveeGreen grassed tops and ceramic retaining faces with 0.6 m course lines. Add a stair, rails and two lamps on the terraces as human-scale cues. Keep the PaleGold lintel and lamp at the mouth."
+   },
+   {
+    "id": "A14",
+    "severity": "S3",
+    "beat": 6,
+    "files": [
+     "QA/captures/run04/ks11_tunnel_exit_1920x1080.png",
+     "QA/captures/run04/ks11_tunnel_exit_3840x2160.png"
+    ],
+    "region": "KS11 x 760-1160 y 560-800 (deck through the mouth, luma 18-35)",
+    "description": "At the exit hold, the platform seen through the mouth is a flat dark-navy slab with no visible tile lines. It reads as a wall below the star rather than a lit floor leading out (KS12 deck luma is 85-128), which weakens the release.",
+    "cause": "The global key light is crossfaded from beat 6 (0) to beat 7 (3.4) over s 882-906, so the outside world is unlit while it is viewed from inside the tunnel.",
+    "fix": "Keep the outside key at 3.4 throughout beat 6. Exclude tunnel materials from it with a rendering-layer mask (the tunnel is emissive-only), so the deck seen through the mouth is a bright floor with converging tile lines pointing at the star."
+   }
+  ],
+  "beat_verdicts": [
+   "Beat 1 (capsule): Works at human scale. Rails, seats, ribs and the hatch read as a 2.6 m tube and the compression lands. The porthole tease is weak: it shows haze and the arch, with no rising land (A12).",
+   "Beat 2 (valley, money shot 1): Not achieved. The foreground scale ladder is good (1 m rails, 3.2 m lamps, bollards, bench, aqueduct). But the land never visibly curves up: a 12-degree haze gap separates it from the arch, and the arch reads as a crisp map with a regular graticule and inverted aerial perspective. The midground meadow is flat (A1, A2, A11).",
+   "Beat 3 (ark, money shot 2): Fails. The ark reads as a pale translucent blimp with luma equal to the sky. The path runs in a trench that hides the plain and the 3 km shadow. Half-faded shadow squares upstage the ship (A3, A4, A5).",
+   "Beat 4 (sunset/night, money shot 3): Fails. The KS05 pavilion is hidden behind a hill, and the squares read as near grey cards sliced by an invisible line. The KS06 night side reads as a white coordinate grid under a hard day/night split. The levee is a graybox block (A4, A5, A6, A13).",
+   "Beat 5 (rim wall): Fails. The wall is a uniform hyper-saturated blue with no seams or height gradient, indistinguishable from the night sky. The KS07 door is hidden by terrain, so there is no vertigo. Only KS09's door, ticks and apron give scale (A7, A4).",
+   "Beat 6 (tunnel): Works. Strong leading lines, a 6 m rib rhythm, 0.2 m markers and a growing point of light give clear compression. The exit frame's deck reads as a dark slab (A14).",
+   "Beat 7 (platform/swarm, money shot 4): Fails. The swarm reads as a small bead 'atom' standing on the deck against a grey corona. The hull far below is never visible from the deck, so KS13 is an empty floor and there is no far layer. KS15 is a blank wall. Only the rails and the beacon carry scale (A8, A9, A10)."
+  ]
+ }
+}

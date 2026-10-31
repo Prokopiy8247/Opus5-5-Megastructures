@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_PathStrip
+  m_Shader: {fileID: 4800000, guid: c3cd1fbc4f5c3cc4d88d89d923ca71b3, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AO: 1
+    - _Cull: 2
+    - _EdgeWear: 0.6
+    - _PanelLine: 0.008
+    - _Smoothness: 0.42
+    m_Colors:
+    - _BaseColor: {r: 0.8848718, g: 0.87345755, b: 0.84301937, a: 0.93}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _JointColor: {r: 0.7254902, g: 0.7058823, b: 0.65882355, a: 1}
+    - _PanelSize: {r: 1.5, g: 1.5, b: 1.5, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_OuterFace
+  m_Shader: {fileID: 4800000, guid: fc7dfa63ac391f0419cbf9a9250f608a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _Cull: 2
+    - _PortalCentre: 660
+    - _SeamDarken: 0.45
+    - _Smoothness: 0.22
+    - _TrimSmoothness: 0.55
+    m_Colors:
+    - _BaseColor: {r: 0.41783556, g: 0.4076021, b: 0.38304192, a: 1}
+    - _Dark: {r: 30000, g: 55000, b: 0, a: 0}
+    - _Ledge: {r: 100, g: 50, b: 2.5, a: 4}
+    - _LedgeShade: {r: 1.12, g: 0.9, b: 0.7, a: 234}
+    - _Plate: {r: 6.25, g: 3.125, b: 0.04, a: 0.62}
+    - _PlateInset: {r: 0.3, g: 0.02, b: 0.78, a: 0.15}
+    - _PlateOrigin: {r: 656.875, g: 0, b: 0.05, a: 0.1}
+    - _Portal: {r: 2.6, g: 4.4, b: -0.5, a: 0.025}
+    - _Seam: {r: 100, g: 0.25, b: 10, a: 50}
+    - _SubPanel: {r: 25, g: 0.08, b: 0.8, a: 0}
+    - _TrimColor: {r: 0.85098034, g: 0.7137255, b: 0.41568625, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

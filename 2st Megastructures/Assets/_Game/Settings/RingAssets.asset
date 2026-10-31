@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c158bd5cae942e4fbe227dae1908840, type: 3}
+  m_Name: RingAssets
+  m_EditorClassIdentifier: Megastructure.Runtime::Megastructure.RingAssets
+  materials:
+  - id: Apron
+    material: {fileID: 2100000, guid: 7a52984a4ecd17c47a66e196b566c696, type: 2}
+  - id: ArkEngine
+    material: {fileID: 2100000, guid: 092c6e0babeadf84182134e92f1b1eb1, type: 2}
+  - id: ArkHull
+    material: {fileID: 2100000, guid: d5c2da6e945d2ea41aa1cf2d4f19779e, type: 2}
+  - id: ArkWindow
+    material: {fileID: 2100000, guid: 2421fbf740b58dd479b491131af82fe1, type: 2}
+  - id: Ashlar34
+    material: {fileID: 2100000, guid: 5ef68e5c894190445810800b2931b198, type: 2}
+  - id: B1_Bay
+    material: {fileID: 2100000, guid: e76a2a641b9a9544cbc716a09778b5f9, type: 2}
+  - id: B1_Floor
+    material: {fileID: 2100000, guid: 01afe909b3db26340bb7c15f308d3a39, type: 2}
+  - id: B1_Frame
+    material: {fileID: 2100000, guid: a85aad940f6d6914099caef2e941f302, type: 2}
+  - id: B1_Gold
+    material: {fileID: 2100000, guid: 50c9b1f8eb0e8c542b20a6f05dccb751, type: 2}
+  - id: B1_Interior
+    material: {fileID: 2100000, guid: 058629e6d6824d34fa197993c430cd7f, type: 2}
+  - id: B1_Rib
+    material: {fileID: 2100000, guid: 8bfbb9441703f4543ad3f60897e9081d, type: 2}
+  - id: B1_Strip
+    material: {fileID: 2100000, guid: d2b0acab69a014748b6bd06668c217b9, type: 2}
+  - id: B2_Aqueduct
+    material: {fileID: 2100000, guid: 463d309d43413f64aa188f38450b86c4, type: 2}
+  - id: B2_Trim
+    material: {fileID: 2100000, guid: 0b6e6c0c23e15924b81943b0290a6b40, type: 2}
+  - id: Beacon
+    material: {fileID: 2100000, guid: a091f9bd05a6d74469770329dfd3ccb5, type: 2}
+  - id: BridgeStone
+    material: {fileID: 2100000, guid: a4e6a94314318b84eb59a5b0e5d8e925, type: 2}
+  - id: Ceramic
+    material: {fileID: 2100000, guid: df6b34cd75965514b8f7b748c9db96a7, type: 2}
+  - id: CeramicShade
+    material: {fileID: 2100000, guid: 58abbe02901db96419bcd29771131f22, type: 2}
+  - id: Deck
+    material: {fileID: 2100000, guid: 20ea43a978a4d2b4aa2c27c7b5ccf19c, type: 2}
+  - id: DoorRecess
+    material: {fileID: 2100000, guid: f023cbc139b53164995fc0284db2702e, type: 2}
+  - id: Emissive
+    material: {fileID: 2100000, guid: 335055bc9c0af0346a9ba9f9c38ec376, type: 2}
+  - id: EmissiveAmber
+    material: {fileID: 2100000, guid: e363f632ae4d6564a80b41f9ebb93dd8, type: 2}
+  - id: FinalDither
+    material: {fileID: 2100000, guid: 65fadd62fc6987b40af5a4a42192022f, type: 2}
+  - id: Flower
+    material: {fileID: 2100000, guid: faf8e32712c926e4aaaa19c444862e7a, type: 2}
+  - id: Glow
+    material: {fileID: 2100000, guid: a58cdf58fb1f1d34290cadaf687ef3ca, type: 2}
+  - id: Grass
+    material: {fileID: 2100000, guid: 4e1f9142331b7a54e843b6be32caa845, type: 2}
+  - id: Hull
+    material: {fileID: 2100000, guid: fad06d60fcdfa364b9b2e5c71ba00e08, type: 2}
+  - id: Lamp34
+    material: {fileID: 2100000, guid: 1eb0fe85d9be3cb459ec12bb283d6bf6, type: 2}
+  - id: LeveeStone
+    material: {fileID: 2100000, guid: cd5e6b79c1dc4114cb2d6e5c280d9de0, type: 2}
+  - id: LeveeTrim
+    material: {fileID: 2100000, guid: 52821b67849754c44bedcc598f58f78c, type: 2}
+  - id: LightPool
+    material: {fileID: 2100000, guid: 0792b1662fa0e8b449752ff797ed4518, type: 2}
+  - id: Metal
+    material: {fileID: 2100000, guid: 2663997fbed645446bc58bf0496b809b, type: 2}
+  - id: Mote
+    material: {fileID: 2100000, guid: 528bccf122caa0a4dbdb50ee162f77bd, type: 2}
+  - id: OuterFace
+    material: {fileID: 2100000, guid: f9a1402c1d7eadb4d9dd8a52c4353648, type: 2}
+  - id: PaleGold
+    material: {fileID: 2100000, guid: 83299165775410a4283fe762f7886b43, type: 2}
+  - id: PathStrip
+    material: {fileID: 2100000, guid: 2d8656fc9d7188849a1009ccca013ed9, type: 2}
+  - id: PlainPool
+    material: {fileID: 2100000, guid: 01769cd9b88d569489a9f3be6a021b7a, type: 2}
+  - id: Sky
+    material: {fileID: 2100000, guid: 6d71a3c2934520541a9ef39df3a716ac, type: 2}
+  - id: Stone
+    material: {fileID: 2100000, guid: 0ff55f731da2cd140acb25173d25a1b2, type: 2}
+  - id: SwarmPanel
+    material: {fileID: 2100000, guid: c07f42c5d4056904a9564ffc0d789dd9, type: 2}
+  - id: Terrain
+    material: {fileID: 2100000, guid: 67d7e545a0da7ff47bf69d8986defd9d, type: 2}
+  - id: Tunnel
+    material: {fileID: 2100000, guid: bdfe5d1431835694ea24d49ad7d219a4, type: 2}
+  - id: TunnelAmber
+    material: {fileID: 2100000, guid: 1e7cb9173e6618446ba51daf8e4c7bce, type: 2}
+  - id: TunnelSpill
+    material: {fileID: 2100000, guid: ab44ebafc70114c4e9e3d84e116c9b9c, type: 2}
+  - id: Turf
+    material: {fileID: 2100000, guid: 2734ed036308a1d42bfca8fc5de1c95f, type: 2}
+  - id: UnderpassLining
+    material: {fileID: 2100000, guid: 074403a5fef77aa408fc523c2e1efd86, type: 2}
+  - id: UnderpassRib
+    material: {fileID: 2100000, guid: bfdaecac8fcb1d54d937c6902757c134, type: 2}
+  - id: Wall
+    material: {fileID: 2100000, guid: ca4feb006ee535748bd6ba342ec7e139, type: 2}
+  - id: WallClimber
+    material: {fileID: 2100000, guid: 7df8f05bece5aa046ac67475e033c80d, type: 2}
+  - id: WallPlinth
+    material: {fileID: 2100000, guid: 15bfecc7c639a674ab5f1a23cac90724, type: 2}
+  - id: Water
+    material: {fileID: 2100000, guid: c9044f52b4bd7ea468bfd6fc8469a804, type: 2}
+  panelSettings: {fileID: 11400000, guid: b06289ceb46aee9428e7d04ac844afb6, type: 2}
+  font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  shaderVariants: {fileID: 0}
+  skyDomeMesh: {fileID: 0}

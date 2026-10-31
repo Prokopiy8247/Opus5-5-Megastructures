@@ -1,0 +1,114 @@
+Mono path[0] = 'W:/YouTube/Megastructures/2nd Megastructures/2nd Megastructures/Builds/The Ring/The Ring_Data/Managed'
+Mono config path = 'W:/YouTube/Megastructures/2nd Megastructures/2nd Megastructures/Builds/The Ring/MonoBleedingEdge/etc'
+CodeReloadManager initialized
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path W:/YouTube/Megastructures/2nd Megastructures/2nd Megastructures/Builds/The Ring/The Ring_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5070
+[D3D12 Device Filter] Driver Version: 32.0.16.1742
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 11944 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:          NVIDIA
+    VRAM:            11944 MB
+    App VRAM Budget: 11176 MB
+    Driver:          32.0.16.1742
+Begin MonoManager ReloadAssembly
+- Finished resetting the current domain, in  0.014 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 0.519200 ms
+[Ring] QA mode: autotest (project root W:\YouTube\Megastructures\2nd Megastructures\2nd Megastructures)
+[Ring] QualityBootstrap: Direct3D12, reversed Z True, vSync 1, screen 1280x720 Windowed, runInBackground True
+[Ring] UI font: LegacyRuntime (mode Legacy)
+[Ring] Audio: post-reverb master bus on 'Camera'
+[Ring] Audio: fade follows UiDirector.FadeAudio, beacon origin BeaconPulse.T0
+[Ring] Audio: engine started at 48000 Hz, seed 1
+[Ring] QA: added AutoTest to [Game]
+[Ring] Graphics Direct3D12 (NVIDIA GeForce RTX 5070), reversed Z True, camera depth attachment Depth_32_Stencil_8, texture Depth_32_Stencil_8, pipeline RingURP
+Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/BokehDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldBokehPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/CameraMotionBlur' is not supported or has been stripped from the build (in 'MotionBlurPostProcessPass'). PostProcessing render passes will not execute.
+Shader 'Hidden/Universal Render Pipeline/PaniniProjection' is not supported or has been stripped from the build (in 'PaniniProjectionPostProcessPass'). PostProcessing render passes will not execute.
+[Ring] WorldBuilder: 12 builders
+[Ring] UI font in use: LegacyRuntime (mode Legacy), title 353 x 75 px; glyphs warmed
+[Ring] builder SkyDome (order 0) built in 19 ms, 4096 triangles (total 4096)
+[Ring] PathGuide: 143 corridor colliders built
+[Ring] builder PathGuide (order 5) built in 7 ms, 0 triangles (total 4096)
+[Ring] Terrain clipmap: 9 levels x 128^2 quads, spacing 0.5 .. 128 m, extent 8192 m, 485248 vertices, 242624 mesh triangles (229376 raster)
+[Ring] builder Clipmap (order 10) built in 125 ms, 242624 triangles (total 246720)
+[Ring] River ribbon: 1121 rows x 9 columns, 17920 triangles
+[Ring] builder River (order 11) built in 23 ms, 17920 triangles (total 264640)
+[Ring] Grass: 51200 instances launched, about 32578 drawn (6 tris each, sets NearValley + NearPlain); flowers: 18496 launched, about 6223 drawn (8 tris each); indirect True
+[Ring] builder Grass (order 12) built in 7 ms, 245252 triangles (total 509892)
+[Ring] Beat01CapsuleBuilder: 37520 triangles (budget 60000), porthole generators 101
+[Ring] builder Beat01Capsule (order 100) built in 152 ms, 37520 triangles (total 547412)
+[Ring] Beat02ValleyBuilder: 45992 triangles (budget 360624 beside the terrain), belvedere floor y 20,30 (hill 20,04), pavilion floor y 0,25, aqueduct 80 bays x 96 triangles
+[Ring] builder Beat02Valley (order 200) built in 118 ms, 45992 triangles (total 593404)
+[Ring] Audio probe: callbacks 46, channels 2, frames/callback 1024, master bus callbacks 68, outputSampleRate 48000, config 48000 Hz / 1024 / Stereo, DSP buffer 1024 x 4, dspTime 2.52
+[Ring] Beat03ArkBuilder: ark 22948 triangles (966 of 996 windows placed, columns 0..160, mean level 0,529), footbridge 4056 triangles
+[Ring] builder Beat03Ark (order 300) built in 105 ms, 27004 triangles (total 620408)
+[Ring] Beat04SunsetBuilder: levee + portals 7222 triangles, underpass 5176 triangles, total 14826 (12 bollards s 411..552)
+[Ring] builder Beat04Sunset (order 400) built in 51 ms, 14826 triangles (total 635234)
+[Ring] Beat05Wall built: 37669 triangles (wall 18039, plinth 4848, 14 bollards)
+[Ring] builder Beat05Wall (order 500) built in 141 ms, 37669 triangles (total 672903)
+[Ring] Beat06Tunnel built: 20646 triangles (shell + ribs 18496, 20 ribs, 40 markers)
+[Ring] builder Beat06Tunnel (order 600) built in 21 ms, 20646 triangles (total 693549)
+[Ring] Beat07Outside mesh Beacon.Lens: degenerate 16, bad index 0, NaN 0, zero normals 0, winding agreement 1.000
+[Ring] Beat7 swarm: 24000 panels (2600 / 6600 / 14800); band radii 7.13 (apparent 7.2 x 6.9) / 11.38 (apparent 11.6 x 5.2) / 16.76 (apparent 17.6 x 3.4) deg; crossing angles 34.0 34.5 56.8 58.1 28.4 28.4 53.0 89.5 62.3 74.2 deg; min 28.4 (>= 20 OK); KS12 max |ndc| x 0.25 y 0.58 (inside); 3 indirect draws ready
+[Ring] Beat07Outside built: 213376 triangles (deck 12132, beacon 2112, hull 186368, gantries 9504, face 3260; swarm 24000 instanced quads = 48000 triangles); hull horizon 6039 m, dip 11.38 deg from the eye (spec 6 030 m, 11.4 deg)
+[Ring] Beat07Outside deck occlusion: from the KS12/KS13 eye the deck front (54.0 m ahead) hides everything more than 1.80 deg below the eye line; the hull horizon (11.38 deg down) is visible only from eye x >= 297.6
+[Ring] builder Beat07Outside (order 700) built in 186 ms, 213376 triangles (total 906925)
+[Ring] WorldBuilder: world built in 1064 ms, 906925 triangles, 7 drawables, 3 animated, 131 registry keys
+[Ring] BeatDirector bound: 94 renderers, 7 drawables, 3 animated
+[Ring] pre-warm: 7 poses x 3 frames in 131 ms
+[Ring] load complete in 1,95 s (world 1,06 s), start s 0,0
+[Ring] UI: load complete, intro started
+[Ring] beat 1 Capsule entered at s 0,00, t 0,01
+[Ring] AutoWalker AutoTest from s 0,0 at 1,5 m/s
+[Ring] AutoTest: walker started via reflection:AutoWalker.Request(WalkMode.AutoTest, 1.5) (seed from -seed)
+[Ring] AutoWalker AutoTest from s 0,0 at 1,5 m/s
+[Ring] hatch triggered at s 6,51, t 4,45
+[Ring] beat 2 Valley entered at s 24,01, t 16,12
+Direct3D: detected that IDXGISwapChain::GetFrameStatistics is broken (it does not return proper timestamps). Delta time will now be calculated using cpu-side time stampling until the game window is moved.
+[Ring] set Ark on at s 231,00 (frame 27264)
+[Ring] beat 3 Ark entered at s 276,00, t 184,11
+[Ring] beat 4 Sunset entered at s 411,00, t 274,11
+[Ring] set NearValley off at s 572,01 (frame 67408)
+[Ring] set NearPlain on at s 572,01 (frame 67408)
+[Ring] set Ark off at s 572,01 (frame 67408)
+[Ring] beat 5 RimWall entered at s 594,00, t 395,76
+[Ring] beat 6 Tunnel entered at s 774,00, t 513,47
+[Ring] set Outside on at s 778,00 (frame 91654)
+[Ring] set FarValley off at s 810,00 (frame 95491)
+[Ring] set NearPlain off at s 810,00 (frame 95491)
+[Ring] set Capsule off at s 810,00 (frame 95491)
+[Ring] beat 7 Outside entered at s 894,01, t 593,47
+[Ring] goal reached at s 959,01, t 636,80
+[Ring] UI: goal reached, ending started
+[Ring] UI: ending complete
+[Ring] AutoTest PASS -> W:\YouTube\Megastructures\2nd Megastructures\2nd Megastructures\QA\autotest.json
+[Ring] QA exit code 0
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+CodeReloadManager destroyed

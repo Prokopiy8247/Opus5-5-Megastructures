@@ -1,0 +1,6 @@
+# keep launchers runnable on their systems
+*.command text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+# game builds: store byte for byte (the macOS app is code-signed; no line-ending conversion)
+Game/** -text

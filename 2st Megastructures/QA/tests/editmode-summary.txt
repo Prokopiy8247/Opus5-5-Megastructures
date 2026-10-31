@@ -1,0 +1,16 @@
+result=Failed
+total=107
+passed=104
+failed=1
+skipped=1
+inconclusive=1
+duration_s=133.74
+time=2026-10-30T06:19:05.7980594+01:00
+
+FAILED Megastructure.Tests.WorldBuildTests.Meshes_AreValid
+  message:   invalid meshes (1 of 94):
+           Set_Outside/Beacon/BeaconLens: degenerate 16, bad index 0, NaN 0, zero normals 0
+           
+             Expected: 0
+             But was:  1
+  stack: at Megastructure.Tests.WorldBuildTests.Meshes_AreValid () [0x0017c] in W:\YouTube\Megastructures\2nd Megastructures\2nd Megastructures\Assets\_Game\Scripts\Tests\EditMode\WorldBuildTests.cs:201
