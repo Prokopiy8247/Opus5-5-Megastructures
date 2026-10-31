@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="64" result="Failed(Child)" total="64" passed="63" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:27:06Z" duration="88,4350446">
+  <test-suite type="TestSuite" id="1000" name="Thread" fullname="Thread" runstate="Runnable" testcasecount="194" result="Failed" site="Child" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:27:06Z" duration="88.435045" total="64" passed="63" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1210" name="Megastructure.Tests.EditMode.dll" fullname="W:/YouTube/Megastructures/3rd Megastructures/3rd Megastructures/Library/ScriptAssemblies/Megastructure.Tests.EditMode.dll" runstate="Runnable" testcasecount="194" result="Failed" site="Child" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:27:06Z" duration="88.425675" total="64" passed="63" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="22228" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1211" name="Megastructure" fullname="Megastructure" runstate="Runnable" testcasecount="194" result="Failed" site="Child" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:27:06Z" duration="88.424104" total="64" passed="63" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1212" name="Tests" fullname="Megastructure.Tests" runstate="Runnable" testcasecount="194" result="Failed" site="Child" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:27:06Z" duration="88.422672" total="64" passed="63" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="1001" name="AudioTests" fullname="Megastructure.Tests.AudioTests" classname="Megastructure.Tests.AudioTests" runstate="Runnable" testcasecount="17" result="Passed" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:26:25Z" duration="47.200014" total="17" passed="17" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="Dsp_IsDeterministicPerSeed" fullname="Megastructure.Tests.AudioTests.Dsp_IsDeterministicPerSeed" methodname="Dsp_IsDeterministicPerSeed" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="122385997" result="Passed" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:25:38Z" duration="0.443656" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="Dsp_LayerLevelsAreCalibrated" fullname="Megastructure.Tests.AudioTests.Dsp_LayerLevelsAreCalibrated" methodname="Dsp_LayerLevelsAreCalibrated" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="7345333" result="Passed" start-time="2026-10-30 03:25:38Z" end-time="2026-10-30 03:25:41Z" duration="3.055665" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="Dsp_ProcessIsAllocationFree" fullname="Megastructure.Tests.AudioTests.Dsp_ProcessIsAllocationFree" methodname="Dsp_ProcessIsAllocationFree" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="793546614" result="Passed" start-time="2026-10-30 03:25:41Z" end-time="2026-10-30 03:25:41Z" duration="0.058989" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1008" name="Dsp_StableAtDeviceRates" fullname="Megastructure.Tests.AudioTests.Dsp_StableAtDeviceRates" classname="Megastructure.Tests.AudioTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-30 03:25:41Z" end-time="2026-10-30 03:25:53Z" duration="11.851310" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1005" name="Dsp_StableAtDeviceRates(44100)" fullname="Megastructure.Tests.AudioTests.Dsp_StableAtDeviceRates(44100)" methodname="Dsp_StableAtDeviceRates" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1962473466" result="Passed" start-time="2026-10-30 03:25:41Z" end-time="2026-10-30 03:25:44Z" duration="2.709846" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="Dsp_StableAtDeviceRates(48000)" fullname="Megastructure.Tests.AudioTests.Dsp_StableAtDeviceRates(48000)" methodname="Dsp_StableAtDeviceRates" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1605329318" result="Passed" start-time="2026-10-30 03:25:44Z" end-time="2026-10-30 03:25:47Z" duration="3.019534" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="Dsp_StableAtDeviceRates(96000)" fullname="Megastructure.Tests.AudioTests.Dsp_StableAtDeviceRates(96000)" methodname="Dsp_StableAtDeviceRates" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1915593008" result="Passed" start-time="2026-10-30 03:25:47Z" end-time="2026-10-30 03:25:53Z" duration="6.118869" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1017" name="Footsteps_BankMeetsRecipe" fullname="Megastructure.Tests.AudioTests.Footsteps_BankMeetsRecipe" methodname="Footsteps_BankMeetsRecipe" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1208613327" result="Passed" start-time="2026-10-30 03:25:53Z" end-time="2026-10-30 03:25:54Z" duration="0.557718" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="Footsteps_CadenceAndSurfaces" fullname="Megastructure.Tests.AudioTests.Footsteps_CadenceAndSurfaces" methodname="Footsteps_CadenceAndSurfaces" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1208957374" result="Passed" start-time="2026-10-30 03:25:54Z" end-time="2026-10-30 03:25:54Z" duration="0.003696" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="Limiter_CeilingBelowMinus1p5dBFS" fullname="Megastructure.Tests.AudioTests.Limiter_CeilingBelowMinus1p5dBFS" methodname="Limiter_CeilingBelowMinus1p5dBFS" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1813328514" result="Passed" start-time="2026-10-30 03:25:54Z" end-time="2026-10-30 03:25:54Z" duration="0.000436" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="Params_AreContinuousInS" fullname="Megastructure.Tests.AudioTests.Params_AreContinuousInS" methodname="Params_AreContinuousInS" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1858410554" result="Passed" start-time="2026-10-30 03:25:54Z" end-time="2026-10-30 03:25:57Z" duration="2.747423" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="Params_IntroEndingAndPause" fullname="Megastructure.Tests.AudioTests.Params_IntroEndingAndPause" methodname="Params_IntroEndingAndPause" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="411662630" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:25:57Z" duration="0.000890" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="Params_SilencesAndSwells" fullname="Megastructure.Tests.AudioTests.Params_SilencesAndSwells" methodname="Params_SilencesAndSwells" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1991076987" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:25:57Z" duration="0.002458" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1013" name="Svf_StableNearNyquist" fullname="Megastructure.Tests.AudioTests.Svf_StableNearNyquist" classname="Megastructure.Tests.AudioTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:25:57Z" duration="0.009634" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1011" name="Svf_StableNearNyquist(44100)" fullname="Megastructure.Tests.AudioTests.Svf_StableNearNyquist(44100)" methodname="Svf_StableNearNyquist" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1101679195" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:25:57Z" duration="0.004283" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="Svf_StableNearNyquist(48000)" fullname="Megastructure.Tests.AudioTests.Svf_StableNearNyquist(48000)" methodname="Svf_StableNearNyquist" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="459578636" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:25:57Z" duration="0.004362" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1002" name="TAudio_FullWalk_MeetsMasterTargets" fullname="Megastructure.Tests.AudioTests.TAudio_FullWalk_MeetsMasterTargets" methodname="TAudio_FullWalk_MeetsMasterTargets" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="2011833833" result="Passed" start-time="2026-10-30 03:25:57Z" end-time="2026-10-30 03:26:25Z" duration="28.395410" asserts="0">
+              <properties>
+                <property name="Timeout" value="900000" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] T-AUDIO full walk s = 0..860 at 1.5 m/s, 48 kHz, seed 1, 1100 footsteps, 578,5 s rendered in 28,4 s
+--- full mix
+beat 1: RMS -38.01 dBFS (target -38), peak -22.06 dBFS, 60.0 s measured
+beat 2: RMS -32.01 dBFS (target -32), peak -17.21 dBFS, 100.0 s measured
+beat 3: RMS -28.75 dBFS (target -28), peak -14.58 dBFS, 30.7 s measured
+beat 4: RMS -25.38 dBFS (target -26), peak -12.27 dBFS, 43.3 s measured
+beat 5: RMS -28.43 dBFS (target -29), peak -15.35 dBFS, 120.0 s measured
+beat 6: RMS -29.60 dBFS (target -30), peak -14.87 dBFS, 113.3 s measured
+beat 7: RMS -37.73 dBFS (target -36), peak -21.27 dBFS, 72.0 s measured
+sample peak -6.31 dBFS; outside the swell -12.27 dBFS at s 380.0; in the swell -6.31 dBFS
+DC -1.30E-006 / -2.41E-006; max step 0.01648 at s 221.6; non-finite 0
+max 400 ms RMS -14.93 dBFS at s 336.1; overall RMS -29.42 dBFS; integrated -28.58 LUFS
+--- without footsteps
+beat 1: RMS -38.09 dBFS (target -38), peak -22.07 dBFS, 60.0 s measured
+beat 2: RMS -32.03 dBFS (target -32), peak -17.23 dBFS, 100.0 s measured
+beat 3: RMS -28.78 dBFS (target -28), peak -14.59 dBFS, 30.7 s measured
+beat 4: RMS -25.38 dBFS (target -26), peak -12.27 dBFS, 43.3 s measured
+beat 5: RMS -28.45 dBFS (target -29), peak -15.14 dBFS, 120.0 s measured
+beat 6: RMS -29.63 dBFS (target -30), peak -15.01 dBFS, 113.3 s measured
+beat 7: RMS -37.91 dBFS (target -36), peak -22.17 dBFS, 72.0 s measured
+sample peak -6.32 dBFS; outside the swell -12.27 dBFS at s 380.0; in the swell -6.32 dBFS
+DC -1.31E-006 / -2.42E-006; max step 0.01316 at s 337.5; non-finite 0
+max 400 ms RMS -14.94 dBFS at s 336.1; overall RMS -29.44 dBFS; integrated -28.57 LUFS
+--- wind stem (s 700..860)
+beat 1: RMS -Infinity dBFS (target -38), peak -300.00 dBFS, 0.0 s measured
+beat 2: RMS -Infinity dBFS (target -32), peak -300.00 dBFS, 0.0 s measured
+beat 3: RMS -Infinity dBFS (target -28), peak -300.00 dBFS, 0.0 s measured
+beat 4: RMS -Infinity dBFS (target -26), peak -300.00 dBFS, 0.0 s measured
+beat 5: RMS -Infinity dBFS (target -29), peak -300.00 dBFS, 0.0 s measured
+beat 6: RMS -112.70 dBFS (target -30), peak -87.35 dBFS, 33.3 s measured
+beat 7: RMS -261.21 dBFS (target -36), peak -227.95 dBFS, 72.0 s measured
+sample peak -87.35 dBFS; outside the swell -87.35 dBFS at s 700.3; in the swell -300.00 dBFS
+DC -1.58E-014 / -1.56E-014; max step 0.00000 at s 700.6; non-finite 0
+max 400 ms RMS -99.78 dBFS at s 700.6; overall RMS -117.96 dBFS; integrated -Infinity LUFS
+RMS after s 752.0: -300.00 dBFS
+
+]]></output>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1021" name="Wav_RoundTrip" fullname="Megastructure.Tests.AudioTests.Wav_RoundTrip" classname="Megastructure.Tests.AudioTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.051774" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1019" name="Wav_RoundTrip(Pcm16)" fullname="Megastructure.Tests.AudioTests.Wav_RoundTrip(Pcm16)" methodname="Wav_RoundTrip" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="358142198" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.033966" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1020" name="Wav_RoundTrip(Float32)" fullname="Megastructure.Tests.AudioTests.Wav_RoundTrip(Float32)" methodname="Wav_RoundTrip" classname="Megastructure.Tests.AudioTests" runstate="Runnable" seed="1704418462" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.015263" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestFixture" id="1022" name="Beat01_02Tests" fullname="Megastructure.Tests.Beat01_02Tests" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" testcasecount="20" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:27Z" duration="2.346383" total="20" passed="20" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1038" name="Budget_TrianglesPerColossus" fullname="Megastructure.Tests.Beat01_02Tests.Budget_TrianglesPerColossus" methodname="Budget_TrianglesPerColossus" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="932806363" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.128135" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="Builders_HaveContractNames" fullname="Megastructure.Tests.Beat01_02Tests.Builders_HaveContractNames" methodname="Builders_HaveContractNames" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1335795353" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.000378" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="Colossi_ProfileFlutesAndAsymmetry" fullname="Megastructure.Tests.Beat01_02Tests.Colossi_ProfileFlutesAndAsymmetry" methodname="Colossi_ProfileFlutesAndAsymmetry" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1733930249" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.006580" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1042" name="SaltGround_FollowerSnapsEachGroupToItsCell" fullname="Megastructure.Tests.Beat01_02Tests.SaltGround_FollowerSnapsEachGroupToItsCell" methodname="SaltGround_FollowerSnapsEachGroupToItsCell" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="702171366" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.036564" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="SaltGround_MeshesAreValid" fullname="Megastructure.Tests.Beat01_02Tests.SaltGround_MeshesAreValid" methodname="SaltGround_MeshesAreValid" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1238534072" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.009475" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="SaltGround_PolarGridLayout" fullname="Megastructure.Tests.Beat01_02Tests.SaltGround_PolarGridLayout" methodname="SaltGround_PolarGridLayout" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="365672795" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.007510" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="SaltGround_SnappedGroupsAlwaysCoverThePlane" fullname="Megastructure.Tests.Beat01_02Tests.SaltGround_SnappedGroupsAlwaysCoverThePlane" methodname="SaltGround_SnappedGroupsAlwaysCoverThePlane" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="409008465" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.028806" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="Sleeves_DoNotIntersectNeighbouringColossi" fullname="Megastructure.Tests.Beat01_02Tests.Sleeves_DoNotIntersectNeighbouringColossi" methodname="Sleeves_DoNotIntersectNeighbouringColossi" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="898538216" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:25Z" duration="0.214843" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="Sleeves_DoNotIntersectOwnRobe" fullname="Megastructure.Tests.Beat01_02Tests.Sleeves_DoNotIntersectOwnRobe" methodname="Sleeves_DoNotIntersectOwnRobe" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="17070505" result="Passed" start-time="2026-10-30 03:26:25Z" end-time="2026-10-30 03:26:27Z" duration="1.039821" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="TNormals_ColossusMeshesAreValid" fullname="Megastructure.Tests.Beat01_02Tests.TNormals_ColossusMeshesAreValid" methodname="TNormals_ColossusMeshesAreValid" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="863552955" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.033648" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="TNormals_SeamsDuplicatedWithMatchingNormals" fullname="Megastructure.Tests.Beat01_02Tests.TNormals_SeamsDuplicatedWithMatchingNormals" methodname="TNormals_SeamsDuplicatedWithMatchingNormals" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="864896413" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.404288" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="TNormals_VertexColoursFollowTheContract" fullname="Megastructure.Tests.Beat01_02Tests.TNormals_VertexColoursFollowTheContract" methodname="TNormals_VertexColoursFollowTheContract" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1824567490" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.282636" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="TScale2_DoorwayIsARealBoxedAlcove" fullname="Megastructure.Tests.Beat01_02Tests.TScale2_DoorwayIsARealBoxedAlcove" methodname="TScale2_DoorwayIsARealBoxedAlcove" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="15575484" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.002338" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="TScale2_EightRobesWithSeededHeights" fullname="Megastructure.Tests.Beat01_02Tests.TScale2_EightRobesWithSeededHeights" methodname="TScale2_EightRobesWithSeededHeights" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1163068411" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.001492" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="TScale2_InnerFootEdgeAt28" fullname="Megastructure.Tests.Beat01_02Tests.TScale2_InnerFootEdgeAt28" methodname="TScale2_InnerFootEdgeAt28" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="658332801" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.000691" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="TScale2_LedgeAndBollardsAreHumanScale" fullname="Megastructure.Tests.Beat01_02Tests.TScale2_LedgeAndBollardsAreHumanScale" methodname="TScale2_LedgeAndBollardsAreHumanScale" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1424886934" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.003569" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="TShade_LeftRowBandCoversThePathAxis" fullname="Megastructure.Tests.Beat01_02Tests.TShade_LeftRowBandCoversThePathAxis" methodname="TShade_LeftRowBandCoversThePathAxis" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="798946485" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.119111" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1034" name="TShade_ShadowMeshIsFlatSoftAndFaded" fullname="Megastructure.Tests.Beat01_02Tests.TShade_ShadowMeshIsFlatSoftAndFaded" methodname="TShade_ShadowMeshIsFlatSoftAndFaded" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1080201349" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.019221" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="TShade_SunIsTheBeat2Sun" fullname="Megastructure.Tests.Beat01_02Tests.TShade_SunIsTheBeat2Sun" methodname="TShade_SunIsTheBeat2Sun" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1335792104" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.000535" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="TShade_TipWithinOneMetreOfTheAnalyticProjection" fullname="Megastructure.Tests.Beat01_02Tests.TShade_TipWithinOneMetreOfTheAnalyticProjection" methodname="TShade_TipWithinOneMetreOfTheAnalyticProjection" classname="Megastructure.Tests.Beat01_02Tests" runstate="Runnable" seed="1708116296" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.001071" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1043" name="Beat03_04Tests" fullname="Megastructure.Tests.Beat03_04Tests" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:27:06Z" duration="38.598498" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1052" name="Cable_Collars" fullname="Megastructure.Tests.Beat03_04Tests.Cable_Collars" methodname="Cable_Collars" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="370037652" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:26:27Z" duration="0.109098" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="Cable_LateralSurfaceIsWatertight" fullname="Megastructure.Tests.Beat03_04Tests.Cable_LateralSurfaceIsWatertight" methodname="Cable_LateralSurfaceIsWatertight" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="1669821188" result="Passed" start-time="2026-10-30 03:26:27Z" end-time="2026-10-30 03:27:05Z" duration="37.169139" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="Cable_LodBoundaryRingsIdentical" fullname="Megastructure.Tests.Beat03_04Tests.Cable_LodBoundaryRingsIdentical" methodname="Cable_LodBoundaryRingsIdentical" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="836163613" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.119634" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="Cable_Ribbons" fullname="Megastructure.Tests.Beat03_04Tests.Cable_Ribbons" methodname="Cable_Ribbons" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="287878999" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.002559" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="Cable_RingLayoutAndReliefData" fullname="Megastructure.Tests.Beat03_04Tests.Cable_RingLayoutAndReliefData" methodname="Cable_RingLayoutAndReliefData" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="312999518" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.256757" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="NearCable_ActivationWithHysteresis" fullname="Megastructure.Tests.Beat03_04Tests.NearCable_ActivationWithHysteresis" methodname="NearCable_ActivationWithHysteresis" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="1700088852" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.001970" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="Stairs_BollardsAndNosings" fullname="Megastructure.Tests.Beat03_04Tests.Stairs_BollardsAndNosings" methodname="Stairs_BollardsAndNosings" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="1536962083" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.008346" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="StairTerraceJoint_SharedEdgeWithoutOverlap" fullname="Megastructure.Tests.Beat03_04Tests.StairTerraceJoint_SharedEdgeWithoutOverlap" methodname="StairTerraceJoint_SharedEdgeWithoutOverlap" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="667950605" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.026195" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="Terrace_WatertightAcrossMeshes" fullname="Megastructure.Tests.Beat03_04Tests.Terrace_WatertightAcrossMeshes" methodname="Terrace_WatertightAcrossMeshes" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="35463421" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:05Z" duration="0.009164" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1055" name="TNormals_AllMeshesValid" fullname="Megastructure.Tests.Beat03_04Tests.TNormals_AllMeshesValid" methodname="TNormals_AllMeshesValid" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="644186808" result="Passed" start-time="2026-10-30 03:27:05Z" end-time="2026-10-30 03:27:06Z" duration="0.868603" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1056" name="TriangleBudget" fullname="Megastructure.Tests.Beat03_04Tests.TriangleBudget" methodname="TriangleBudget" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="271422088" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.004571" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="TScale1_Stairs" fullname="Megastructure.Tests.Beat03_04Tests.TScale1_Stairs" methodname="TScale1_Stairs" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="240677690" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.003654" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="TScale3_Cable" fullname="Megastructure.Tests.Beat03_04Tests.TScale3_Cable" methodname="TScale3_Cable" classname="Megastructure.Tests.Beat03_04Tests" runstate="Runnable" seed="337403244" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.014079" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1057" name="Beat05_07Tests" fullname="Megastructure.Tests.Beat05_07Tests" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" testcasecount="14" result="Failed" site="Child" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.266502" total="14" passed="13" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="1065" name="Arms_EmbeddedInCableOrLensAndInDeck" fullname="Megastructure.Tests.Beat05_07Tests.Arms_EmbeddedInCableOrLensAndInDeck" methodname="Arms_EmbeddedInCableOrLensAndInDeck" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1549199598" result="Failed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.026609" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <failure>
+                <message><![CDATA[  arm at s = 521 ends in bead S1
+  Expected: 0
+  But was:  -1
+]]></message>
+                <stack-trace><![CDATA[at Megastructure.Tests.Beat05_07Tests.Arms_EmbeddedInCableOrLensAndInDeck () [0x0050c] in W:\YouTube\Megastructures\3rd Megastructures\3rd Megastructures\Assets\_Game\Scripts\Tests\EditMode\Beat05_07Tests.cs:324
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="1071" name="Builders_RunWithoutMaterials" fullname="Megastructure.Tests.Beat05_07Tests.Builders_RunWithoutMaterials" methodname="Builders_RunWithoutMaterials" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1860839124" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.047461" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] Beat05_Spiral: RailPost material missing, posts not drawn
+[THREAD] Beat05_Spiral: deck 4670 v / 4647 t, rail 9168 t, 40 arms 1120 t, 470 posts in 0 instanced chunks
+[THREAD] Beat06_Clouds: Window material missing, window dots not drawn
+[THREAD] Beat06_Clouds: 9 beads 28000 t, 3 doors, 1292 window dots in 0 instanced draws
+[THREAD] Beat07_Top: pier/pad 1560 v / 1542 t, 3 arms, beacon 184 t + 2 halos
+]]></output>
+            </test-case>
+            <test-case id="1067" name="DeckToPier_JoinIsBitIdentical" fullname="Megastructure.Tests.Beat05_07Tests.DeckToPier_JoinIsBitIdentical" methodname="DeckToPier_JoinIsBitIdentical" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="13072064" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.011892" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="Doors_SillFlushRecessAndClearOfArms" fullname="Megastructure.Tests.Beat05_07Tests.Doors_SillFlushRecessAndClearOfArms" methodname="Doors_SillFlushRecessAndClearOfArms" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="45663987" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.000667" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1064" name="Helix_PassesBeadS1EquatorWithClearance" fullname="Megastructure.Tests.Beat05_07Tests.Helix_PassesBeadS1EquatorWithClearance" methodname="Helix_PassesBeadS1EquatorWithClearance" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1484600837" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.003644" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="Meshes_AreValid" fullname="Megastructure.Tests.Beat05_07Tests.Meshes_AreValid" methodname="Meshes_AreValid" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1089857282" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.043819" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="Rail_IsOneContinuousTubeThroughEveryPost" fullname="Megastructure.Tests.Beat05_07Tests.Rail_IsOneContinuousTubeThroughEveryPost" methodname="Rail_IsOneContinuousTubeThroughEveryPost" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="2001039258" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.038777" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="TScale4_ArmsCountAndStations" fullname="Megastructure.Tests.Beat05_07Tests.TScale4_ArmsCountAndStations" methodname="TScale4_ArmsCountAndStations" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="568685596" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.035298" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="TScale4_DeckWidthRadiusAndGrade" fullname="Megastructure.Tests.Beat05_07Tests.TScale4_DeckWidthRadiusAndGrade" methodname="TScale4_DeckWidthRadiusAndGrade" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1977366994" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.004277" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="TScale4_PlanLengthEndHeightAndCheckPoints" fullname="Megastructure.Tests.Beat05_07Tests.TScale4_PlanLengthEndHeightAndCheckPoints" methodname="TScale4_PlanLengthEndHeightAndCheckPoints" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="2138148876" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.005616" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="TScale4_RailHeight" fullname="Megastructure.Tests.Beat05_07Tests.TScale4_RailHeight" methodname="TScale4_RailHeight" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="364086546" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.002996" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1062" name="TScale5_Beads" fullname="Megastructure.Tests.Beat05_07Tests.TScale5_Beads" methodname="TScale5_Beads" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="1672448265" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.014976" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="TScale5_PierPadAndBeacon" fullname="Megastructure.Tests.Beat05_07Tests.TScale5_PierPadAndBeacon" methodname="TScale5_PierPadAndBeacon" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="2027548292" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.004894" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="Windows_OnTheFacetsInsideOneColumn" fullname="Megastructure.Tests.Beat05_07Tests.Windows_OnTheFacetsInsideOneColumn" methodname="Windows_OnTheFacetsInsideOneColumn" classname="Megastructure.Tests.Beat05_07Tests" runstate="Runnable" seed="925256816" result="Passed" start-time="2026-10-30 03:27:06Z" end-time="2026-10-30 03:27:06Z" duration="0.004516" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/<user>/AppData/LocalLow/Megastructures/Thread\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

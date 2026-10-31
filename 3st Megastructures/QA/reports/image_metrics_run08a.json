@@ -1,0 +1,1741 @@
+{
+ "run": "run08a",
+ "capture_dir": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a",
+ "status": "FAIL",
+ "meta": {
+  "tool": "Megastructure.QA.CaptureHarness",
+  "version": 1,
+  "started": "2026-10-30T05:18:59.176Z",
+  "finished": "2026-10-30T05:19:01.384Z",
+  "seconds": 2.20896,
+  "dir": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a",
+  "captureSet": "keyshots",
+  "env": {
+   "unity": "6000.6.0f1",
+   "isEditor": false,
+   "batchMode": false,
+   "platform": "WindowsPlayer",
+   "graphicsApi": "Direct3D11",
+   "gpu": "NVIDIA GeForce RTX 5070",
+   "gpuMemoryMB": 11944,
+   "cpu": "AMD Ryzen 7 5700X3D 8-Core Processor ",
+   "reversedZ": true,
+   "screen": "1920x1080",
+   "vSyncCount": 0,
+   "seed": 1,
+   "freezeDither": true,
+   "freezeAmbient": false,
+   "args": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\Builds\\Thread\\Thread.exe -screen-fullscreen 0 -screen-width 1920 -screen-height 1080 -logFile W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\Logs\\player-cap08a.log -report-dir W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\reports -capture W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a -capture-set keyshots -capture-only KF7b -freeze-dither"
+  },
+  "render": {
+   "colorFormat": "R16G16B16A16_SFloat",
+   "depthFormat": "D32_SFloat_S8_UInt",
+   "msaa": 4,
+   "path": "SubmitRenderRequest(StandardRequest) -> Blit R8G8B8A8_SRGB -> AsyncGPUReadback",
+   "asyncReadback": true,
+   "urpHdr": true,
+   "urpHdrPrecision": "_64Bits",
+   "urpMsaa": 4,
+   "cameraAllowMsaa": true,
+   "cameraAllowHdr": true,
+   "cameraNear": 0.1,
+   "cameraFar": 250000,
+   "pngRgb": true,
+   "writerThreads": 4,
+   "writerProbe": "encoding on 4 worker threads",
+   "flipRows": false,
+   "warmupFrames": 30,
+   "settleFrames": 3,
+   "pixelOrigin": "top-left (PNG rows); subject boxes use the same origin",
+   "luma": "Rec.709 weights on sRGB-encoded values, 0..1"
+  },
+  "gradeProbe": {
+   "meanAbsDiff": 4.990756,
+   "minDiff": 0.5,
+   "note": "grade active in the RT path"
+  },
+  "parity": {
+   "ran": false,
+   "ok": false,
+   "meanAbsDiff": null,
+   "meanAbsDiffFlipped": null,
+   "maxAbsDiff": -1,
+   "width": 0,
+   "height": 0,
+   "limit": 1,
+   "note": ""
+  },
+  "failures": 0,
+  "framingFailures": 0,
+  "lumaOutOfRange": 0,
+  "errorsLogged": 0,
+  "warningsLogged": 0
+ },
+ "spec_source": "ThreadConstants.cs",
+ "warnings": [
+  "beat03_stairs_KF3.png is not listed in report.json",
+  "beat03_stairs_KF3_1610.png is not listed in report.json",
+  "beat03_stairs_KF3_219.png is not listed in report.json",
+  "beat03_stairs_KF3_4k.png is not listed in report.json",
+  "beat03_stairs_KF3_s305.png is not listed in report.json",
+  "beat03_stairs_KF3_s305_4k.png is not listed in report.json",
+  "beat03_stairs_end.png is not listed in report.json",
+  "beat03_stairs_look_back.png is not listed in report.json",
+  "beat03_stairs_look_l.png is not listed in report.json",
+  "beat03_stairs_look_r.png is not listed in report.json",
+  "beat03_stairs_mid.png is not listed in report.json",
+  "beat03_stairs_start.png is not listed in report.json"
+ ],
+ "keyshot_coverage": {
+  "beat01_salt_KF1": [],
+  "beat02_avenue_KF2a": [],
+  "beat02_avenue_KF2b": [],
+  "beat02_avenue_KF2c": [],
+  "beat03_stairs_KF3": [
+   "0x0"
+  ],
+  "beat04_tower_KF4a": [],
+  "beat04_tower_KF4b": [],
+  "beat05_spiral_KF5a": [],
+  "beat05_spiral_KF5b": [],
+  "beat05_spiral_KF5c": [],
+  "beat05_spiral_KF5d": [],
+  "beat06_clouds_KF6a": [],
+  "beat06_clouds_KF6a2": [],
+  "beat06_clouds_KF6b": [],
+  "beat07_top_KF7a": [],
+  "beat07_top_KF7b": [
+   "1680x1050",
+   "1920x1080",
+   "2560x1080",
+   "3840x2160"
+  ],
+  "beat07_top_KF7c": []
+ },
+ "images": [
+  {
+   "tag": "beat03_stairs_KF3",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": "beat03_stairs_KF3",
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 2115 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6138,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "FAIL",
+     "value": 0.7563,
+     "threshold": "0.8..0.95",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 2115,
+    "luma_display": {
+     "mean": 0.7562989592552185,
+     "p1": 0.613764762878418,
+     "p50": 0.7356839776039124,
+     "p99": 0.8901129961013794,
+     "std": 0.09462099522352219
+    },
+    "luma_linear": {
+     "mean": 0.5461563467979431,
+     "p1": 0.33805954456329346,
+     "p50": 0.5025190711021423,
+     "p99": 0.7684300541877747,
+     "std": 0.1502053290605545
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_KF3_1610",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3_1610.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": "beat03_stairs_KF3",
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1680x1050",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 2002 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6138,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "FAIL",
+     "value": 0.7564,
+     "threshold": "0.8..0.95",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 2002,
+    "luma_display": {
+     "mean": 0.7563852071762085,
+     "p1": 0.613764762878418,
+     "p50": 0.734850287437439,
+     "p99": 0.8901129961013794,
+     "std": 0.09572423994541168
+    },
+    "luma_linear": {
+     "mean": 0.5466057658195496,
+     "p1": 0.33805954456329346,
+     "p50": 0.5008163452148438,
+     "p99": 0.7684300541877747,
+     "std": 0.1520746648311615
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1680,
+    1050
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_KF3_219",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3_219.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": "beat03_stairs_KF3",
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "2560x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 2115 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.614,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "FAIL",
+     "value": 0.7569,
+     "threshold": "0.8..0.95",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 2115,
+    "luma_display": {
+     "mean": 0.7568590641021729,
+     "p1": 0.6140478849411011,
+     "p50": 0.7418596744537354,
+     "p99": 0.8898298740386963,
+     "std": 0.09102750569581985
+    },
+    "luma_linear": {
+     "mean": 0.5460454821586609,
+     "p1": 0.3383242189884186,
+     "p50": 0.5113943815231323,
+     "p99": 0.767914354801178,
+     "std": 0.14420755207538605
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    2560,
+    1080
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_KF3_4k",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3_4k.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": "beat03_stairs_KF3",
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "3840x2160",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 8452 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6138,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "FAIL",
+     "value": 0.7563,
+     "threshold": "0.8..0.95",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 8452,
+    "luma_display": {
+     "mean": 0.7563047409057617,
+     "p1": 0.613764762878418,
+     "p50": 0.7371043562889099,
+     "p99": 0.8901129961013794,
+     "std": 0.09463141113519669
+    },
+    "luma_linear": {
+     "mean": 0.5461680293083191,
+     "p1": 0.33805954456329346,
+     "p50": 0.5039989352226257,
+     "p99": 0.7684300541877747,
+     "std": 0.15021109580993652
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    3840,
+    2160
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_KF3_s305",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3_s305.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6051,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.7493,
+     "threshold": null,
+     "note": "display"
+    },
+    {
+     "name": "stats[centre_60x60] std",
+     "status": "FAIL",
+     "value": 0.0834,
+     "threshold": "< 0.04",
+     "note": null
+    },
+    {
+     "name": "stats[whole_frame] std",
+     "status": "FAIL",
+     "value": 0.0971,
+     "threshold": "< 0.07",
+     "note": null
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.7493289113044739,
+     "p1": 0.6050878763198853,
+     "p50": 0.7199662923812866,
+     "p99": 0.8895624279975891,
+     "std": 0.09706602990627289
+    },
+    "luma_linear": {
+     "mean": 0.5358843207359314,
+     "p1": 0.32753536105155945,
+     "p50": 0.479042112827301,
+     "p99": 0.7672610282897949,
+     "std": 0.15238255262374878
+    },
+    "band_score_worst": null,
+    "stats": {
+     "centre_60x60": {
+      "mean": 0.7445734143257141,
+      "std": 0.08340595662593842,
+      "rect": [
+       384,
+       216,
+       1536,
+       864
+      ]
+     },
+     "whole_frame": {
+      "mean": 0.7493289113044739,
+      "std": 0.09706602990627289,
+      "rect": [
+       0,
+       0,
+       1920,
+       1080
+      ]
+     }
+    }
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_KF3_s305_4k",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_KF3_s305_4k.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "3840x2160",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6051,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.7493,
+     "threshold": null,
+     "note": "display"
+    },
+    {
+     "name": "stats[centre_60x60] std",
+     "status": "FAIL",
+     "value": 0.0835,
+     "threshold": "< 0.04",
+     "note": null
+    },
+    {
+     "name": "stats[whole_frame] std",
+     "status": "FAIL",
+     "value": 0.0971,
+     "threshold": "< 0.07",
+     "note": null
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.7493047118186951,
+     "p1": 0.6050878763198853,
+     "p50": 0.7199819684028625,
+     "p99": 0.8895624279975891,
+     "std": 0.097088523209095
+    },
+    "luma_linear": {
+     "mean": 0.5358523726463318,
+     "p1": 0.32753536105155945,
+     "p50": 0.479373961687088,
+     "p99": 0.7672610282897949,
+     "std": 0.15241573750972748
+    },
+    "band_score_worst": null,
+    "stats": {
+     "centre_60x60": {
+      "mean": 0.7445223331451416,
+      "std": 0.0834612026810646,
+      "rect": [
+       768,
+       432,
+       3072,
+       1728
+      ]
+     },
+     "whole_frame": {
+      "mean": 0.7493047118186951,
+      "std": 0.097088523209095,
+      "rect": [
+       0,
+       0,
+       3840,
+       2160
+      ]
+     }
+    }
+   },
+   "size": [
+    3840,
+    2160
+   ],
+   "status": "FAIL"
+  },
+  {
+   "tag": "beat03_stairs_end",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_end.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.5798,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.7753,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.7752788066864014,
+     "p1": 0.5798392295837402,
+     "p50": 0.7780910134315491,
+     "p99": 0.8811529874801636,
+     "std": 0.07896365970373154
+    },
+    "luma_linear": {
+     "mean": 0.5729241371154785,
+     "p1": 0.29954978823661804,
+     "p50": 0.5680238008499146,
+     "p99": 0.7510432600975037,
+     "std": 0.12244398891925812
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat03_stairs_look_back",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_look_back.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.8318,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.8744,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.8744212985038757,
+     "p1": 0.8318243622779846,
+     "p50": 0.8752604126930237,
+     "p99": 0.8976730108261108,
+     "std": 0.013554682955145836
+    },
+    "luma_linear": {
+     "mean": 0.7385171055793762,
+     "p1": 0.659919023513794,
+     "p50": 0.7398493885993958,
+     "p99": 0.7832942605018616,
+     "std": 0.025563862174749374
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat03_stairs_look_l",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_look_l.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6202,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.8184,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.8184114694595337,
+     "p1": 0.6202236413955688,
+     "p50": 0.8623788356781006,
+     "p99": 0.8937514424324036,
+     "std": 0.08028038591146469
+    },
+    "luma_linear": {
+     "mean": 0.6454784870147705,
+     "p1": 0.34511032700538635,
+     "p50": 0.7154799699783325,
+     "p99": 0.7755820751190186,
+     "std": 0.13119636476039886
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat03_stairs_look_r",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_look_r.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.6202,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.8181,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.8180913925170898,
+     "p1": 0.6202236413955688,
+     "p50": 0.8623788356781006,
+     "p99": 0.8937514424324036,
+     "std": 0.07999908924102783
+    },
+    "luma_linear": {
+     "mean": 0.6448761224746704,
+     "p1": 0.34511032700538635,
+     "p50": 0.7154799699783325,
+     "p99": 0.7755820751190186,
+     "std": 0.13066619634628296
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat03_stairs_mid",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_mid.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.5981,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.7428,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.7428387999534607,
+     "p1": 0.5980784893035889,
+     "p50": 0.7087836265563965,
+     "p99": 0.8898298740386963,
+     "std": 0.09512642025947571
+    },
+    "luma_linear": {
+     "mean": 0.5254746675491333,
+     "p1": 0.319487988948822,
+     "p50": 0.46354517340660095,
+     "p99": 0.767914354801178,
+     "std": 0.14962223172187805
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat03_stairs_start",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat03_stairs_start.png",
+   "beat": 3,
+   "s": null,
+   "keyshot": null,
+   "checks": [
+    {
+     "name": "size",
+     "status": "SKIP",
+     "value": "1920x1080",
+     "threshold": null,
+     "note": "no requested size in report.json"
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode all), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.05 %",
+     "note": "any channel at 255; 0 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.5823,
+     "threshold": ">= 0.25",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "INFO",
+     "value": 0.7343,
+     "threshold": null,
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 0,
+    "luma_display": {
+     "mean": 0.7343490719795227,
+     "p1": 0.582324743270874,
+     "p50": 0.6952839493751526,
+     "p99": 0.9147796630859375,
+     "std": 0.11225168406963348
+    },
+    "luma_linear": {
+     "mean": 0.5184528827667236,
+     "p1": 0.30346477031707764,
+     "p50": 0.44495752453804016,
+     "p99": 0.8172889947891235,
+     "std": 0.17702864110469818
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat07_top_KF7b",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat07_top_KF7b.png",
+   "beat": 7,
+   "s": 858.0,
+   "keyshot": "beat07_top_KF7b",
+   "checks": [
+    {
+     "name": "size",
+     "status": "PASS",
+     "value": "1920x1080",
+     "threshold": "1920x1080",
+     "note": null
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode clipped), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.15 %",
+     "note": "any channel at 255; 5979 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.0662,
+     "threshold": ">= 0.01",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "PASS",
+     "value": 0.2715,
+     "threshold": "0.08..0.3",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 5979,
+    "luma_display": {
+     "mean": 0.27154484391212463,
+     "p1": 0.06617411971092224,
+     "p50": 0.1648784577846527,
+     "p99": 0.82662433385849,
+     "std": 0.1988566368818283
+    },
+    "luma_linear": {
+     "mean": 0.10326942056417465,
+     "p1": 0.005835224408656359,
+     "p50": 0.02406996674835682,
+     "p99": 0.6545442342758179,
+     "std": 0.1418961137533188
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1920,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat07_top_KF7b_1610",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat07_top_KF7b_1610.png",
+   "beat": 7,
+   "s": 858.0,
+   "keyshot": "beat07_top_KF7b",
+   "checks": [
+    {
+     "name": "size",
+     "status": "PASS",
+     "value": "1680x1050",
+     "threshold": "1680x1050",
+     "note": null
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode clipped), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.15 %",
+     "note": "any channel at 255; 5654 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.0695,
+     "threshold": ">= 0.01",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "PASS",
+     "value": 0.2851,
+     "threshold": "0.08..0.3",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 5654,
+    "luma_display": {
+     "mean": 0.2850716710090637,
+     "p1": 0.06952942162752151,
+     "p50": 0.1747780591249466,
+     "p99": 0.8297122120857239,
+     "std": 0.20261412858963013
+    },
+    "luma_linear": {
+     "mean": 0.11137046664953232,
+     "p1": 0.006156089249998331,
+     "p50": 0.026342350989580154,
+     "p99": 0.659843921661377,
+     "std": 0.1462777853012085
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    1680,
+    1050
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat07_top_KF7b_219",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat07_top_KF7b_219.png",
+   "beat": 7,
+   "s": 858.0,
+   "keyshot": "beat07_top_KF7b",
+   "checks": [
+    {
+     "name": "size",
+     "status": "PASS",
+     "value": "2560x1080",
+     "threshold": "2560x1080",
+     "note": null
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode clipped), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.15 %",
+     "note": "any channel at 255; 5979 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.0648,
+     "threshold": ">= 0.01",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "PASS",
+     "value": 0.2358,
+     "threshold": "0.08..0.3",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 5979,
+    "luma_display": {
+     "mean": 0.23582637310028076,
+     "p1": 0.06480549275875092,
+     "p50": 0.14722119271755219,
+     "p99": 0.8229858875274658,
+     "std": 0.18539901077747345
+    },
+    "luma_linear": {
+     "mean": 0.08236770331859589,
+     "p1": 0.005761194974184036,
+     "p50": 0.020122084766626358,
+     "p99": 0.6479932069778442,
+     "std": 0.12899042665958405
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    2560,
+    1080
+   ],
+   "status": "PASS"
+  },
+  {
+   "tag": "beat07_top_KF7b_4k",
+   "file": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\run08a\\beat07_top_KF7b_4k.png",
+   "beat": 7,
+   "s": 858.0,
+   "keyshot": "beat07_top_KF7b",
+   "checks": [
+    {
+     "name": "size",
+     "status": "PASS",
+     "value": "3840x2160",
+     "threshold": "3840x2160",
+     "note": null
+    },
+    {
+     "name": "black frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels <= code 3",
+     "note": null
+    },
+    {
+     "name": "white frame",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "< 0.98 of pixels >= code 252",
+     "note": null
+    },
+    {
+     "name": "magenta",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0 px",
+     "note": "ratio 0 (exact 255,0,255: 0 px)"
+    },
+    {
+     "name": "NaN-like pixels",
+     "status": "PASS",
+     "value": 0,
+     "threshold": "0",
+     "note": "bright 0 (mode clipped), dark 0"
+    },
+    {
+     "name": "clipped highlights",
+     "status": "PASS",
+     "value": 0.0,
+     "threshold": "<= 0.15 %",
+     "note": "any channel at 255; 23915 px excluded"
+    },
+    {
+     "name": "luma p1",
+     "status": "PASS",
+     "value": 0.0662,
+     "threshold": ">= 0.01",
+     "note": "display"
+    },
+    {
+     "name": "mean luma",
+     "status": "PASS",
+     "value": 0.2712,
+     "threshold": "0.08..0.3",
+     "note": "display"
+    }
+   ],
+   "metrics": {
+    "black_frac": 0.0,
+    "white_frac": 0.0,
+    "magenta_strict": 0,
+    "magenta_like": 0,
+    "nan_like_bright": 0,
+    "nan_like_dark": 0,
+    "nan_like_pos": [],
+    "clipped_pct": 0.0,
+    "clipped_all_pct": 0.0,
+    "clip_excluded_px": 23915,
+    "luma_display": {
+     "mean": 0.27124813199043274,
+     "p1": 0.06617411971092224,
+     "p50": 0.16484235227108002,
+     "p99": 0.82662433385849,
+     "std": 0.19881263375282288
+    },
+    "luma_linear": {
+     "mean": 0.103126160800457,
+     "p1": 0.005835224408656359,
+     "p50": 0.02406996674835682,
+     "p99": 0.6545442342758179,
+     "std": 0.1419275999069214
+    },
+    "band_score_worst": null
+   },
+   "size": [
+    3840,
+    2160
+   ],
+   "status": "PASS"
+  }
+ ]
+}

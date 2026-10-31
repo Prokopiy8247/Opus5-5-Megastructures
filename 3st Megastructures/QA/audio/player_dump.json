@@ -1,0 +1,1 @@
+{"wav": "player_dump", "sampleRate": 48000, "channels": 2, "frames": 480000, "s0": 329.840, "s1": 342.596, "rmsDbfs": -18.66, "peakDbfs": -5.78, "dcL": -5.742E-005, "dcR": -1.217E-004, "maxStep": 0.01371, "nonFinite": 0, "callbacks": 713, "generatorFallback": false, "maxCallbackMs": 5.595}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Passed" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5,2220815">
+  <test-suite type="TestSuite" id="1000" name="Thread" fullname="Thread" runstate="Runnable" testcasecount="194" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5.222082" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1210" name="Megastructure.Tests.EditMode.dll" fullname="W:/YouTube/Megastructures/3rd Megastructures/3rd Megastructures/Library/ScriptAssemblies/Megastructure.Tests.EditMode.dll" runstate="Runnable" testcasecount="194" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5.211867" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="14216" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1211" name="Megastructure" fullname="Megastructure" runstate="Runnable" testcasecount="194" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5.205724" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1212" name="Tests" fullname="Megastructure.Tests" runstate="Runnable" testcasecount="194" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5.203352" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1143" name="ProjectTests" fullname="Megastructure.Tests.ProjectTests" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="5.199948" total="12" passed="12" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1149" name="BuildSettings_MainIsTheOnlyEnabledScene" fullname="Megastructure.Tests.ProjectTests.BuildSettings_MainIsTheOnlyEnabledScene" methodname="BuildSettings_MainIsTheOnlyEnabledScene" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="120607149" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:26Z" duration="0.015090" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1150" name="MainScene_HasNoMissingScriptsAndFollowsTheContract" fullname="Megastructure.Tests.ProjectTests.MainScene_HasNoMissingScriptsAndFollowsTheContract" methodname="MainScene_HasNoMissingScriptsAndFollowsTheContract" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1090161214" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:26Z" duration="0.026425" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1151" name="MaterialLibrary_EveryFieldAssignedAndContractHolds" fullname="Megastructure.Tests.ProjectTests.MaterialLibrary_EveryFieldAssignedAndContractHolds" methodname="MaterialLibrary_EveryFieldAssignedAndContractHolds" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1734658575" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:26Z" duration="0.052233" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1155" name="Pipeline_IsConfigured" fullname="Megastructure.Tests.ProjectTests.Pipeline_IsConfigured" methodname="Pipeline_IsConfigured" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="2044333093" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:26Z" duration="0.002165" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1154" name="PlayerSettings_AreConfigured" fullname="Megastructure.Tests.ProjectTests.PlayerSettings_AreConfigured" methodname="PlayerSettings_AreConfigured" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1304260523" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:26Z" duration="0.007570" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] PlayerSettings: APIs [Direct3D11], splash False
+]]></output>
+            </test-case>
+            <test-case id="1152" name="Shaders_ExistAndCompileWithoutErrors" fullname="Megastructure.Tests.ProjectTests.Shaders_ExistAndCompileWithoutErrors" methodname="Shaders_ExistAndCompileWithoutErrors" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1320826892" result="Passed" start-time="2026-10-30 03:27:26Z" end-time="2026-10-30 03:27:31Z" duration="4.849378" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1153" name="TDepth_ReversedZAndFloatDepthFormats" fullname="Megastructure.Tests.ProjectTests.TDepth_ReversedZAndFloatDepthFormats" methodname="TDepth_ReversedZAndFloatDepthFormats" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="542944288" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.002169" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] T-DEPTH device Direct3D11, SystemInfo.usesReversedZBuffer = True
+[THREAD] T-DEPTH attachment Default -> D32_SFloat_S8_UInt, texture Default -> D32_SFloat_S8_UInt
+]]></output>
+            </test-case>
+            <test-case id="1145" name="TPal_GeneratedHlslEqualsShaderGen" fullname="Megastructure.Tests.ProjectTests.TPal_GeneratedHlslEqualsShaderGen" methodname="TPal_GeneratedHlslEqualsShaderGen" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="2005504994" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.009571" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1144" name="TPal_MaterialColoursArePaletteTokensOrLerps" fullname="Megastructure.Tests.ProjectTests.TPal_MaterialColoursArePaletteTokensOrLerps" methodname="TPal_MaterialColoursArePaletteTokensOrLerps" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="398902359" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.015515" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] T-PAL materials: 29 materials, 98 colour properties checked
+]]></output>
+            </test-case>
+            <test-case id="1146" name="TPal_PaletteAssetEqualsTable" fullname="Megastructure.Tests.ProjectTests.TPal_PaletteAssetEqualsTable" methodname="TPal_PaletteAssetEqualsTable" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1958307474" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.001607" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1147" name="TPal_ShaderGenEqualsPythonGenerator" fullname="Megastructure.Tests.ProjectTests.TPal_ShaderGenEqualsPythonGenerator" methodname="TPal_ShaderGenEqualsPythonGenerator" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1539996643" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.187004" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1148" name="TPal_ShaderLiteralsArePaletteMacrosOrMarked" fullname="Megastructure.Tests.ProjectTests.TPal_ShaderLiteralsArePaletteMacrosOrMarked" methodname="TPal_ShaderLiteralsArePaletteMacrosOrMarked" classname="Megastructure.Tests.ProjectTests" runstate="Runnable" seed="1055949856" result="Passed" start-time="2026-10-30 03:27:31Z" end-time="2026-10-30 03:27:31Z" duration="0.009859" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[THREAD] T-PAL shaders: 11 files scanned, 0 unmarked float3/float4 literals, 0 half literals noted
+Saving results to: C:/Users/<user>/AppData/LocalLow/Megastructures/Thread\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

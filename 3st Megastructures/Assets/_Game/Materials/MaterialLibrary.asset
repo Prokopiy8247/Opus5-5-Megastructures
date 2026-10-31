@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a798b51cede4e44fb1a1846ebd771bd, type: 3}
+  m_Name: MaterialLibrary
+  m_EditorClassIdentifier: Megastructure.Runtime::Megastructure.MaterialLibrary
+  Salt: {fileID: 2100000, guid: bbdeb8af40f626d4b9a4eeccee91cddd, type: 2}
+  SaltShadow: {fileID: 2100000, guid: e0ceffdc313aa9d4caef5e6b9aedb681, type: 2}
+  RobeTeal: {fileID: 2100000, guid: 3a54c2dd233af9b498a63ac9f92df9a9, type: 2}
+  RobeCoral: {fileID: 2100000, guid: 0343acb1166c6094dbcec15ff6a010f2, type: 2}
+  RobeHem: {fileID: 2100000, guid: b497a4ef3609fad4692e9921ce6ee048, type: 2}
+  HoodInk: {fileID: 2100000, guid: 1bc7ec6d2b1c2e748b72455297d0321c, type: 2}
+  FacePlate: {fileID: 2100000, guid: af0d14e161d6a854dabeb641e74124af, type: 2}
+  Stone: {fileID: 2100000, guid: 979b9b925e953c3429bb82370f790ee2, type: 2}
+  Bollard: {fileID: 2100000, guid: 1d849f1f027d0b54c958be19423ab66b, type: 2}
+  DoorFrame: {fileID: 2100000, guid: 2c702f2c801ead844aaeda133e14acab, type: 2}
+  Steps: {fileID: 2100000, guid: 4df0961a97e78c447aab75b5fe616f25, type: 2}
+  Stringer: {fileID: 2100000, guid: 76ead491f88f6ed44a16fbe57fd4e4f6, type: 2}
+  Terrace: {fileID: 2100000, guid: 2e6b918ba5806ae4c98ed0fbff28e6e0, type: 2}
+  Cable: {fileID: 2100000, guid: e60778cbbfcd48e49b7c7993d6a740bf, type: 2}
+  Collar: {fileID: 2100000, guid: 14b0c29de41b50f49b48697059e01ffa, type: 2}
+  Deck: {fileID: 2100000, guid: f728a8360d7a842419c706bc2645b1d5, type: 2}
+  Arm: {fileID: 2100000, guid: 0badf86753bcdec4f836201209f39880, type: 2}
+  RailPost: {fileID: 2100000, guid: aa7f7b18fe8717c4eb7ee46d7dff63ba, type: 2}
+  Handrail: {fileID: 2100000, guid: 5f5ca4491f7eb604cb8d77a6cee7be07, type: 2}
+  BeadMint: {fileID: 2100000, guid: 23280feb2d8deb0408b150bd3e66cba6, type: 2}
+  BeadPeach: {fileID: 2100000, guid: 26e501d26c35203418246ddf528ac31e, type: 2}
+  BeadLilac: {fileID: 2100000, guid: 9ffc16a76c2662748ba8a827f77b2a87, type: 2}
+  BeadDoor: {fileID: 2100000, guid: 42e83a00e3a84ca41a3b3951593c6ed5, type: 2}
+  Window: {fileID: 2100000, guid: 9233bc42171ad294bb528a78c1ccc1dd, type: 2}
+  BeaconPillar: {fileID: 2100000, guid: 577679230d5c9654db0fc2c32f72e19b, type: 2}
+  BeaconCrystal: {fileID: 2100000, guid: e29558019392d7048b188384f3c33aa5, type: 2}
+  BeaconHalo: {fileID: 2100000, guid: 9ed17b061a46afd4aa4fffd356b4b125, type: 2}
+  ThreadRibbon: {fileID: 2100000, guid: a31e07848eb9b204db111567322877e6, type: 2}
+  Sky: {fileID: 2100000, guid: 312c35f199d010145aab43013e830e4c, type: 2}
+  Grade: {fileID: 2100000, guid: fea437b86eca750478dcda1dbfdf5b4e, type: 2}

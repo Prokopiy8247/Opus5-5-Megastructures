@@ -1,0 +1,197 @@
+{
+ "run": "enc_beat01_sky",
+ "status": "FAIL",
+ "ffmpeg": "C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+ "encoders": [
+  "libvpx-vp9",
+  "libx264"
+ ],
+ "safety_factor": 1.0,
+ "sequences": [
+  {
+   "name": "enc_beat01_sky",
+   "dir": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\enc_enc_beat01_sky\\enc_beat01_sky",
+   "checks": [
+    {
+     "name": "x264_crf23[cli0]",
+     "status": "FAIL",
+     "value": 6.273,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 20, resid rms 0.627 pp 2.524 (source score 0.459), frame 513"
+    },
+    {
+     "name": "x264_crf30[cli0]",
+     "status": "FAIL",
+     "value": 10.284,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 23, resid rms 1.028 pp 4.569 (source score 0.459), frame 0"
+    },
+    {
+     "name": "vp9_crf31[cli0]",
+     "status": "FAIL",
+     "value": 6.499,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 23, resid rms 0.650 pp 2.521 (source score 0.459), frame 513"
+    },
+    {
+     "name": "vp9_crf40[cli0]",
+     "status": "FAIL",
+     "value": 6.174,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 24, resid rms 0.617 pp 3.106 (source score 0.459), frame 513"
+    }
+   ],
+   "variants": [
+    {
+     "codec": "x264",
+     "crf": 23,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\x264_crf23.mp4",
+     "encode_s": 8.2,
+     "kbps": 535.5,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.8321831396283437,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 6,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 20,
+       "resid_rms": 0.627335724538527,
+       "resid_pp": 2.523567385993573,
+       "slope_abs_max": 0.10386002355396338,
+       "score": 6.27335724538527,
+       "pass": false,
+       "frame": 513
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf23_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf23_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf23_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "x264",
+     "crf": 30,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\x264_crf30.mp4",
+     "encode_s": 7.1,
+     "kbps": 186.0,
+     "decoded_frames": 600,
+     "mean_abs_error": 1.0816224601337447,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 6,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 23,
+       "resid_rms": 1.0284334809151232,
+       "resid_pp": 4.568946081583334,
+       "slope_abs_max": 0.10611800436366652,
+       "score": 10.28433480915123,
+       "pass": false,
+       "frame": 0
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf30_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf30_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\x264_crf30_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 31,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\vp9_crf31.webm",
+     "encode_s": 30.1,
+     "kbps": 223.5,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.7184986255787038,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 6,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 23,
+       "resid_rms": 0.6498636912354635,
+       "resid_pp": 2.5208494812627293,
+       "slope_abs_max": 0.10342709477890527,
+       "score": 6.498636912354635,
+       "pass": false,
+       "frame": 513
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf31_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf31_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf31_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 40,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\vp9_crf40.webm",
+     "encode_s": 17.5,
+     "kbps": 127.1,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.7940885416666668,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 6,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 24,
+       "resid_rms": 0.6174035788275679,
+       "resid_pp": 3.106222833911829,
+       "slope_abs_max": 0.10469858683055343,
+       "score": 6.1740357882756784,
+       "pass": false,
+       "frame": 513
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf40_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf40_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat01_sky\\enc_beat01_sky\\crops\\vp9_crf40_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    }
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "fps": 60.0,
+   "frames_encoded": 600,
+   "regions": [
+    {
+     "name": "cli0",
+     "rect": [
+      1500,
+      20,
+      1900,
+      300
+     ],
+     "dir": "v"
+    }
+   ],
+   "source": {
+    "cli0": {
+     "direction": "v",
+     "n_strips": 6,
+     "steps_per_1000": 0.0,
+     "longest_run_px": 1,
+     "resid_rms": 0.04588466542009029,
+     "resid_pp": 0.21348137766619857,
+     "slope_abs_max": 0.10267959213446597,
+     "score": 0.45884665420090287,
+     "pass": true,
+     "frame": 171
+    }
+   },
+   "status": "FAIL"
+  }
+ ]
+}

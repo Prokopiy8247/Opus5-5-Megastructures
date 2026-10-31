@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ThreadRibbon
+  m_Shader: {fileID: 4800000, guid: d8bcf6a37414f0a45bfb9c0af8b1bf3b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _LINE_RIBBON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
+  - DepthOnly
+  - DepthNormals
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AlphaFloor: 0.35
+    - _AlphaToMask: 0
+    - _BelowFade: 0
+    - _BelowHaze: 1
+    - _CableShadowOn: 0
+    - _Cull: 0
+    - _DstBlend: 10
+    - _FadeFar: 0
+    - _FadeNear: 0
+    - _LineWidth: 100
+    - _MinWidthPx: 0
+    - _SrcBlend: 1
+    - _UseShadeColor: 1
+    - _ZWrite: 0
+    m_Colors:
+    - _BaseColor: {r: 0.18039212, g: 0.5490196, b: 0.5411764, a: 1}
+    - _ShadeColor: {r: 0.105882324, g: 0.33333328, b: 0.37647057, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

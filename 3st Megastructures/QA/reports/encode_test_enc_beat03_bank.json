@@ -1,0 +1,197 @@
+{
+ "run": "enc_beat03_bank",
+ "status": "FAIL",
+ "ffmpeg": "C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+ "encoders": [
+  "libvpx-vp9",
+  "libx264"
+ ],
+ "safety_factor": 1.0,
+ "sequences": [
+  {
+   "name": "enc_beat03_bank",
+   "dir": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\enc_enc_beat03_bank\\enc_beat03_bank",
+   "checks": [
+    {
+     "name": "x264_crf23[cli0]",
+     "status": "FAIL",
+     "value": 4.712,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 13, resid rms 0.344 pp 2.827 (source score 0.715), frame 0"
+    },
+    {
+     "name": "x264_crf30[cli0]",
+     "status": "FAIL",
+     "value": 5.154,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 20, resid rms 0.515 pp 2.599 (source score 0.715), frame 257"
+    },
+    {
+     "name": "vp9_crf31[cli0]",
+     "status": "FAIL",
+     "value": 5.431,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 20, resid rms 0.543 pp 2.846 (source score 0.715), frame 86"
+    },
+    {
+     "name": "vp9_crf40[cli0]",
+     "status": "FAIL",
+     "value": 5.666,
+     "threshold": "score <= 1",
+     "note": "steps/1000 0.00, run 17, resid rms 0.567 pp 2.477 (source score 0.715), frame 86"
+    }
+   ],
+   "variants": [
+    {
+     "codec": "x264",
+     "crf": 23,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\x264_crf23.mp4",
+     "encode_s": 13.7,
+     "kbps": 1152.2,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.8657821140367798,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 23,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 13,
+       "resid_rms": 0.34406877945452335,
+       "resid_pp": 2.827423744497736,
+       "slope_abs_max": 0.013316732144029182,
+       "score": 4.712372907496227,
+       "pass": false,
+       "frame": 0
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf23_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf23_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf23_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "x264",
+     "crf": 30,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\x264_crf30.mp4",
+     "encode_s": 13.6,
+     "kbps": 575.4,
+     "decoded_frames": 600,
+     "mean_abs_error": 1.2260026443544239,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 23,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 20,
+       "resid_rms": 0.5153701724084501,
+       "resid_pp": 2.598727864960125,
+       "slope_abs_max": 0.01193528398500327,
+       "score": 5.153701724084501,
+       "pass": false,
+       "frame": 257
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf30_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf30_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\x264_crf30_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 31,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\vp9_crf31.webm",
+     "encode_s": 22.5,
+     "kbps": 409.0,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.7355569621270576,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 23,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 20,
+       "resid_rms": 0.5430898689735202,
+       "resid_pp": 2.84574263846622,
+       "slope_abs_max": 0.011651171608446143,
+       "score": 5.430898689735201,
+       "pass": false,
+       "frame": 86
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf31_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf31_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf31_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 40,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\vp9_crf40.webm",
+     "encode_s": 15.4,
+     "kbps": 221.9,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.8235964224858539,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 23,
+       "steps_per_1000": 0.0,
+       "longest_run_px": 17,
+       "resid_rms": 0.5666298316578492,
+       "resid_pp": 2.4765850728832106,
+       "slope_abs_max": 0.012408069153101997,
+       "score": 5.666298316578492,
+       "pass": false,
+       "frame": 86
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf40_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf40_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat03_bank\\enc_beat03_bank\\crops\\vp9_crf40_cli0_f00342_x8.png"
+     ],
+     "video_kept": false
+    }
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "fps": 60.0,
+   "frames_encoded": 600,
+   "regions": [
+    {
+     "name": "cli0",
+     "rect": [
+      200,
+      40,
+      1700,
+      380
+     ],
+     "dir": "v"
+    }
+   ],
+   "source": {
+    "cli0": {
+     "direction": "v",
+     "n_strips": 23,
+     "steps_per_1000": 0.0,
+     "longest_run_px": 1,
+     "resid_rms": 0.07149596349706293,
+     "resid_pp": 0.38289033840703723,
+     "slope_abs_max": 0.01082641778780978,
+     "score": 0.7149596349706292,
+     "pass": true,
+     "frame": 599
+    }
+   },
+   "status": "FAIL"
+  }
+ ]
+}

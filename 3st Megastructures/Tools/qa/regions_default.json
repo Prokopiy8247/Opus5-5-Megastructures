@@ -1,0 +1,157 @@
+{
+  "_doc": [
+    "Default analysis regions per capture tag for Tools/qa (format: see the docstring of Tools/qa/qa_common.py).",
+    "Coordinates are pixels at 1920 x 1080 ('ref') scaled per axis to the image, unless 'units' says otherwise.",
+    "Entries apply to 16:9 images unless 'aspect' says otherwise. report.json 'regions' per shot are merged on top.",
+    "Sources: MASTER_PROMPT 14.10.2 (key-shot notes), 14.5.1 KF1 (bank top 12.8-16.4 deg, thread x ~1115, top 44 %),",
+    "14.5.3 acceptance (2) (s = 305 white-out), 14.5.7 acceptance (4) (beacon core excluded from clipping).",
+    "KF1 thread probe at x 978 and the banding strip left of the robes since D-026 (thread bearing offset) and the colossus layout of run07."
+  ],
+  "regions": [
+    {
+      "match": "beat0[1-6]_*",
+      "aspect": "any",
+      "exclude": [
+        {
+          "name": "sun",
+          "azEl": "sun",
+          "clipDeg": 1.2,
+          "bandDeg": 4.0
+        }
+      ]
+    },
+    {
+      "match": "beat01_salt_KF1*",
+      "aspect": "any",
+      "exclude": [
+        {
+          "name": "sun_core",
+          "azEl": "sun",
+          "clipDeg": 1.2,
+          "bandDeg": 4.0,
+          "coreDeg": 0.9,
+          "coreMax": 0.98
+        }
+      ]
+    },
+    {
+      "match": "beat01_salt_KF1*",
+      "aspect": "16:9",
+      "banding": [
+        {
+          "name": "sky_above_bank",
+          "rect": [
+            20,
+            20,
+            470,
+            240
+          ],
+          "dir": "v"
+        }
+      ],
+      "lines": [
+        {
+          "name": "thread",
+          "x": 978,
+          "tol": 16,
+          "y0": 150,
+          "h": 256,
+          "w": 40,
+          "widthMin1080": 1.75,
+          "widthMax1080": 2.6,
+          "contrastMin": 0.08
+        }
+      ]
+    },
+    {
+      "match": "beat03_stairs_*s305*",
+      "aspect": "any",
+      "stats": [
+        {
+          "name": "centre_60x60",
+          "rect": [
+            0.2,
+            0.2,
+            0.8,
+            0.8
+          ],
+          "units": "frac",
+          "stdMax": 0.04
+        },
+        {
+          "name": "whole_frame",
+          "rect": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "units": "frac",
+          "stdMax": 0.07
+        }
+      ]
+    },
+    {
+      "match": "beat06_clouds_KF6a",
+      "aspect": "any",
+      "horizon": [
+        {
+          "name": "sea_sky_seam_left",
+          "dipDeg": 2.77,
+          "cols": [
+            0.06,
+            0.3
+          ],
+          "gapPx": 3,
+          "bandPx": 4,
+          "tol": 0.02
+        }
+      ]
+    },
+    {
+      "match": "beat06_clouds_KF6a_*",
+      "aspect": "any",
+      "horizon": [
+        {
+          "name": "sea_sky_seam_left",
+          "dipDeg": 2.77,
+          "cols": [
+            0.06,
+            0.3
+          ],
+          "gapPx": 3,
+          "bandPx": 4,
+          "tol": 0.02
+        }
+      ]
+    },
+    {
+      "match": "beat06_clouds_KF6a2*",
+      "aspect": "any",
+      "horizon": [
+        {
+          "name": "sea_sky_seam_left",
+          "dipDeg": 5.09,
+          "cols": [
+            0.06,
+            0.3
+          ],
+          "gapPx": 3,
+          "bandPx": 4,
+          "tol": 0.02
+        }
+      ]
+    },
+    {
+      "match": "beat07_*",
+      "aspect": "any",
+      "exclude": [
+        {
+          "name": "beacon_core",
+          "world": "beacon",
+          "clipDeg": 3.0
+        }
+      ]
+    }
+  ]
+}

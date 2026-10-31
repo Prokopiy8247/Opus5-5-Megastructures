@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190b34c9abe5bb044959cb05f2d851a5, type: 3}
+  m_Name: ThreadPalette
+  m_EditorClassIdentifier: Megastructure.Runtime::Megastructure.ThreadPalette
+  tokens:
+  - name: SALT_WHITE
+    hex: '#F2EDE2'
+    linear: {r: 0.8879231, g: 0.8468732, b: 0.7605245, a: 1}
+  - name: SAND
+    hex: '#E3C79A'
+    linear: {r: 0.76815116, g: 0.57112485, b: 0.3231432, a: 1}
+  - name: SAND_SHADE
+    hex: '#C9A777'
+    linear: {r: 0.58407843, g: 0.38642943, b: 0.18447499, a: 1}
+  - name: CORAL
+    hex: '#E8745E'
+    linear: {r: 0.80695224, g: 0.1746474, b: 0.11193243, a: 1}
+  - name: CORAL_DEEP
+    hex: '#B9483F'
+    linear: {r: 0.48514995, g: 0.064803265, b: 0.049706567, a: 1}
+  - name: TEAL
+    hex: '#2E8C8A'
+    linear: {r: 0.027320892, g: 0.26225066, b: 0.2541521, a: 1}
+  - name: TEAL_DEEP
+    hex: '#1B5560'
+    linear: {r: 0.010960094, g: 0.09084171, b: 0.116970666, a: 1}
+  - name: INK
+    hex: '#1D2233'
+    linear: {r: 0.012286488, g: 0.015996294, b: 0.033104766, a: 1}
+  - name: CREAM
+    hex: '#FBF4E4'
+    linear: {r: 0.9646863, g: 0.9046612, b: 0.7758222, a: 1}
+  - name: SKY_H_DAY
+    hex: '#F3E4D0'
+    linear: {r: 0.8962694, g: 0.7758222, b: 0.63075715, a: 1}
+  - name: SKY_M_DAY
+    hex: '#BFD9E3'
+    linear: {r: 0.52099556, g: 0.69387174, b: 0.76815116, a: 1}
+  - name: SKY_Z_DAY
+    hex: '#6FAFD3'
+    linear: {r: 0.15896083, g: 0.4286905, b: 0.65140563, a: 1}
+  - name: SKY_H_DUSK
+    hex: '#F2C9A6'
+    linear: {r: 0.8879231, g: 0.58407843, b: 0.38132602, a: 1}
+  - name: SKY_M_DUSK
+    hex: '#7F86B8'
+    linear: {r: 0.21223076, g: 0.23839757, b: 0.47932017, a: 1}
+  - name: SKY_Z_DUSK
+    hex: '#2F3A7A'
+    linear: {r: 0.02842604, g: 0.04231141, b: 0.19461784, a: 1}
+  - name: SKY_H_NIGHT
+    hex: '#1E2A4F'
+    linear: {r: 0.0129830325, g: 0.023153367, b: 0.07818742, a: 1}
+  - name: SKY_M_NIGHT
+    hex: '#0A0F26'
+    linear: {r: 0.00303527, g: 0.0047769533, b: 0.019382361, a: 1}
+  - name: SKY_Z_NIGHT
+    hex: '#04050D'
+    linear: {r: 0.001214108, g: 0.001517635, b: 0.004024717, a: 1}
+  - name: CLOUD_TOP
+    hex: '#FFF6EA'
+    linear: {r: 1, g: 0.92158186, b: 0.82278574, a: 1}
+  - name: CLOUD_SHADE
+    hex: '#C9B8D6'
+    linear: {r: 0.58407843, g: 0.47932017, b: 0.67244315, a: 1}
+  - name: STATION_MINT
+    hex: '#A8DCCB'
+    linear: {r: 0.39157248, g: 0.7156935, b: 0.59720176, a: 1}
+  - name: STATION_PEACH
+    hex: '#F7C1A4'
+    linear: {r: 0.9301109, g: 0.5332764, b: 0.3712377, a: 1}
+  - name: STATION_LILAC
+    hex: '#C7B6E2'
+    linear: {r: 0.57112485, g: 0.4677838, b: 0.7605245, a: 1}
+  - name: EARTH_OCEAN
+    hex: '#2C6E9E'
+    linear: {r: 0.02518686, g: 0.15592647, b: 0.34191442, a: 1}
+  - name: EARTH_LAND
+    hex: '#D9B982'
+    linear: {r: 0.69387174, g: 0.48514995, b: 0.22322796, a: 1}
+  - name: ATMO_RIM
+    hex: '#7FC4F0'
+    linear: {r: 0.21223076, g: 0.55201143, b: 0.8713671, a: 1}
+  - name: PLANET_A
+    hex: '#E8745E'
+    linear: {r: 0.80695224, g: 0.1746474, b: 0.11193243, a: 1}
+  - name: PLANET_B
+    hex: '#F0D9B0'
+    linear: {r: 0.8713671, g: 0.69387174, b: 0.43415365, a: 1}
+  - name: PLANET_C
+    hex: '#2E8C8A'
+    linear: {r: 0.027320892, g: 0.26225066, b: 0.2541521, a: 1}
+  - name: BEACON
+    hex: '#FFD9A0'
+    linear: {r: 1, g: 0.69387174, b: 0.3515326, a: 1}
+  - name: SUN_5600
+    hex: '#FFF2DE'
+    linear: {r: 1, g: 0.8879231, b: 0.73046076, a: 1}
+  - name: SUN_6200
+    hex: '#FFF7EA'
+    linear: {r: 1, g: 0.9301109, b: 0.82278574, a: 1}
+  - name: SUN_6500
+    hex: '#FFFBF4'
+    linear: {r: 1, g: 0.9646863, b: 0.9046612, a: 1}

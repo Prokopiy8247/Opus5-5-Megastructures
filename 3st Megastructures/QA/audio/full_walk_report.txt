@@ -1,0 +1,35 @@
+T-AUDIO full walk s = 0..860 at 1.5 m/s, 48 kHz, seed 1, 1100 footsteps, 578,5 s rendered in 27,3 s
+--- full mix
+beat 1: RMS -38.01 dBFS (target -38), peak -22.06 dBFS, 60.0 s measured
+beat 2: RMS -32.01 dBFS (target -32), peak -17.21 dBFS, 100.0 s measured
+beat 3: RMS -28.75 dBFS (target -28), peak -14.58 dBFS, 30.7 s measured
+beat 4: RMS -25.38 dBFS (target -26), peak -12.27 dBFS, 43.3 s measured
+beat 5: RMS -28.43 dBFS (target -29), peak -15.35 dBFS, 120.0 s measured
+beat 6: RMS -29.60 dBFS (target -30), peak -14.87 dBFS, 113.3 s measured
+beat 7: RMS -37.73 dBFS (target -36), peak -21.27 dBFS, 72.0 s measured
+sample peak -6.31 dBFS; outside the swell -12.27 dBFS at s 380.0; in the swell -6.31 dBFS
+DC -1.30E-006 / -2.41E-006; max step 0.01648 at s 221.6; non-finite 0
+max 400 ms RMS -14.93 dBFS at s 336.1; overall RMS -29.42 dBFS; integrated -28.58 LUFS
+--- without footsteps
+beat 1: RMS -38.09 dBFS (target -38), peak -22.07 dBFS, 60.0 s measured
+beat 2: RMS -32.03 dBFS (target -32), peak -17.23 dBFS, 100.0 s measured
+beat 3: RMS -28.78 dBFS (target -28), peak -14.59 dBFS, 30.7 s measured
+beat 4: RMS -25.38 dBFS (target -26), peak -12.27 dBFS, 43.3 s measured
+beat 5: RMS -28.45 dBFS (target -29), peak -15.14 dBFS, 120.0 s measured
+beat 6: RMS -29.63 dBFS (target -30), peak -15.01 dBFS, 113.3 s measured
+beat 7: RMS -37.91 dBFS (target -36), peak -22.17 dBFS, 72.0 s measured
+sample peak -6.32 dBFS; outside the swell -12.27 dBFS at s 380.0; in the swell -6.32 dBFS
+DC -1.31E-006 / -2.42E-006; max step 0.01316 at s 337.5; non-finite 0
+max 400 ms RMS -14.94 dBFS at s 336.1; overall RMS -29.44 dBFS; integrated -28.57 LUFS
+--- wind stem (s 700..860)
+beat 1: RMS -Infinity dBFS (target -38), peak -300.00 dBFS, 0.0 s measured
+beat 2: RMS -Infinity dBFS (target -32), peak -300.00 dBFS, 0.0 s measured
+beat 3: RMS -Infinity dBFS (target -28), peak -300.00 dBFS, 0.0 s measured
+beat 4: RMS -Infinity dBFS (target -26), peak -300.00 dBFS, 0.0 s measured
+beat 5: RMS -Infinity dBFS (target -29), peak -300.00 dBFS, 0.0 s measured
+beat 6: RMS -112.70 dBFS (target -30), peak -87.35 dBFS, 33.3 s measured
+beat 7: RMS -261.21 dBFS (target -36), peak -227.95 dBFS, 72.0 s measured
+sample peak -87.35 dBFS; outside the swell -87.35 dBFS at s 700.3; in the swell -300.00 dBFS
+DC -1.58E-014 / -1.56E-014; max step 0.00000 at s 700.6; non-finite 0
+max 400 ms RMS -99.78 dBFS at s 700.6; overall RMS -117.96 dBFS; integrated -Infinity LUFS
+RMS after s 752.0: -300.00 dBFS

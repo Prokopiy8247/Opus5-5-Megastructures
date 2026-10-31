@@ -1,0 +1,307 @@
+{
+ "run": "enc_beat06_sea",
+ "status": "FAIL",
+ "ffmpeg": "C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+ "encoders": [
+  "libvpx-vp9",
+  "libx264"
+ ],
+ "safety_factor": 1.0,
+ "sequences": [
+  {
+   "name": "enc_beat06_sea",
+   "dir": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\captures\\enc_enc_beat06_sea\\enc_beat06_sea",
+   "checks": [
+    {
+     "name": "x264_crf23[cli0]",
+     "status": "FAIL",
+     "value": 281.903,
+     "threshold": "score <= 1",
+     "note": "steps/1000 563.81, run 24, resid rms 16.082 pp 92.127 (source score 281.903), frame 428"
+    },
+    {
+     "name": "x264_crf23[cli1]",
+     "status": "FAIL",
+     "value": 7.979,
+     "threshold": "score <= 1",
+     "note": "steps/1000 10.23, run 9, resid rms 0.798 pp 4.298 (source score 5.996), frame 428"
+    },
+    {
+     "name": "x264_crf30[cli0]",
+     "status": "FAIL",
+     "value": 265.661,
+     "threshold": "score <= 1",
+     "note": "steps/1000 531.32, run 24, resid rms 16.115 pp 92.757 (source score 281.903), frame 428"
+    },
+    {
+     "name": "x264_crf30[cli1]",
+     "status": "FAIL",
+     "value": 10.28,
+     "threshold": "score <= 1",
+     "note": "steps/1000 5.12, run 13, resid rms 1.028 pp 5.126 (source score 5.996), frame 0"
+    },
+    {
+     "name": "vp9_crf31[cli0]",
+     "status": "FAIL",
+     "value": 278.422,
+     "threshold": "score <= 1",
+     "note": "steps/1000 556.84, run 24, resid rms 16.236 pp 95.734 (source score 281.903), frame 428"
+    },
+    {
+     "name": "vp9_crf31[cli1]",
+     "status": "FAIL",
+     "value": 8.216,
+     "threshold": "score <= 1",
+     "note": "steps/1000 7.67, run 10, resid rms 0.715 pp 4.929 (source score 5.996), frame 599"
+    },
+    {
+     "name": "vp9_crf40[cli0]",
+     "status": "FAIL",
+     "value": 278.422,
+     "threshold": "score <= 1",
+     "note": "steps/1000 556.84, run 25, resid rms 16.219 pp 95.159 (source score 281.903), frame 428"
+    },
+    {
+     "name": "vp9_crf40[cli1]",
+     "status": "FAIL",
+     "value": 8.534,
+     "threshold": "score <= 1",
+     "note": "steps/1000 7.67, run 11, resid rms 0.707 pp 5.120 (source score 5.996), frame 599"
+    }
+   ],
+   "variants": [
+    {
+     "codec": "x264",
+     "crf": 23,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\x264_crf23.mp4",
+     "encode_s": 7.1,
+     "kbps": 1626.4,
+     "decoded_frames": 600,
+     "mean_abs_error": 1.164755156089249,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 563.8051044083527,
+       "longest_run_px": 24,
+       "resid_rms": 16.081828908560958,
+       "resid_pp": 92.12691491290543,
+       "slope_abs_max": 0.30887545158361507,
+       "score": 281.90255220417635,
+       "pass": false,
+       "frame": 428
+      },
+      "cli1": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 10.230179028132993,
+       "longest_run_px": 9,
+       "resid_rms": 0.7978725367933835,
+       "resid_pp": 4.2980118928553,
+       "slope_abs_max": 0.2258319339105241,
+       "score": 7.978725367933835,
+       "pass": false,
+       "frame": 428
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli0_f00342_x8.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli1_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli1_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf23_cli1_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "x264",
+     "crf": 30,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\x264_crf30.mp4",
+     "encode_s": 6.5,
+     "kbps": 769.3,
+     "decoded_frames": 600,
+     "mean_abs_error": 1.676625474215535,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 531.322505800464,
+       "longest_run_px": 24,
+       "resid_rms": 16.114650773460994,
+       "resid_pp": 92.75705871276455,
+       "slope_abs_max": 0.30937076502789973,
+       "score": 265.661252900232,
+       "pass": false,
+       "frame": 428
+      },
+      "cli1": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 5.115089514066496,
+       "longest_run_px": 13,
+       "resid_rms": 1.0279612783943906,
+       "resid_pp": 5.1262221026683505,
+       "slope_abs_max": 0.2370399512262572,
+       "score": 10.279612783943906,
+       "pass": false,
+       "frame": 0
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli0_f00342_x8.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli1_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli1_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\x264_crf30_cli1_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 31,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\vp9_crf31.webm",
+     "encode_s": 23.8,
+     "kbps": 1353.7,
+     "decoded_frames": 600,
+     "mean_abs_error": 0.9687390287422839,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 556.8445475638051,
+       "longest_run_px": 24,
+       "resid_rms": 16.23633252072961,
+       "resid_pp": 95.73431356069615,
+       "slope_abs_max": 0.3092938234648797,
+       "score": 278.42227378190256,
+       "pass": false,
+       "frame": 428
+      },
+      "cli1": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 7.672634271099744,
+       "longest_run_px": 10,
+       "resid_rms": 0.7150410374222773,
+       "resid_pp": 4.92939774368142,
+       "slope_abs_max": 0.21974529577138002,
+       "score": 8.215662906135702,
+       "pass": false,
+       "frame": 599
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli0_f00342_x8.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli1_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli1_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf31_cli1_f00342_x8.png"
+     ],
+     "video_kept": false
+    },
+    {
+     "codec": "vp9",
+     "crf": 40,
+     "video": "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\vp9_crf40.webm",
+     "encode_s": 22.5,
+     "kbps": 714.1,
+     "decoded_frames": 600,
+     "mean_abs_error": 1.1218641894933128,
+     "decoded": {
+      "cli0": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 556.8445475638051,
+       "longest_run_px": 25,
+       "resid_rms": 16.219274940650358,
+       "resid_pp": 95.15869480960995,
+       "slope_abs_max": 0.3097129580373256,
+       "score": 278.42227378190256,
+       "pass": false,
+       "frame": 428
+      },
+      "cli1": {
+       "direction": "v",
+       "n_strips": 10,
+       "steps_per_1000": 7.672634271099744,
+       "longest_run_px": 11,
+       "resid_rms": 0.7070846924416999,
+       "resid_pp": 5.120315149337898,
+       "slope_abs_max": 0.21913029046275284,
+       "score": 8.533858582229831,
+       "pass": false,
+       "frame": 599
+      }
+     },
+     "crops": [
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli0_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli0_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli0_f00342_x8.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli1_f00342_100.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli1_f00342_200.png",
+      "W:\\YouTube\\Megastructures\\3rd Megastructures\\3rd Megastructures\\QA\\encode\\enc_beat06_sea\\enc_beat06_sea\\crops\\vp9_crf40_cli1_f00342_x8.png"
+     ],
+     "video_kept": false
+    }
+   ],
+   "size": [
+    1920,
+    1080
+   ],
+   "fps": 60.0,
+   "frames_encoded": 600,
+   "regions": [
+    {
+     "name": "cli0",
+     "rect": [
+      100,
+      560,
+      800,
+      1000
+     ],
+     "dir": "v"
+    },
+    {
+     "name": "cli1",
+     "rect": [
+      100,
+      20,
+      800,
+      420
+     ],
+     "dir": "v"
+    }
+   ],
+   "source": {
+    "cli0": {
+     "direction": "v",
+     "n_strips": 10,
+     "steps_per_1000": 563.8051044083527,
+     "longest_run_px": 26,
+     "resid_rms": 16.215429428677155,
+     "resid_pp": 95.0766976191458,
+     "slope_abs_max": 0.30812760811769324,
+     "score": 281.90255220417635,
+     "pass": false,
+     "frame": 428
+    },
+    "cli1": {
+     "direction": "v",
+     "n_strips": 10,
+     "steps_per_1000": 7.672634271099744,
+     "longest_run_px": 2,
+     "resid_rms": 0.47725651552528137,
+     "resid_pp": 3.5977425063706363,
+     "slope_abs_max": 0.2182738480982693,
+     "score": 5.9962375106177275,
+     "pass": false,
+     "frame": 599
+    }
+   },
+   "status": "FAIL"
+  }
+ ]
+}
