@@ -1,0 +1,8 @@
+<Project>
+  <!-- Imported by Sdk.props before the defaults: gives every fastcompile run its own obj/bin (env FC_RUN) so concurrent runs never collide. -->
+  <PropertyGroup Condition="'$(FC_RUN)' != ''">
+    <BaseIntermediateOutputPath>$(FC_RUN)\$(MSBuildProjectName)\obj\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(FC_RUN)\$(MSBuildProjectName)\obj\</MSBuildProjectExtensionsPath>
+    <OutputPath>$(FC_RUN)\$(MSBuildProjectName)\bin\</OutputPath>
+  </PropertyGroup>
+</Project>

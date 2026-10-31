@@ -1,0 +1,192 @@
+{
+  "file": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\audio\\walk.wav",
+  "sample_rate": 48000,
+  "channels": 2,
+  "seconds": 674.226625,
+  "peak_dbfs": -11.244352357540329,
+  "true_peak_dbfs": -11.23894958017022,
+  "max_step": 0.04310431890189648,
+  "dc": [
+    -1.7614257187306365e-08,
+    5.925054128070615e-08
+  ],
+  "rms_dbfs": -29.126374354212487,
+  "silence_depth_db": {
+    "a_bridge": 6.2,
+    "b_departure": 3.85,
+    "c_mouth": 6.2
+  },
+  "ending_silence_peak": 1.903867908730492e-15,
+  "ending_tone_rms_dbfs": -34.18331507507802,
+  "zones": [
+    {
+      "zone": "1 gallery",
+      "span_s": [
+        4.0,
+        34.0
+      ],
+      "target_db": -34.0,
+      "windows": 75,
+      "min_db": -34.776120972229116,
+      "max_db": -33.09989047680215,
+      "median_db": -33.96171597682774,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "2 bridge",
+      "span_s": [
+        48.5,
+        136.0
+      ],
+      "target_db": -38.0,
+      "windows": 218,
+      "min_db": -39.718695290017514,
+      "max_db": -36.19293330348207,
+      "median_db": -38.11468986549274,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "3 ledge",
+      "span_s": [
+        150.0,
+        180.0
+      ],
+      "target_db": -33.0,
+      "windows": 75,
+      "min_db": -34.50063823033267,
+      "max_db": -31.87580833851588,
+      "median_db": -33.25034508276084,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "4 hall",
+      "span_s": [
+        220.0,
+        284.0
+      ],
+      "target_db": -27.0,
+      "windows": 160,
+      "min_db": -28.323004535048504,
+      "max_db": -25.90690989482269,
+      "median_db": -27.18612002875469,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "5 lift",
+      "span_s": [
+        320.36,
+        358.36
+      ],
+      "target_db": -29.0,
+      "windows": 94,
+      "min_db": -30.825036065159605,
+      "max_db": -27.792684612447076,
+      "median_db": -29.390958473132926,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "6 fan",
+      "span_s": [
+        440.03,
+        566.03
+      ],
+      "target_db": -26.0,
+      "windows": 314,
+      "min_db": -28.325804360910787,
+      "max_db": -23.67053242237826,
+      "median_db": -25.88140833816248,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "7 tunnel",
+      "span_s": [
+        573.36,
+        600.33
+      ],
+      "target_db": -31.0,
+      "windows": 66,
+      "min_db": -32.85301738584012,
+      "max_db": -29.448253952601526,
+      "median_db": -31.390907013215333,
+      "bad_windows": 0,
+      "first_bad": []
+    },
+    {
+      "zone": "7 outside",
+      "span_s": [
+        614.69,
+        658.13
+      ],
+      "target_db": -35.0,
+      "windows": 108,
+      "min_db": -36.47265967983382,
+      "max_db": -32.66432329439637,
+      "median_db": -34.59577721570106,
+      "bad_windows": 0,
+      "first_bad": []
+    }
+  ],
+  "loudest_seconds": [
+    {
+      "t": 547.0,
+      "peak_dbfs": -11.997188367577037
+    },
+    {
+      "t": 550.0,
+      "peak_dbfs": -11.42557524346586
+    },
+    {
+      "t": 551.0,
+      "peak_dbfs": -11.982494620664887
+    },
+    {
+      "t": 556.0,
+      "peak_dbfs": -11.244352357540329
+    },
+    {
+      "t": 564.0,
+      "peak_dbfs": -11.734742237924609
+    }
+  ],
+  "largest_steps": [
+    {
+      "t": 457.0,
+      "step": 0.04152708500623703
+    },
+    {
+      "t": 464.0,
+      "step": 0.04310431890189648
+    },
+    {
+      "t": 547.0,
+      "step": 0.041409946978092194
+    },
+    {
+      "t": 549.0,
+      "step": 0.042106516659259796
+    },
+    {
+      "t": 567.0,
+      "step": 0.0419710777932778
+    }
+  ],
+  "checks": {
+    "peak<=-3dBFS": true,
+    "true_peak<-1dBFS": true,
+    "max_step<=0.1": true,
+    "dc<1e-3": true,
+    "walk_windows_within_3dB": true,
+    "silence_a_present": true,
+    "silence_b_present": true,
+    "silence_c_present": true,
+    "ending_silence": true,
+    "ending_tone_-34dB": true
+  },
+  "pass": true
+}

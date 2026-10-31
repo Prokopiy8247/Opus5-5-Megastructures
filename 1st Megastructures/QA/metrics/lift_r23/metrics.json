@@ -1,0 +1,6199 @@
+{
+  "run": "lift_r23",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\lift_r23",
+  "generated": "2026-10-30T15:08:23+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [
+    {
+      "tag": "KS2b_bridge_down",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09556320309638977,
+        "p1": 0.026916079223155975,
+        "p50": 0.0389639250934124,
+        "p99": 0.45898276567459106,
+        "min": 0.021877646446228027,
+        "max": 0.5348768830299377
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "mean_rows": [
+          "beat 2"
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            324
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 176,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1180,
+            "y": 59,
+            "channel": "R",
+            "axis": "v",
+            "value": 51
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 793,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1088,
+            "y": 689,
+            "channel": "R",
+            "axis": "v",
+            "value": 64
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "side_strips": {
+          "limits": {
+            "mean_max": 0.06,
+            "pixel_max": 0.12,
+            "edge_max": 0.03
+          },
+          "strips": {
+            "left": {
+              "mean_luma": 0.037593163549900055,
+              "max_luma": 0.11070509999990463,
+              "max_edge": 0.02325725555419922,
+              "pixels_above_max": 0,
+              "pass": true
+            },
+            "right": {
+              "mean_luma": 0.038280364125967026,
+              "max_luma": 0.10761726647615433,
+              "max_edge": 0.022135339677333832,
+              "pixels_above_max": 0,
+              "pass": true
+            }
+          },
+          "pass": true,
+          "mean_luma_max": 0.038280364125967026,
+          "max_luma": 0.11070509999990463,
+          "max_edge": 0.02325725555419922
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09556320309638977,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.45898276567459106,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "side_strips": {
+          "value": 0.038280364125967026,
+          "limit": "mean<=0.06, max<=0.12, edge<=0.03",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_4k",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.09554231911897659,
+        "p1": 0.026916079223155975,
+        "p50": 0.0389639250934124,
+        "p99": 0.45926591753959656,
+        "min": 0.019072940573096275,
+        "max": 0.5348768830299377
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "mean_rows": [
+          "beat 2"
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 24.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            648
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 391,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 2380,
+            "y": 509,
+            "channel": "R",
+            "axis": "v",
+            "value": 117
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1296,
+            3840,
+            2160
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 1652,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 2409,
+            "y": 1304,
+            "channel": "R",
+            "axis": "v",
+            "value": 136
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "side_strips": {
+          "limits": {
+            "mean_max": 0.06,
+            "pixel_max": 0.12,
+            "edge_max": 0.03
+          },
+          "strips": {
+            "left": {
+              "mean_luma": 0.03758853301405907,
+              "max_luma": 0.11070509999990463,
+              "max_edge": 0.022135339677333832,
+              "pixels_above_max": 0,
+              "pass": true
+            },
+            "right": {
+              "mean_luma": 0.038283687084913254,
+              "max_luma": 0.10761726647615433,
+              "max_edge": 0.02135651558637619,
+              "pixels_above_max": 0,
+              "pass": true
+            }
+          },
+          "pass": true,
+          "mean_luma_max": 0.038283687084913254,
+          "max_luma": 0.11070509999990463,
+          "max_edge": 0.022135339677333832
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09554231911897659,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.45926591753959656,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "side_strips": {
+          "value": 0.038283687084913254,
+          "limit": "mean<=0.06, max<=0.12, edge<=0.03",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_16x10",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.10178514569997787,
+        "p1": 0.026916079223155975,
+        "p50": 0.0389639250934124,
+        "p99": 0.4640055298805237,
+        "min": 0.019072940573096275,
+        "max": 0.5312228202819824
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "mean_rows": [
+          "beat 2"
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            315
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 169,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1062,
+            "y": 141,
+            "channel": "R",
+            "axis": "v",
+            "value": 114
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            630,
+            1680,
+            1050
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 780,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 947,
+            "y": 667,
+            "channel": "R",
+            "axis": "v",
+            "value": 60
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "side_strips": {
+          "limits": {
+            "mean_max": 0.06,
+            "pixel_max": 0.12,
+            "edge_max": 0.03
+          },
+          "strips": {
+            "left": {
+              "mean_luma": 0.03745749220252037,
+              "max_luma": 0.24542276561260223,
+              "max_edge": 0.06819459050893784,
+              "pixels_above_max": 144,
+              "pass": false
+            },
+            "right": {
+              "mean_luma": 0.0381380096077919,
+              "max_luma": 0.10761726647615433,
+              "max_edge": 0.021792247891426086,
+              "pixels_above_max": 0,
+              "pass": true
+            }
+          },
+          "pass": false,
+          "mean_luma_max": 0.0381380096077919,
+          "max_luma": 0.24542276561260223,
+          "max_edge": 0.06819459050893784
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.10178514569997787,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4640055298805237,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "side_strips": {
+          "value": 0.0381380096077919,
+          "limit": "mean<=0.06, max<=0.12, edge<=0.03",
+          "pass": false,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [
+        "side_strips"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_21x9",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08181262761354446,
+        "p1": 0.026916079223155975,
+        "p50": 0.038130197674036026,
+        "p99": 0.4366219937801361,
+        "min": 0.0227113738656044,
+        "max": 0.5348768830299377
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "mean_rows": [
+          "beat 2"
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            324
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 174,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1511,
+            "y": 208,
+            "channel": "R",
+            "axis": "v",
+            "value": 116
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            2560,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 776,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1380,
+            "y": 687,
+            "channel": "R",
+            "axis": "v",
+            "value": 61
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "side_strips": {
+          "limits": {
+            "mean_max": 0.06,
+            "pixel_max": 0.12,
+            "edge_max": 0.03
+          },
+          "strips": {
+            "left": {
+              "mean_luma": 0.03802431747317314,
+              "max_luma": 0.10650040209293365,
+              "max_edge": 0.021171249449253082,
+              "pixels_above_max": 0,
+              "pass": true
+            },
+            "right": {
+              "mean_luma": 0.038798410445451736,
+              "max_luma": 0.10761726647615433,
+              "max_edge": 0.022198259830474854,
+              "pixels_above_max": 0,
+              "pass": true
+            }
+          },
+          "pass": true,
+          "mean_luma_max": 0.038798410445451736,
+          "max_luma": 0.10761726647615433,
+          "max_edge": 0.022198259830474854
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08181262761354446,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4366219937801361,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "side_strips": {
+          "value": 0.038798410445451736,
+          "limit": "mean<=0.06, max<=0.12, edge<=0.03",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.12796448171138763,
+        "p1": 0.03449176624417305,
+        "p50": 0.12136863172054291,
+        "p99": 0.4010000228881836,
+        "min": 0.02608235366642475,
+        "max": 0.9163820147514343
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5283,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 530,
+            "y": 188,
+            "channel": "B",
+            "axis": "v",
+            "value": 59
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5733,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 10,
+          "raw": {
+            "run": 10,
+            "x": 660,
+            "y": 772,
+            "channel": "G",
+            "axis": "v",
+            "value": 29
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0662133487654321,
+          "pixels": 1373,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "window_grid": {
+          "windows": 4161,
+          "blobs": 4438,
+          "cell_px_1080": 10.295630140987,
+          "min_windows": 1000,
+          "cell_range_px": [
+            8.0,
+            20.0
+          ],
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.12796448171138763,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4010000228881836,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0662133487654321,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "windows": {
+          "value": 4161,
+          "limit": ">=1000, cell 8-20 px",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 262,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_4k",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.12773817777633667,
+        "p1": 0.03449176624417305,
+        "p50": 0.12136863172054291,
+        "p99": 0.3970784842967987,
+        "min": 0.02327764965593815,
+        "max": 0.9242252111434937
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 3.616898148148148e-05,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 24.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            756
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 10746,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1061,
+            "y": 172,
+            "channel": "R",
+            "axis": "v",
+            "value": 39
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1404,
+            3840,
+            2160
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 11473,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 2372,
+            "y": 1717,
+            "channel": "R",
+            "axis": "v",
+            "value": 52
+          },
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.06964940200617284,
+          "pixels": 5777,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "window_grid": {
+          "windows": 3988,
+          "blobs": 4305,
+          "cell_px_1080": 10.307764064044152,
+          "min_windows": 1000,
+          "cell_range_px": [
+            8.0,
+            20.0
+          ],
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.12773817777633667,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.3970784842967987,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 3.616898148148148e-05,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.06964940200617284,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "windows": {
+          "value": 3988,
+          "limit": ">=1000, cell 8-20 px",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 262,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.128595769405365,
+        "p1": 0.03449176624417305,
+        "p50": 0.12220235913991928,
+        "p99": 0.3970784842967987,
+        "min": 0.02608235366642475,
+        "max": 0.9163820147514343
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4776,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 1337,
+            "y": 317,
+            "channel": "R",
+            "axis": "v",
+            "value": 42
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5009,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 1190,
+            "y": 827,
+            "channel": "G",
+            "axis": "v",
+            "value": 61
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.06780045351473923,
+          "pixels": 1196,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "window_grid": {
+          "windows": 3927,
+          "blobs": 4192,
+          "cell_px_1080": 10.198039027185569,
+          "min_windows": 1000,
+          "cell_range_px": [
+            8.0,
+            20.0
+          ],
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.128595769405365,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.3970784842967987,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.06780045351473923,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "windows": {
+          "value": 3927,
+          "limit": ">=1000, cell 8-20 px",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 262,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.12619706988334656,
+        "p1": 0.03420862928032875,
+        "p50": 0.12136863172054291,
+        "p99": 0.40492159128189087,
+        "min": 0.02608235366642475,
+        "max": 0.9163820147514343
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 7167,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1345,
+            "y": 160,
+            "channel": "R",
+            "axis": "v",
+            "value": 33
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 7649,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 949,
+            "y": 773,
+            "channel": "R",
+            "axis": "v",
+            "value": 22
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.055989583333333336,
+          "pixels": 1548,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "window_grid": {
+          "windows": 4370,
+          "blobs": 4762,
+          "cell_px_1080": 10.44030650891055,
+          "min_windows": 1000,
+          "cell_range_px": [
+            8.0,
+            20.0
+          ],
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.12619706988334656,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.40492159128189087,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.055989583333333336,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "windows": {
+          "value": 4370,
+          "limit": ">=1000, cell 8-20 px",
+          "pass": true,
+          "advisory": false
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 262,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5b_lift_fan",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5b_lift_fan.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.2003338634967804,
+        "p1": 0.038130197674036026,
+        "p50": 0.12275294959545135,
+        "p99": 0.7255734205245972,
+        "min": 0.02608235366642475,
+        "max": 0.8962236046791077
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5661,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 7,
+          "raw": {
+            "run": 7,
+            "x": 1303,
+            "y": 27,
+            "channel": "R",
+            "axis": "v",
+            "value": 35
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5760,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 7,
+          "raw": {
+            "run": 7,
+            "x": 400,
+            "y": 1073,
+            "channel": "R",
+            "axis": "v",
+            "value": 17
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.009789737654320988,
+          "pixels": 203,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.2003338634967804,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": false,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.7255734205245972,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.009789737654320988,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [
+        "mean_luma"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -85.95,
+          -317.3,
+          260.5
+        ],
+        "yaw": 169.8,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 383.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5b_lift_fan_4k",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5b_lift_fan_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.20013855397701263,
+        "p1": 0.038130197674036026,
+        "p50": 0.12330354005098343,
+        "p99": 0.7255734205245972,
+        "min": 0.02608235366642475,
+        "max": 0.9049004316329956
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 24.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            756
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 11362,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 2468,
+            "y": 236,
+            "channel": "R",
+            "axis": "v",
+            "value": 22
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1404,
+            3840,
+            2160
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 11520,
+          "total_lines": 11520,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 3065,
+            "y": 1564,
+            "channel": "G",
+            "axis": "v",
+            "value": 39
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.010247878086419752,
+          "pixels": 850,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.20013855397701263,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": false,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.7255734205245972,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.010247878086419752,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [
+        "mean_luma"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -85.95,
+          -317.3,
+          260.5
+        ],
+        "yaw": 169.8,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 383.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5b_lift_fan_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5b_lift_fan_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.20956285297870636,
+        "p1": 0.038130197674036026,
+        "p50": 0.12949492037296295,
+        "p99": 0.7255734205245972,
+        "min": 0.02327764965593815,
+        "max": 0.897057294845581
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4946,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 399,
+            "y": 174,
+            "channel": "B",
+            "axis": "v",
+            "value": 55
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5040,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1459,
+            "y": 831,
+            "channel": "B",
+            "axis": "v",
+            "value": 55
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.007823129251700681,
+          "pixels": 138,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.20956285297870636,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": false,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.7255734205245972,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.007823129251700681,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [
+        "mean_luma"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -85.95,
+          -317.3,
+          260.5
+        ],
+        "yaw": 169.8,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 383.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5b_lift_fan_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5b_lift_fan_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.1755533665418625,
+        "p1": 0.038413334637880325,
+        "p50": 0.11490980535745621,
+        "p99": 0.7216517925262451,
+        "min": 0.02636549063026905,
+        "max": 0.9009788632392883
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 7093,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 834,
+            "y": 199,
+            "channel": "B",
+            "axis": "v",
+            "value": 60
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 7491,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1909,
+            "y": 854,
+            "channel": "R",
+            "axis": "v",
+            "value": 39
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.010669849537037037,
+          "pixels": 295,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1755533665418625,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": false,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.7216517925262451,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.010669849537037037,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [
+        "mean_luma"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -85.95,
+          -317.3,
+          260.5
+        ],
+        "yaw": 169.8,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 383.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08761848509311676,
+        "p1": 0.03449176624417305,
+        "p50": 0.08717569708824158,
+        "p99": 0.2031709998846054,
+        "min": 0.027482355013489723,
+        "max": 0.8768988847732544
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4991,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 10,
+          "raw": {
+            "run": 10,
+            "x": 928,
+            "y": 332,
+            "channel": "R",
+            "axis": "v",
+            "value": 21
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5338,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1295,
+            "y": 791,
+            "channel": "G",
+            "axis": "v",
+            "value": 18
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.029128086419753084,
+          "pixels": 604,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08761848509311676,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2031709998846054,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.029128086419753084,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          260.4
+        ],
+        "yaw": 176,
+        "pitch": -38,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.08669527620077133,
+        "p1": 0.03449176624417305,
+        "p50": 0.08717569708824158,
+        "p99": 0.2073756903409958,
+        "min": 0.027199216187000275,
+        "max": 0.876065194606781
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4357,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 820,
+            "y": 324,
+            "channel": "R",
+            "axis": "v",
+            "value": 16
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4760,
+          "total_lines": 5040,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 340,
+            "y": 720,
+            "channel": "R",
+            "axis": "v",
+            "value": 13
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.025736961451247164,
+          "pixels": 454,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08669527620077133,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2073756903409958,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.025736961451247164,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          260.4
+        ],
+        "yaw": 176,
+        "pitch": -38,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09175259619951248,
+        "p1": 0.03729647397994995,
+        "p50": 0.08745882660150528,
+        "p99": 0.23958197236061096,
+        "min": 0.027199216187000275,
+        "max": 0.9049004316329956
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 6817,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 1251,
+            "y": 332,
+            "channel": "R",
+            "axis": "v",
+            "value": 21
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 7093,
+          "total_lines": 7680,
+          "worst": [],
+          "raw_max_run": 7,
+          "raw": {
+            "run": 7,
+            "x": 568,
+            "y": 730,
+            "channel": "R",
+            "axis": "v",
+            "value": 14
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.028356481481481483,
+          "pixels": 784,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09175259619951248,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.23958197236061096,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.028356481481481483,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          260.4
+        ],
+        "yaw": 176,
+        "pitch": -38,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "B4_end",
+      "beat": 4,
+      "zone": null,
+      "file": "beat04_hall_B4_end.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.15242815017700195,
+        "p1": 0.03757961094379425,
+        "p50": 0.1247396171092987,
+        "p99": 0.7172313928604126,
+        "min": 0.027199216187000275,
+        "max": 0.8894455432891846
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 4",
+        "mean": [
+          0.06,
+          0.18
+        ],
+        "mean_rows": [
+          "beat 4",
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "far hall haze",
+        "alias_desc": "rails, truss, grating"
+      },
+      "banding": [
+        {
+          "box_px": [
+            480,
+            216,
+            1440,
+            648
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 2875,
+          "total_lines": 2880,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 496,
+            "y": 388,
+            "channel": "R",
+            "axis": "v",
+            "value": 37
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "hall_haze",
+          "region": [
+            0.25,
+            0.2,
+            0.75,
+            0.6
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.15242815017700195,
+          "limit": [
+            0.06,
+            0.18
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.7172313928604126,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:hall_haze": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -140,
+          -5.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 0,
+        "fov": 62
+      },
+      "clock": 291.6933390299,
+      "kind": "still"
+    },
+    {
+      "tag": "B5_start",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_start.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.15893802046775818,
+        "p1": 0.03729647397994995,
+        "p50": 0.1569615751504898,
+        "p99": 0.6707388758659363,
+        "min": 0.02636549063026905,
+        "max": 0.9042980670928955
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5101,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 188,
+            "y": 370,
+            "channel": "R",
+            "axis": "v",
+            "value": 36
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5564,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 9,
+          "raw": {
+            "run": 9,
+            "x": 615,
+            "y": 841,
+            "channel": "R",
+            "axis": "v",
+            "value": 67
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.15893802046775818,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6707388758659363,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -144,
+          -5.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 0,
+        "fov": 66
+      },
+      "clock": 294.3600056966,
+      "kind": "still"
+    },
+    {
+      "tag": "B5_middle",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_middle.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09910757839679718,
+        "p1": 0.03420862928032875,
+        "p50": 0.09082981944084167,
+        "p99": 0.3623349368572235,
+        "min": 0.02608235366642475,
+        "max": 0.9163820147514343
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4638,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 10,
+          "raw": {
+            "run": 10,
+            "x": 707,
+            "y": 284,
+            "channel": "B",
+            "axis": "v",
+            "value": 41
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 2713,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 1620,
+            "y": 876,
+            "channel": "B",
+            "axis": "v",
+            "value": 24
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.880000000000109,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.04282407407407408,
+          "pixels": 888,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09910757839679718,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.3623349368572235,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.04282407407407408,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 0,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "still"
+    },
+    {
+      "tag": "B5_end",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_end.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.18733945488929749,
+        "p1": 0.038130197674036026,
+        "p50": 0.1477184295654297,
+        "p99": 0.49007925391197205,
+        "min": 0.02636549063026905,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.016396604938271605,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.22
+        ],
+        "mean_rows": [
+          "beat 5",
+          "beat 6"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 4597,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 766,
+            "y": 93,
+            "channel": "R",
+            "axis": "v",
+            "value": 52
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5298,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 97,
+            "y": 785,
+            "channel": "B",
+            "axis": "v",
+            "value": 50
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.029803240740740738,
+          "pixels": 618,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 5,
+          "tiles_px": [
+            [
+              928,
+              560
+            ],
+            [
+              976,
+              560
+            ],
+            [
+              864,
+              608
+            ],
+            [
+              1088,
+              640
+            ],
+            [
+              1168,
+              704
+            ]
+          ],
+          "pass": false
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.18733945488929749,
+          "limit": [
+            0.06,
+            0.22
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.49007925391197205,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.016396604938271605,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.029803240740740738,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 5,
+          "limit": 0,
+          "pass": false,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [
+        "stipple_tiles"
+      ],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 66
+      },
+      "clock": 434.6933186849,
+      "kind": "still"
+    },
+    {
+      "tag": "B5_freelook_back",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_freelook_back.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.10166799277067184,
+        "p1": 0.03420862928032875,
+        "p50": 0.07486040145158768,
+        "p99": 0.24211923778057098,
+        "min": 0.02608235366642475,
+        "max": 0.5724478960037231
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 1573,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 6,
+          "raw": {
+            "run": 6,
+            "x": 1891,
+            "y": 73,
+            "channel": "R",
+            "axis": "v",
+            "value": 34
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 2742,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 10,
+          "raw": {
+            "run": 10,
+            "x": 109,
+            "y": 878,
+            "channel": "B",
+            "axis": "v",
+            "value": 25
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.10166799277067184,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.24211923778057098,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 90,
+        "pitch": 0,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "freelook"
+    },
+    {
+      "tag": "B5_freelook_leftup",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_freelook_leftup.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.18092291057109833,
+        "p1": 0.03420862928032875,
+        "p50": 0.16170118749141693,
+        "p99": 0.7051318287849426,
+        "min": 0.02608235366642475,
+        "max": 0.8925851583480835
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 3790,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 725,
+            "y": 332,
+            "channel": "B",
+            "axis": "v",
+            "value": 66
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5346,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 10,
+          "raw": {
+            "run": 10,
+            "x": 258,
+            "y": 899,
+            "channel": "B",
+            "axis": "v",
+            "value": 49
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.032455632716049385,
+          "pixels": 673,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 0,
+          "tiles_px": [],
+          "pass": true
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.18092291057109833,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": false,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.7051318287849426,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.032455632716049385,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [
+        "mean_luma"
+      ],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 180,
+        "pitch": 30,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "freelook"
+    },
+    {
+      "tag": "B5_freelook_rightdown",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_B5_freelook_rightdown.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.07357067614793777,
+        "p1": 0.033658042550086975,
+        "p50": 0.05243216082453728,
+        "p99": 0.37017807364463806,
+        "min": 0.02636549063026905,
+        "max": 0.8636980652809143
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "mean_rows": [
+          "beat 5"
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 5757,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 8,
+          "raw": {
+            "run": 8,
+            "x": 296,
+            "y": 338,
+            "channel": "B",
+            "axis": "v",
+            "value": 29
+          },
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 0,
+          "x": null,
+          "y": null,
+          "channel": null,
+          "axis": null,
+          "value": null,
+          "qualifying_lines": 0,
+          "total_lines": 5760,
+          "worst": [],
+          "raw_max_run": 0,
+          "raw": null,
+          "line_run_p50": null,
+          "line_run_p99": null,
+          "lines_over_limit": null,
+          "candidates": 0,
+          "kept": 0,
+          "confirmed_runs": 0,
+          "rule": "R1-38: monotone gradient segment, 8 px from edges > 6 levels, slope < 0.25, confirmed by 5 adjacent lines",
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "acceptance": {
+        "near_black": {
+          "level": 6,
+          "pct": 0.0,
+          "pixels": 0,
+          "raw_pct": 0.0,
+          "limit_pct": 0.0,
+          "pass": true
+        },
+        "black_runs": {
+          "level": 2,
+          "min_run_px": 8,
+          "black_pixels": 0,
+          "runs": 0,
+          "largest_run_px": 0,
+          "pass": true
+        },
+        "amber_coverage": {
+          "pct": 0.0,
+          "pixels": 0,
+          "limit_pct": 0.3,
+          "rule": "hue 12-55, S >= 0.12, V >= 0.6",
+          "pass": true
+        },
+        "stipple": {
+          "tiles": 6,
+          "tiles_px": [
+            [
+              944,
+              48
+            ],
+            [
+              928,
+              64
+            ],
+            [
+              912,
+              80
+            ],
+            [
+              880,
+              112
+            ],
+            [
+              848,
+              144
+            ],
+            [
+              864,
+              144
+            ]
+          ],
+          "pass": false
+        }
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.07357067614793777,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.37017807364463806,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:shaft_fog_top": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 0,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "near_black_pct": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "black_runs": {
+          "value": 0,
+          "limit": "no run >= 8 px at max channel <= 2",
+          "pass": true,
+          "advisory": false
+        },
+        "amber_coverage_pct": {
+          "value": 0.0,
+          "limit": "<=0.3 (advisory)",
+          "pass": true,
+          "advisory": true
+        },
+        "stipple_tiles": {
+          "value": 6,
+          "limit": 0,
+          "pass": false,
+          "advisory": true
+        }
+      },
+      "failures": [],
+      "warnings": [
+        "stipple_tiles"
+      ],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 0,
+        "pitch": -30,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "freelook"
+    }
+  ],
+  "summary": {
+    "shots": 22,
+    "pass": 17,
+    "fail": 5,
+    "errors": 0,
+    "failures": [
+      "KS2b_bridge_down_16x10 (beat02_bridge_KS2b_bridge_down_16x10.png): side_strips",
+      "KS5b_lift_fan (beat05_lift_KS5b_lift_fan.png): mean_luma",
+      "KS5b_lift_fan_4k (beat05_lift_KS5b_lift_fan_4k.png): mean_luma",
+      "KS5b_lift_fan_16x10 (beat05_lift_KS5b_lift_fan_16x10.png): mean_luma",
+      "KS5b_lift_fan_21x9 (beat05_lift_KS5b_lift_fan_21x9.png): mean_luma"
+    ]
+  }
+}

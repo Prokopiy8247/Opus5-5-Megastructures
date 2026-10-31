@@ -1,0 +1,49 @@
+{
+  "name": "cue_ending",
+  "group": "cues",
+  "kind": "WalkAuto",
+  "note": "14.11 ending: door reached (trigger z -72.8), leaf opening 12 degrees with the amber sliver, then the end line; window captures (UI included); cue_frames at goal +0.5, +1, +3 and +7 s",
+  "fps": 20,
+  "seconds": 24,
+  "frames": 240,
+  "written": 240,
+  "simulated_frames": 480,
+  "record_every": 2,
+  "written_fps": 10,
+  "width": 1920,
+  "height": 1080,
+  "start_clock": 648.5266316732,
+  "clock_frozen": false,
+  "d_min": 790.7883,
+  "d_max": 799.4087,
+  "mean_luma_min": 0.0,
+  "mean_luma_max": 0.3958558543,
+  "capture": "window (ScreenCapture after WaitForEndOfFrame: post, final dither and overlay UI)",
+  "goal_frames": {
+    "goal_plus_0.5s": "frame_00070.png (0.50 s)",
+    "goal_plus_3.0s": "frame_00095.png (3.00 s)",
+    "goal_plus_7.0s": "frame_00135.png (7.00 s)"
+  },
+  "cue": {
+    "reference": "Goal",
+    "reference_seen": true,
+    "reference_real_time": 59.7833344024,
+    "warm_rule": "(R - B) > 0.08 and R > 0.12, R >= G >= B, rows below 0.50 of the frame",
+    "cue_frames": {
+      "plus_0.5s": "frame_00070.png (0.50 s, warm 0.655 %, 13590 px)",
+      "plus_1.0s": "frame_00075.png (1.00 s, warm 2.092 %, 43387 px)",
+      "plus_3.0s": "frame_00095.png (3.00 s, warm 0.378 %, 7847 px)",
+      "plus_7.0s": "frame_00135.png (7.00 s, warm 0.000 %, 0 px)"
+    },
+    "test": {
+      "test": "R2-05 ending: warm pixels of the lower half at goal +3 s (the amber sliver on the pier)",
+      "limit_pct": 0.1,
+      "frame": "frame_00095.png",
+      "goal_s": 3.0000000447,
+      "warm_pct": 0.3784239969,
+      "pass": true
+    }
+  },
+  "suggested": "python -I Tools/qa/sequence_metrics.py \"C:\\Users\\<user>\\AppData\\Local\\Temp\\claude\\W--YouTube-Megastructures-1st-Megastructures-1st-Megastructures\\5701b659-2980-4331-b8e2-ecd1860d7675\\scratchpad\\r32_cues\\cue_ending\" --fps 10 --plot --judge spikes",
+  "ok": true
+}

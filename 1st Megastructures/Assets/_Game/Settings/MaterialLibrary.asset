@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae94544901d3abd44ab357eef5807b51, type: 3}
+  m_Name: MaterialLibrary
+  m_EditorClassIdentifier: Megastructure.Runtime::Megastructure.MaterialLibrary
+  materials:
+  - {fileID: 2100000, guid: d2bfe1bfba412f84881c747be2aa99bd, type: 2}
+  - {fileID: 2100000, guid: 0ec0ea4c72406ec418d0222bc2383038, type: 2}
+  - {fileID: 2100000, guid: 6c8aec091e01ced418711a6e50c1de5c, type: 2}
+  - {fileID: 2100000, guid: 570f4597bd9292d4aadf69aadb642d99, type: 2}
+  - {fileID: 2100000, guid: 7db8c2a989d9dd042a5f51b2a85edfe3, type: 2}
+  - {fileID: 2100000, guid: b034b06a0cdde914f8b06319fb10e3a4, type: 2}
+  - {fileID: 2100000, guid: a2fa9d77594d0a345ac04dadda0468c0, type: 2}
+  - {fileID: 2100000, guid: 19e354a293951494ca4f8651bbe0306c, type: 2}
+  - {fileID: 2100000, guid: f4782a16d5d69cc489bb2423d62c4912, type: 2}
+  - {fileID: 2100000, guid: 0f3ddb9b3e696b24993b79affdd25533, type: 2}
+  - {fileID: 2100000, guid: 73b2ca106ebb93e4c9618f5ac103636f, type: 2}
+  - {fileID: 2100000, guid: a692c818190dd31449d32d3075c5b007, type: 2}
+  - {fileID: 2100000, guid: 78fa06224a56c104fbc5fea29cfd1326, type: 2}
+  - {fileID: 2100000, guid: 3f4b0405b8b41264985a20d7813aab4a, type: 2}
+  - {fileID: 2100000, guid: 93c44a51d02cc9d48891515f13b50350, type: 2}
+  - {fileID: 2100000, guid: 73a3193ca59e803419a38f37d9defb2d, type: 2}
+  - {fileID: 2100000, guid: cfcbb9be8792a3a4eb65fb016e06e052, type: 2}
+  - {fileID: 2100000, guid: 82666f3a9ae71a342aeb8e4309f56e04, type: 2}
+  - {fileID: 2100000, guid: 9fd70b9bfbb343c41bd6303c1248ba1a, type: 2}
+  - {fileID: 2100000, guid: 39dcb5d2f514d5e4bbef09d068b5ec6a, type: 2}
+  skybox: {fileID: 2100000, guid: de94d37f4d3732f40ae517c0759a0083, type: 2}
+  finalDither: {fileID: 2100000, guid: 2db36795174ba8c43ae611e02ae7585f, type: 2}
+  noiseTex: {fileID: 0}
+  streakTex: {fileID: 0}

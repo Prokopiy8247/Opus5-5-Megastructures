@@ -1,0 +1,53 @@
+{
+  "source": {
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "title": "Pricing - Claude API Docs (section 'Model pricing', footnote 2, 'Prompt caching', 'Long context pricing', 'Fast mode pricing', 'Data residency pricing', 'Web search tool')",
+    "accessed": "2026-10-29",
+    "method": "WebFetch of the official Anthropic docs pricing page during the run (not remembered prices)",
+    "currency": "USD",
+    "unit": "USD per million tokens (MTok)"
+  },
+  "models": {
+    "claude-opus-5-5": {
+      "display_name": "Claude Opus 5.5",
+      "listed_on_page": true,
+      "assumption": null,
+      "base_input": 4.0,
+      "cache_write_5m": 5.0,
+      "cache_write_1h": 8.0,
+      "cache_read": 0.20,
+      "output": 20.0,
+      "notes": [
+        "Row 'Claude Opus 5.5': $4 / MTok base input, $5 / MTok 5m cache writes, $8 / MTok 1h cache writes, $0.20 / MTok cache hits and refreshes, $20 / MTok output.",
+        "Footnote 2: cache hits and refreshes on Claude Opus 5.5 are priced at 0.05x the base input price (4 x 0.05 = 0.20).",
+        "Cache write multipliers: 5-minute write 1.25x base input (4 x 1.25 = 5), 1-hour write 2x base input (4 x 2 = 8).",
+        "Output tokens include extended-thinking tokens (billed as output)."
+      ],
+      "long_context": {
+        "applies": false,
+        "note": "Long context pricing: 'Claude 4.6 and later models (except Claude Haiku 5.5) ... include the full 1M token context window at standard pricing.' No surcharge tier for Opus 5.5."
+      },
+      "fast_mode": {
+        "base_input": 8.0,
+        "output": 40.0,
+        "cache_write_5m": 10.0,
+        "cache_write_1h": 16.0,
+        "cache_read": 0.40,
+        "note": "Fast mode table: Claude Opus 5.5 $8 input / $40 output per MTok; 'Prompt caching multipliers apply on top of fast mode pricing' (1.25x, 2x, 0.05x of $8). Applied only to messages whose usage.speed == 'fast'."
+      },
+      "batch": {
+        "base_input": 2.0,
+        "output": 10.0,
+        "note": "Batch API 50 % discount; not applicable to interactive Claude Code sessions."
+      }
+    }
+  },
+  "modifiers": {
+    "inference_geo_us_multiplier": 1.1,
+    "inference_geo_note": "Data residency pricing: inference_geo 'us' applies 1.1x to all token categories on Claude 4.6 and later models; 'global' (default) uses standard pricing. Applied only to messages whose usage.inference_geo == 'us'.",
+    "web_search_per_1000": 10.0,
+    "web_search_note": "Web search tool: $10 per 1,000 searches plus standard token costs. Counted from usage.server_tool_use.web_search_requests.",
+    "web_fetch_per_1000": 0.0,
+    "web_fetch_note": "Web fetch tool: no additional charge beyond standard token costs."
+  }
+}

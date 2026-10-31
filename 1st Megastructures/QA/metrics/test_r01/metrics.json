@@ -1,0 +1,604 @@
+{
+  "run": "test_r01",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\test_r01",
+  "generated": "2026-10-30T09:43:21+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [
+    {
+      "tag": "KS7a_tunnel_mouth",
+      "beat": 7,
+      "zone": "tunnel",
+      "file": "beat07_reveal_KS7a_tunnel_mouth.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08871372789144516,
+        "p1": 0.0033709807321429253,
+        "p50": 0.07429412007331848,
+        "p99": 0.6217294335365295,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.002218364197530864,
+      "thresholds": {
+        "row": "beat 7 tunnel",
+        "mean": [
+          0.04,
+          0.2
+        ],
+        "p99_max": 0.98,
+        "clipped_max_pct": 2.0,
+        "band_limit_px": 12.0,
+        "band_desc": "mouth glow",
+        "alias_desc": "tunnel edges"
+      },
+      "banding": [
+        {
+          "box_px": [
+            727,
+            320,
+            1193,
+            760
+          ],
+          "max_run": 10,
+          "x": 897,
+          "y": 604,
+          "channel": "R",
+          "axis": "v",
+          "value": 135,
+          "qualifying_lines": 1398,
+          "total_lines": 1398,
+          "worst": [
+            {
+              "run": 10,
+              "x": 897,
+              "y": 604,
+              "channel": "R",
+              "axis": "v",
+              "value": 135
+            },
+            {
+              "run": 9,
+              "x": 1018,
+              "y": 621,
+              "channel": "R",
+              "axis": "v",
+              "value": 141
+            },
+            {
+              "run": 8,
+              "x": 1023,
+              "y": 604,
+              "channel": "R",
+              "axis": "v",
+              "value": 143
+            },
+            {
+              "run": 8,
+              "x": 1036,
+              "y": 600,
+              "channel": "R",
+              "axis": "v",
+              "value": 144
+            },
+            {
+              "run": 8,
+              "x": 981,
+              "y": 581,
+              "channel": "R",
+              "axis": "v",
+              "value": 142
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "mouth_glow",
+          "region": [
+            0.378771,
+            0.2964535,
+            0.6212289,
+            0.7035464
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08871372789144516,
+          "limit": [
+            0.04,
+            0.2
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6217294335365295,
+          "limit": 0.98,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.002218364197530864,
+          "limit": 2.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:mouth_glow": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          14
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 62
+      },
+      "clock": 599.3599650065,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7a_tunnel_mouth_16x10",
+      "beat": 7,
+      "zone": "tunnel",
+      "file": "beat07_reveal_KS7a_tunnel_mouth_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.08769790083169937,
+        "p1": 0.0033709807321429253,
+        "p50": 0.0703725516796112,
+        "p99": 0.6217294335365295,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.002437641723356009,
+      "thresholds": {
+        "row": "beat 7 tunnel",
+        "mean": [
+          0.04,
+          0.2
+        ],
+        "p99_max": 0.98,
+        "clipped_max_pct": 2.0,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "mouth glow",
+        "alias_desc": "tunnel edges"
+      },
+      "banding": [
+        {
+          "box_px": [
+            614,
+            311,
+            1066,
+            739
+          ],
+          "max_run": 9,
+          "x": 849,
+          "y": 568,
+          "channel": "B",
+          "axis": "v",
+          "value": 172,
+          "qualifying_lines": 1356,
+          "total_lines": 1356,
+          "worst": [
+            {
+              "run": 9,
+              "x": 849,
+              "y": 568,
+              "channel": "B",
+              "axis": "v",
+              "value": 172
+            },
+            {
+              "run": 9,
+              "x": 915,
+              "y": 600,
+              "channel": "B",
+              "axis": "v",
+              "value": 173
+            },
+            {
+              "run": 8,
+              "x": 910,
+              "y": 583,
+              "channel": "R",
+              "axis": "v",
+              "value": 144
+            },
+            {
+              "run": 8,
+              "x": 929,
+              "y": 598,
+              "channel": "R",
+              "axis": "v",
+              "value": 144
+            },
+            {
+              "run": 8,
+              "x": 842,
+              "y": 568,
+              "channel": "R",
+              "axis": "v",
+              "value": 140
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "mouth_glow",
+          "region": [
+            0.3653011,
+            0.2964535,
+            0.6346988,
+            0.7035464
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08769790083169937,
+          "limit": [
+            0.04,
+            0.2
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6217294335365295,
+          "limit": 0.98,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.002437641723356009,
+          "limit": 2.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:mouth_glow": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          14
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 62
+      },
+      "clock": 599.3599650065,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7a_tunnel_mouth_21x9",
+      "beat": 7,
+      "zone": "tunnel",
+      "file": "beat07_reveal_KS7a_tunnel_mouth_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09639842808246613,
+        "p1": 0.003921568859368563,
+        "p50": 0.08745882660150528,
+        "p99": 0.6206125617027283,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.001736111111111111,
+      "thresholds": {
+        "row": "beat 7 tunnel",
+        "mean": [
+          0.04,
+          0.2
+        ],
+        "p99_max": 0.98,
+        "clipped_max_pct": 2.0,
+        "band_limit_px": 12.0,
+        "band_desc": "mouth glow",
+        "alias_desc": "tunnel edges"
+      },
+      "banding": [
+        {
+          "box_px": [
+            1010,
+            320,
+            1550,
+            760
+          ],
+          "max_run": 9,
+          "x": 1128,
+          "y": 360,
+          "channel": "B",
+          "axis": "v",
+          "value": 57,
+          "qualifying_lines": 1603,
+          "total_lines": 1620,
+          "worst": [
+            {
+              "run": 9,
+              "x": 1128,
+              "y": 360,
+              "channel": "B",
+              "axis": "v",
+              "value": 57
+            },
+            {
+              "run": 8,
+              "x": 1380,
+              "y": 616,
+              "channel": "R",
+              "axis": "v",
+              "value": 145
+            },
+            {
+              "run": 8,
+              "x": 1300,
+              "y": 581,
+              "channel": "R",
+              "axis": "v",
+              "value": 142
+            },
+            {
+              "run": 8,
+              "x": 1305,
+              "y": 585,
+              "channel": "R",
+              "axis": "v",
+              "value": 142
+            },
+            {
+              "run": 8,
+              "x": 1355,
+              "y": 600,
+              "channel": "R",
+              "axis": "v",
+              "value": 144
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "mouth_glow",
+          "region": [
+            0.3945391,
+            0.2964535,
+            0.6054608,
+            0.7035464
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09639842808246613,
+          "limit": [
+            0.04,
+            0.2
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6206125617027283,
+          "limit": 0.98,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.001736111111111111,
+          "limit": 2.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:mouth_glow": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          14
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 62
+      },
+      "clock": 599.3599650065,
+      "kind": "keyshot"
+    }
+  ],
+  "summary": {
+    "shots": 3,
+    "pass": 3,
+    "fail": 0,
+    "errors": 0,
+    "failures": []
+  }
+}

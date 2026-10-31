@@ -1,0 +1,141 @@
+{
+  "mode": "perf",
+  "run": "20261030-094549",
+  "date": "2026-10-30T08:46:35Z",
+  "build": "player",
+  "development": false,
+  "unity": "6000.6.0f1",
+  "product": "Abyss",
+  "seed": 1,
+  "virtual_dt": 0.01666667,
+  "realtime": false,
+  "screen": "1920x1080",
+  "graphics": "Direct3D11",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "load_seconds": 1.700414,
+  "args": "-screen-fullscreen 1 -screen-width 1920 -screen-height 1080 -perf-log W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\perf\\p01_1080.csv -logFile W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\Logs\\player_perf1.log",
+  "csv": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\perf\\p01_1080.csv",
+  "render_size": "1920x1080",
+  "render_via_rt": false,
+  "vsync_count": 0,
+  "target_frame_rate": -1,
+  "frame_timing_available": true,
+  "frames_total": 39633,
+  "frames_after_fade": 39441,
+  "truncated": false,
+  "aborted": false,
+  "fps": {
+    "avg": 889.1160854514,
+    "low_1pct": 532.5168441872,
+    "low_0_1pct": 408.9361397,
+    "from_p99": 587.5422063987
+  },
+  "frame_ms": {
+    "avg": 1.1247125278,
+    "p50": 1.0967971087,
+    "p99": 1.7020053864,
+    "p99_9": 2.0312004089,
+    "max_after_fade": 9.752501,
+    "max_at_frame": 10017,
+    "max_at_scene_time": 166.95,
+    "max_at_d": 250.0707,
+    "max_at_beat": 3,
+    "frames_over_33ms": 0,
+    "cpu_avg": 1.1247136176,
+    "gpu_avg": 1.0640327581,
+    "gpu_max": 2.545664
+  },
+  "render": {
+    "samples": 0,
+    "draw_calls_avg": null,
+    "draw_calls_max": 0,
+    "setpass_avg": null,
+    "setpass_max": 0,
+    "batches_avg": null,
+    "batches_max": 0,
+    "triangles_avg": null,
+    "triangles_max": 0
+  },
+  "gc_steady": {
+    "frames": 0,
+    "frames_with_alloc": 0,
+    "bytes_per_frame_avg": null,
+    "bytes_max": 0,
+    "pass": false
+  },
+  "memory_mb": {
+    "system_after_fade": 444.832,
+    "system_end": 447.4883,
+    "system_max": 605.8867,
+    "gfx_end": -1,
+    "gfx_max": -1
+  },
+  "beats": [
+    {
+      "beat": 1,
+      "frames": 2267,
+      "avg_fps": 1026.0838036457,
+      "max_frame_ms": 5.7786,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 2,
+      "frames": 6240,
+      "avg_fps": 835.6732065674,
+      "max_frame_ms": 2.209396,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 3,
+      "frames": 3218,
+      "avg_fps": 885.5857109128,
+      "max_frame_ms": 9.752501,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 4,
+      "frames": 5681,
+      "avg_fps": 920.3079573066,
+      "max_frame_ms": 2.394997,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 5,
+      "frames": 8599,
+      "avg_fps": 907.7989107875,
+      "max_frame_ms": 2.3553,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 6,
+      "frames": 7955,
+      "avg_fps": 782.3405000573,
+      "max_frame_ms": 2.6071,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    },
+    {
+      "beat": 7,
+      "frames": 5481,
+      "avg_fps": 1046.7662542429,
+      "max_frame_ms": 2.429904,
+      "frames_over_33ms": 0,
+      "draw_calls_avg": null
+    }
+  ],
+  "targets": {
+    "resolution_class": "1080p",
+    "avg_fps_min": 90.0,
+    "avg_pass": true,
+    "low_1pct_min": 60.0,
+    "low_1pct_pass": true,
+    "max_frame_ms": 33.0,
+    "no_frame_over_33ms_pass": true
+  },
+  "pass": true
+}

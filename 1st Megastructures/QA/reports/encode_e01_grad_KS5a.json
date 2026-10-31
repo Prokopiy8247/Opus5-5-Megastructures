@@ -1,0 +1,216 @@
+{
+  "name": "grad_KS5a",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\sequences\\e01\\grad_KS5a",
+  "generated": "2026-10-30T11:16:48+01:00",
+  "tool": "encode_test.py",
+  "tool_version": "1.0.0",
+  "frames": 600,
+  "fps": 60.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "regions": {
+    "shaft_fog_upper": [
+      0.0,
+      0.0,
+      1.0,
+      0.35
+    ],
+    "shaft_fog_lower": [
+      0.0,
+      0.65,
+      1.0,
+      1.0
+    ]
+  },
+  "limit_px": 24.0,
+  "limit_px_1080": 24,
+  "still_limit_px": 12.0,
+  "ffmpeg": "C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+  "encoders_available": {
+    "libx264": true,
+    "libvpx-vp9": true
+  },
+  "gates": [
+    "x264:20"
+  ],
+  "settings": {
+    "preset": "medium",
+    "x264_crf": "20,23,30",
+    "vp9_crf": 31,
+    "stride": 1,
+    "rgb_to_yuv": "BT.709 limited range, yuv420p"
+  },
+  "source_banding": {
+    "max_run": 15,
+    "frame": 60,
+    "where": {
+      "region": "shaft_fog_lower",
+      "x": 391,
+      "y": 759,
+      "channel": "B",
+      "value": 31,
+      "axis": "v"
+    },
+    "frames_scored": 600,
+    "qualifying_lines_min": 5267,
+    "qualifying_lines_mean": 5564.969166666667,
+    "lines_over_limit_max": 0,
+    "diag_low_contrast_max_run": 15,
+    "diag_where": {
+      "frame": 60,
+      "region": "shaft_fog_lower",
+      "x": 391,
+      "y": 759,
+      "channel": "B"
+    },
+    "pass_still_limit": false,
+    "pass_encode_limit": true
+  },
+  "encodes": [
+    {
+      "encode": "x264_crf20",
+      "codec": "x264",
+      "crf": 20,
+      "gated": true,
+      "video_bytes": 5178576,
+      "bitrate_kbps": 4142.8608,
+      "decoded_frames": 600,
+      "max_run": 243,
+      "frame": 140,
+      "where": {
+        "region": "shaft_fog_upper",
+        "x": 1738,
+        "y": 135,
+        "channel": "B",
+        "value": 28,
+        "axis": "v"
+      },
+      "frames_scored": 600,
+      "qualifying_lines_min": 5574,
+      "qualifying_lines_mean": 5679.153333333334,
+      "lines_over_limit_max": 5679,
+      "diag_low_contrast_max_run": 243,
+      "diag_where": {
+        "frame": 140,
+        "region": "shaft_fog_upper",
+        "x": 1738,
+        "y": 135,
+        "channel": "R"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    },
+    {
+      "encode": "x264_crf23",
+      "codec": "x264",
+      "crf": 23,
+      "gated": false,
+      "video_bytes": 3260829,
+      "bitrate_kbps": 2608.6632,
+      "decoded_frames": 600,
+      "max_run": 251,
+      "frame": 252,
+      "where": {
+        "region": "shaft_fog_upper",
+        "x": 1723,
+        "y": 91,
+        "channel": "G",
+        "value": 22,
+        "axis": "v"
+      },
+      "frames_scored": 600,
+      "qualifying_lines_min": 5573,
+      "qualifying_lines_mean": 5680.014166666667,
+      "lines_over_limit_max": 5724,
+      "diag_low_contrast_max_run": 251,
+      "diag_where": {
+        "frame": 136,
+        "region": "shaft_fog_upper",
+        "x": 1742,
+        "y": 127,
+        "channel": "R"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    },
+    {
+      "encode": "x264_crf30",
+      "codec": "x264",
+      "crf": 30,
+      "gated": false,
+      "video_bytes": 1362478,
+      "bitrate_kbps": 1089.9824,
+      "decoded_frames": 600,
+      "max_run": 269,
+      "frame": 178,
+      "where": {
+        "region": "shaft_fog_upper",
+        "x": 1759,
+        "y": 99,
+        "channel": "B",
+        "value": 28,
+        "axis": "v"
+      },
+      "frames_scored": 600,
+      "qualifying_lines_min": 5466,
+      "qualifying_lines_mean": 5631.065833333333,
+      "lines_over_limit_max": 5718,
+      "diag_low_contrast_max_run": 269,
+      "diag_where": {
+        "frame": 178,
+        "region": "shaft_fog_upper",
+        "x": 1759,
+        "y": 99,
+        "channel": "B"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    },
+    {
+      "encode": "vp9_crf31",
+      "codec": "vp9",
+      "crf": 31,
+      "gated": false,
+      "video_bytes": 3703868,
+      "bitrate_kbps": 2963.0944,
+      "decoded_frames": 600,
+      "max_run": 273,
+      "frame": 217,
+      "where": {
+        "region": "shaft_fog_upper",
+        "x": 1768,
+        "y": 69,
+        "channel": "R",
+        "value": 14,
+        "axis": "v"
+      },
+      "frames_scored": 600,
+      "qualifying_lines_min": 5528,
+      "qualifying_lines_mean": 5678.4275,
+      "lines_over_limit_max": 5742,
+      "diag_low_contrast_max_run": 273,
+      "diag_where": {
+        "frame": 217,
+        "region": "shaft_fog_upper",
+        "x": 1768,
+        "y": 69,
+        "channel": "R"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    }
+  ],
+  "crops": {
+    "file": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\encode\\e01_grad_KS5a\\crops_worst.png",
+    "frame": 140,
+    "center": [
+      1738,
+      256
+    ],
+    "size": 256,
+    "from": "x264_crf20"
+  },
+  "pass": false
+}

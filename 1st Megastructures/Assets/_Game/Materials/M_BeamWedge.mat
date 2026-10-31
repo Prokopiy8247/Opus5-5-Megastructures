@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_BeamWedge
+  m_Shader: {fileID: 4800000, guid: 24be4067e9efc874ca75c6e480a8bf78, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2950
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AbDomain: 0
+    - _AbFade: 1
+    - _BeamBlendOp: 0
+    - _Cull: 0
+    - _EmissionStrength: 0.004
+    - _PhaseG: 0.3
+    - _Recipe: 0
+    - _UseDepth: 1
+    - _ZTest: 8
+    m_Colors:
+    - _BeamAxial: {r: 0, g: 0, b: 0, a: 0}
+    - _BeamCentre: {r: -45, g: -317, b: 50, a: 0}
+    - _BeamDir: {r: 0, g: -0.30901703, b: 0.9510565, a: 0}
+    - _BeamFeather: {r: 2, g: 12, b: 8, a: 4}
+    - _BeamParams: {r: 70, g: 130, b: 0.10471976, a: 300}
+    - _BeamPatch: {r: 6, g: 1.05, b: 0, a: 1}
+    - _BeamRect: {r: 0.6, g: 1, b: 0, a: 0}
+    - _BeamShape: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0.5840785, g: 0.72305524, b: 0.8713672, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

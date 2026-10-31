@@ -1,0 +1,21 @@
+{
+  "run": "player_r13e",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\player_r13e",
+  "generated": "2026-10-30T15:04:55+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [],
+  "summary": {
+    "shots": 0,
+    "pass": 0,
+    "fail": 0,
+    "errors": 0,
+    "failures": []
+  }
+}

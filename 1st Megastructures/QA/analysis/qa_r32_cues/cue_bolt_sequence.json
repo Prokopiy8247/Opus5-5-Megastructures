@@ -1,0 +1,36 @@
+{
+  "name": "cue_bolt",
+  "group": "cues",
+  "kind": "WalkAuto",
+  "note": "14.5.2 / D3 falling bolt: the AutoWalker walks through beat-2 time 15 s (d 82.5, the release) with its own gaze (pan right to the wall); frames.csv cue_s = fall seconds",
+  "fps": 20,
+  "seconds": 16,
+  "frames": 160,
+  "written": 160,
+  "simulated_frames": 320,
+  "record_every": 2,
+  "written_fps": 10,
+  "width": 1920,
+  "height": 1080,
+  "start_clock": 51.5,
+  "clock_frozen": false,
+  "d_min": 79.67181,
+  "d_max": 103.5332,
+  "mean_luma_min": 0.0896768909,
+  "mean_luma_max": 0.1140612439,
+  "cue": {
+    "reference": "Bolt",
+    "reference_seen": true,
+    "reference_scene_time": 55.5500000603,
+    "release_d": 82.5,
+    "cue_frames": {
+      "plus_0.0s": "frame_00019.png (0.00 s)",
+      "plus_3.0s": "frame_00049.png (3.00 s)",
+      "plus_6.0s": "frame_00079.png (6.00 s)",
+      "plus_9.0s": "frame_00109.png (9.00 s)",
+      "plus_12.0s": "frame_00139.png (12.00 s)"
+    }
+  },
+  "suggested": "python -I Tools/qa/sequence_metrics.py \"C:\\Users\\<user>\\AppData\\Local\\Temp\\claude\\W--YouTube-Megastructures-1st-Megastructures-1st-Megastructures\\5701b659-2980-4331-b8e2-ecd1860d7675\\scratchpad\\r32_cues\\cue_bolt\" --fps 10 --plot --judge spikes",
+  "ok": true
+}

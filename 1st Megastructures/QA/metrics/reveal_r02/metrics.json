@@ -1,0 +1,5596 @@
+{
+  "run": "reveal_r02",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\reveal_r02",
+  "generated": "2026-10-30T10:40:16+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [
+    {
+      "tag": "KS5a_lift_city",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.12193439155817032,
+        "p1": 0.0227113738656044,
+        "p50": 0.11015452444553375,
+        "p99": 0.4768627882003784,
+        "min": 0.0030878433026373386,
+        "max": 0.9289804100990295
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0013503086419753088,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 10,
+          "x": 694,
+          "y": 259,
+          "channel": "B",
+          "axis": "v",
+          "value": 20,
+          "qualifying_lines": 5442,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 10,
+              "x": 694,
+              "y": 259,
+              "channel": "B",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 9,
+              "x": 1844,
+              "y": 131,
+              "channel": "R",
+              "axis": "v",
+              "value": 33
+            },
+            {
+              "run": 9,
+              "x": 1453,
+              "y": 284,
+              "channel": "G",
+              "axis": "v",
+              "value": 47
+            },
+            {
+              "run": 9,
+              "x": 1844,
+              "y": 131,
+              "channel": "B",
+              "axis": "v",
+              "value": 50
+            },
+            {
+              "run": 8,
+              "x": 1134,
+              "y": 12,
+              "channel": "R",
+              "axis": "v",
+              "value": 39
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 11,
+          "x": 88,
+          "y": 814,
+          "channel": "B",
+          "axis": "v",
+          "value": 29,
+          "qualifying_lines": 5713,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 11,
+              "x": 88,
+              "y": 814,
+              "channel": "B",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 10,
+              "x": 1753,
+              "y": 800,
+              "channel": "R",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 10,
+              "x": 764,
+              "y": 754,
+              "channel": "R",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 501,
+              "y": 799,
+              "channel": "R",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 10,
+              "x": 446,
+              "y": 764,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.12193439155817032,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4768627882003784,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0013503086419753088,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_4k",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.1213793233036995,
+        "p1": 0.021877646446228027,
+        "p50": 0.10596548765897751,
+        "p99": 0.47574594616889954,
+        "min": 0.00028313728398643434,
+        "max": 0.9404102563858032
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.003472222222222222,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 24.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            756
+          ],
+          "max_run": 14,
+          "x": 1336,
+          "y": 205,
+          "channel": "G",
+          "axis": "v",
+          "value": 43,
+          "qualifying_lines": 11249,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 14,
+              "x": 1336,
+              "y": 205,
+              "channel": "G",
+              "axis": "v",
+              "value": 43
+            },
+            {
+              "run": 11,
+              "x": 1836,
+              "y": 19,
+              "channel": "G",
+              "axis": "v",
+              "value": 44
+            },
+            {
+              "run": 11,
+              "x": 1836,
+              "y": 427,
+              "channel": "B",
+              "axis": "v",
+              "value": 54
+            },
+            {
+              "run": 11,
+              "x": 1330,
+              "y": 349,
+              "channel": "B",
+              "axis": "v",
+              "value": 55
+            },
+            {
+              "run": 10,
+              "x": 3659,
+              "y": 302,
+              "channel": "R",
+              "axis": "v",
+              "value": 33
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1404,
+            3840,
+            2160
+          ],
+          "max_run": 11,
+          "x": 2590,
+          "y": 1531,
+          "channel": "B",
+          "axis": "v",
+          "value": 30,
+          "qualifying_lines": 11432,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 11,
+              "x": 2590,
+              "y": 1531,
+              "channel": "B",
+              "axis": "v",
+              "value": 30
+            },
+            {
+              "run": 11,
+              "x": 347,
+              "y": 1441,
+              "channel": "B",
+              "axis": "v",
+              "value": 46
+            },
+            {
+              "run": 10,
+              "x": 376,
+              "y": 1448,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 10,
+              "x": 2601,
+              "y": 1532,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 10,
+              "x": 511,
+              "y": 1575,
+              "channel": "B",
+              "axis": "v",
+              "value": 30
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1213793233036995,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.47574594616889954,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.003472222222222222,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 14,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 11,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.11839505285024643,
+        "p1": 0.0227113738656044,
+        "p50": 0.10596548765897751,
+        "p99": 0.4359796643257141,
+        "min": 0.0030878433026373386,
+        "max": 0.9286972880363464
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0011904761904761906,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 9,
+          "x": 1528,
+          "y": 34,
+          "channel": "G",
+          "axis": "v",
+          "value": 44,
+          "qualifying_lines": 4809,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 1528,
+              "y": 34,
+              "channel": "G",
+              "axis": "v",
+              "value": 44
+            },
+            {
+              "run": 9,
+              "x": 1281,
+              "y": 100,
+              "channel": "G",
+              "axis": "v",
+              "value": 37
+            },
+            {
+              "run": 9,
+              "x": 1281,
+              "y": 100,
+              "channel": "B",
+              "axis": "v",
+              "value": 47
+            },
+            {
+              "run": 8,
+              "x": 1130,
+              "y": 26,
+              "channel": "R",
+              "axis": "v",
+              "value": 33
+            },
+            {
+              "run": 8,
+              "x": 1504,
+              "y": 49,
+              "channel": "G",
+              "axis": "v",
+              "value": 44
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 10,
+          "x": 1005,
+          "y": 732,
+          "channel": "R",
+          "axis": "v",
+          "value": 15,
+          "qualifying_lines": 5005,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1005,
+              "y": 732,
+              "channel": "R",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 522,
+              "y": 774,
+              "channel": "R",
+              "axis": "v",
+              "value": 13
+            },
+            {
+              "run": 10,
+              "x": 341,
+              "y": 743,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 10,
+              "x": 152,
+              "y": 763,
+              "channel": "B",
+              "axis": "v",
+              "value": 30
+            },
+            {
+              "run": 10,
+              "x": 1090,
+              "y": 744,
+              "channel": "B",
+              "axis": "v",
+              "value": 29
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11839505285024643,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4359796643257141,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0011904761904761906,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.13079734146595,
+        "p1": 0.021877646446228027,
+        "p50": 0.11269176751375198,
+        "p99": 0.4866769313812256,
+        "min": 0.0030878433026373386,
+        "max": 0.9289804100990295
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0010850694444444445,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 10,
+          "x": 1866,
+          "y": 205,
+          "channel": "G",
+          "axis": "v",
+          "value": 36,
+          "qualifying_lines": 7191,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1866,
+              "y": 205,
+              "channel": "G",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 9,
+              "x": 1065,
+              "y": 121,
+              "channel": "R",
+              "axis": "v",
+              "value": 8
+            },
+            {
+              "run": 9,
+              "x": 1008,
+              "y": 175,
+              "channel": "R",
+              "axis": "v",
+              "value": 41
+            },
+            {
+              "run": 9,
+              "x": 1963,
+              "y": 343,
+              "channel": "R",
+              "axis": "v",
+              "value": 35
+            },
+            {
+              "run": 9,
+              "x": 1589,
+              "y": 145,
+              "channel": "G",
+              "axis": "v",
+              "value": 46
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 10,
+          "x": 937,
+          "y": 766,
+          "channel": "R",
+          "axis": "v",
+          "value": 15,
+          "qualifying_lines": 7621,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 10,
+              "x": 937,
+              "y": 766,
+              "channel": "R",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 1580,
+              "y": 751,
+              "channel": "R",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 1173,
+              "y": 752,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 10,
+              "x": 572,
+              "y": 785,
+              "channel": "B",
+              "axis": "v",
+              "value": 31
+            },
+            {
+              "run": 10,
+              "x": 406,
+              "y": 814,
+              "channel": "B",
+              "axis": "v",
+              "value": 30
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.13079734146595,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4866769313812256,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0010850694444444445,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.10073713958263397,
+        "p1": 0.018789805471897125,
+        "p50": 0.09193098545074463,
+        "p99": 0.2889105975627899,
+        "min": 0.0033709807321429253,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0003858024691358025,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 10,
+          "x": 1910,
+          "y": 300,
+          "channel": "R",
+          "axis": "v",
+          "value": 25,
+          "qualifying_lines": 5700,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1910,
+              "y": 300,
+              "channel": "R",
+              "axis": "v",
+              "value": 25
+            },
+            {
+              "run": 10,
+              "x": 830,
+              "y": 293,
+              "channel": "R",
+              "axis": "v",
+              "value": 39
+            },
+            {
+              "run": 10,
+              "x": 839,
+              "y": 293,
+              "channel": "G",
+              "axis": "v",
+              "value": 46
+            },
+            {
+              "run": 10,
+              "x": 839,
+              "y": 292,
+              "channel": "B",
+              "axis": "v",
+              "value": 55
+            },
+            {
+              "run": 9,
+              "x": 832,
+              "y": 293,
+              "channel": "G",
+              "axis": "v",
+              "value": 46
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 6,
+          "x": 426,
+          "y": 855,
+          "channel": "R",
+          "axis": "v",
+          "value": 22,
+          "qualifying_lines": 805,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 426,
+              "y": 855,
+              "channel": "R",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 6,
+              "x": 423,
+              "y": 862,
+              "channel": "R",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 6,
+              "x": 487,
+              "y": 712,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            },
+            {
+              "run": 6,
+              "x": 363,
+              "y": 1028,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 6,
+              "x": 360,
+              "y": 1035,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.10073713958263397,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2889105975627899,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0003858024691358025,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.10128185153007507,
+        "p1": 0.018789805471897125,
+        "p50": 0.09193098545074463,
+        "p99": 0.2889105975627899,
+        "min": 0.0033709807321429253,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00034013605442176874,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 9,
+          "x": 3,
+          "y": 201,
+          "channel": "R",
+          "axis": "v",
+          "value": 24,
+          "qualifying_lines": 4980,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 3,
+              "y": 201,
+              "channel": "R",
+              "axis": "v",
+              "value": 24
+            },
+            {
+              "run": 9,
+              "x": 267,
+              "y": 43,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 9,
+              "x": 3,
+              "y": 201,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 8,
+              "x": 1660,
+              "y": 243,
+              "channel": "R",
+              "axis": "v",
+              "value": 30
+            },
+            {
+              "run": 8,
+              "x": 353,
+              "y": 44,
+              "channel": "R",
+              "axis": "v",
+              "value": 17
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 7,
+          "x": 370,
+          "y": 720,
+          "channel": "R",
+          "axis": "v",
+          "value": 20,
+          "qualifying_lines": 780,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 7,
+              "x": 370,
+              "y": 720,
+              "channel": "R",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 6,
+              "x": 336,
+              "y": 817,
+              "channel": "R",
+              "axis": "v",
+              "value": 21
+            },
+            {
+              "run": 6,
+              "x": 270,
+              "y": 971,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 6,
+              "x": 1311,
+              "y": 1043,
+              "channel": "G",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 5,
+              "x": 1313,
+              "y": 1044,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.10128185153007507,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2889105975627899,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00034013605442176874,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 7,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.1019173264503479,
+        "p1": 0.0227113738656044,
+        "p50": 0.09164785593748093,
+        "p99": 0.2889105975627899,
+        "min": 0.0033709807321429253,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00028935185185185184,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 11,
+          "x": 265,
+          "y": 311,
+          "channel": "R",
+          "axis": "v",
+          "value": 37,
+          "qualifying_lines": 7620,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 11,
+              "x": 265,
+              "y": 311,
+              "channel": "R",
+              "axis": "v",
+              "value": 37
+            },
+            {
+              "run": 11,
+              "x": 265,
+              "y": 311,
+              "channel": "G",
+              "axis": "v",
+              "value": 44
+            },
+            {
+              "run": 10,
+              "x": 642,
+              "y": 190,
+              "channel": "R",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 353,
+              "y": 275,
+              "channel": "R",
+              "axis": "v",
+              "value": 24
+            },
+            {
+              "run": 10,
+              "x": 1151,
+              "y": 293,
+              "channel": "R",
+              "axis": "v",
+              "value": 39
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 6,
+          "x": 684,
+          "y": 1023,
+          "channel": "G",
+          "axis": "v",
+          "value": 29,
+          "qualifying_lines": 816,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 6,
+              "x": 684,
+              "y": 1023,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 5,
+              "x": 750,
+              "y": 843,
+              "channel": "R",
+              "axis": "v",
+              "value": 22
+            },
+            {
+              "run": 5,
+              "x": 727,
+              "y": 907,
+              "channel": "R",
+              "axis": "v",
+              "value": 23
+            },
+            {
+              "run": 5,
+              "x": 741,
+              "y": 869,
+              "channel": "R",
+              "axis": "v",
+              "value": 23
+            },
+            {
+              "run": 5,
+              "x": 742,
+              "y": 867,
+              "channel": "R",
+              "axis": "v",
+              "value": 23
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1019173264503479,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2889105975627899,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00028935185185185184,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7b_honeycomb",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7b_honeycomb.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.3610593378543854,
+        "p1": 0.0863419696688652,
+        "p50": 0.37351763248443604,
+        "p99": 0.5012619495391846,
+        "min": 0.0,
+        "max": 0.995469868183136
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0019290123456790122,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 9,
+          "x": 523,
+          "y": 392,
+          "channel": "R",
+          "axis": "v",
+          "value": 111,
+          "qualifying_lines": 1502,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 9,
+              "x": 523,
+              "y": 392,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            },
+            {
+              "run": 8,
+              "x": 523,
+              "y": 394,
+              "channel": "G",
+              "axis": "v",
+              "value": 126
+            },
+            {
+              "run": 7,
+              "x": 1592,
+              "y": 395,
+              "channel": "R",
+              "axis": "v",
+              "value": 110
+            },
+            {
+              "run": 7,
+              "x": 544,
+              "y": 402,
+              "channel": "R",
+              "axis": "v",
+              "value": 110
+            },
+            {
+              "run": 7,
+              "x": 652,
+              "y": 392,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.65584754611903,
+            125.14079359554472,
+            139.54046293073444
+          ],
+          "sky": [
+            109.43480049362402,
+            124.9093994241053,
+            139.28902714932127
+          ],
+          "backdrop": [
+            109.35357142857143,
+            124.78428571428572,
+            139.13285714285715
+          ]
+        },
+        "max_diff_levels": 0.4076057878772872,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.66608391608392,
+          125.15857671740025,
+          139.55378445084327
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.446215549156733,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3610593378543854,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5012619495391846,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0019290123456790122,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.4076057878772872,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": -12,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7b_honeycomb_4k",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7b_honeycomb_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.3606887757778168,
+        "p1": 0.08605882525444031,
+        "p50": 0.37351763248443604,
+        "p99": 0.5004282593727112,
+        "min": 0.0,
+        "max": 0.9963192939758301
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0020495756172839506,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 24.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            864
+          ],
+          "max_run": 9,
+          "x": 1884,
+          "y": 800,
+          "channel": "B",
+          "axis": "v",
+          "value": 120,
+          "qualifying_lines": 2963,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 9,
+              "x": 1884,
+              "y": 800,
+              "channel": "B",
+              "axis": "v",
+              "value": 120
+            },
+            {
+              "run": 8,
+              "x": 1885,
+              "y": 721,
+              "channel": "G",
+              "axis": "v",
+              "value": 85
+            },
+            {
+              "run": 8,
+              "x": 1885,
+              "y": 721,
+              "channel": "B",
+              "axis": "v",
+              "value": 74
+            },
+            {
+              "run": 8,
+              "x": 1864,
+              "y": 846,
+              "channel": "B",
+              "axis": "v",
+              "value": 118
+            },
+            {
+              "run": 7,
+              "x": 1282,
+              "y": 802,
+              "channel": "R",
+              "axis": "v",
+              "value": 110
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.654891541075,
+            125.14306559804861,
+            139.5416630368499
+          ],
+          "sky": [
+            109.43416998077379,
+            124.90575206089179,
+            139.28787958597803
+          ],
+          "backdrop": [
+            109.38171270718232,
+            124.8324861878453,
+            139.1956906077348
+          ]
+        },
+        "max_diff_levels": 0.3459724291151076,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.66696327455104,
+          125.16014129321037,
+          139.55786550180662
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.442134498193383,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3606887757778168,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5004282593727112,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0020495756172839506,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 9,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.3459724291151076,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": -12,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7b_honeycomb_16x10",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7b_honeycomb_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.3631737232208252,
+        "p1": 0.08635765314102173,
+        "p50": 0.37323451042175293,
+        "p99": 0.5012619495391846,
+        "min": 0.0,
+        "max": 0.995469868183136
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0022675736961451248,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            420
+          ],
+          "max_run": 9,
+          "x": 582,
+          "y": 380,
+          "channel": "R",
+          "axis": "v",
+          "value": 111,
+          "qualifying_lines": 1773,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 582,
+              "y": 380,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            },
+            {
+              "run": 9,
+              "x": 313,
+              "y": 386,
+              "channel": "R",
+              "axis": "v",
+              "value": 110
+            },
+            {
+              "run": 8,
+              "x": 259,
+              "y": 392,
+              "channel": "R",
+              "axis": "v",
+              "value": 109
+            },
+            {
+              "run": 8,
+              "x": 1338,
+              "y": 396,
+              "channel": "R",
+              "axis": "v",
+              "value": 109
+            },
+            {
+              "run": 8,
+              "x": 974,
+              "y": 381,
+              "channel": "G",
+              "axis": "v",
+              "value": 127
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.65349740932642,
+            125.14065198618307,
+            139.53810449050087
+          ],
+          "sky": [
+            109.42955835183814,
+            124.90204786577844,
+            139.2830002467308
+          ],
+          "backdrop": [
+            109.40544041450777,
+            124.83886010362694,
+            139.18445595854922
+          ]
+        },
+        "max_diff_levels": 0.3536485319516487,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.67027790861988,
+          125.16038624587847,
+          139.5560527555346
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.44394724446539,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3631737232208252,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5012619495391846,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0022675736961451248,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.3536485319516487,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": -12,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7b_honeycomb_21x9",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7b_honeycomb_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.35939180850982666,
+        "p1": 0.08944549411535263,
+        "p50": 0.37490198016166687,
+        "p99": 0.4987247586250305,
+        "min": 0.0,
+        "max": 0.9957530498504639
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0014829282407407408,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            432
+          ],
+          "max_run": 8,
+          "x": 1584,
+          "y": 398,
+          "channel": "R",
+          "axis": "v",
+          "value": 111,
+          "qualifying_lines": 1517,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 8,
+              "x": 1584,
+              "y": 398,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            },
+            {
+              "run": 8,
+              "x": 1253,
+              "y": 417,
+              "channel": "R",
+              "axis": "v",
+              "value": 94
+            },
+            {
+              "run": 7,
+              "x": 764,
+              "y": 394,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            },
+            {
+              "run": 7,
+              "x": 1129,
+              "y": 396,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            },
+            {
+              "run": 7,
+              "x": 1631,
+              "y": 394,
+              "channel": "R",
+              "axis": "v",
+              "value": 111
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.66579600365678,
+            125.1556745461669,
+            139.55406817291367
+          ],
+          "sky": [
+            109.46295724648866,
+            124.93610125019293,
+            139.31872202500386
+          ],
+          "backdrop": [
+            109.34492238033636,
+            124.78525226390686,
+            139.13534928848642
+          ]
+        },
+        "max_diff_levels": 0.4187188844272498,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.66784997684827,
+          125.16059577095231,
+          139.55780212995833
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.442197870041667,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.35939180850982666,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4987247586250305,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0014829282407407408,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 8,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.4187188844272498,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": -12,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7c_goal_door",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7c_goal_door.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.3858641982078552,
+        "p1": 0.09109725803136826,
+        "p50": 0.430673748254776,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9974518418312073
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.009886188271604939,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 6,
+          "x": 843,
+          "y": 202,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 1517,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 843,
+              "y": 202,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 863,
+              "y": 271,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1096,
+              "y": 133,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1119,
+              "y": 53,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1124,
+              "y": 36,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.95257570483815,
+            125.46745562130178,
+            139.90245388096068
+          ],
+          "sky": [
+            109.85165569724393,
+            125.3642019744961,
+            139.79920814479638
+          ],
+          "backdrop": [
+            109.63924310983134,
+            125.10386672151378,
+            139.48601398601397
+          ]
+        },
+        "max_diff_levels": 0.41643989494670564,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.9917729329494,
+          125.51563142739613,
+          139.95361990950227
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.046380090497735,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3858641982078552,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.009886188271604939,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.41643989494670564,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7c_goal_door_4k",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7c_goal_door_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.3855849504470825,
+        "p1": 0.09138039499521255,
+        "p50": 0.430673748254776,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9983012676239014
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.010790412808641976,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 24.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            864
+          ],
+          "max_run": 6,
+          "x": 1601,
+          "y": 113,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 3153,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1601,
+              "y": 113,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1711,
+              "y": 493,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1649,
+              "y": 280,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1670,
+              "y": 352,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1690,
+              "y": 421,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.95252199668961,
+            125.46789790051398,
+            139.9031274501263
+          ],
+          "sky": [
+            109.84968000210698,
+            125.36095235586926,
+            139.7957280939714
+          ],
+          "backdrop": [
+            109.59394887282926,
+            125.06471793765505,
+            139.45291770035595
+          ]
+        },
+        "max_diff_levels": 0.45020974977035166,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.99315105430621,
+          125.51795825918136,
+          139.95550881734349
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.044491182656515,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3855849504470825,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.010790412808641976,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.45020974977035166,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7c_goal_door_16x10",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7c_goal_door_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.38667961955070496,
+        "p1": 0.09501883387565613,
+        "p50": 0.4278690218925476,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9968855977058411
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.010941043083900226,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            420
+          ],
+          "max_run": 6,
+          "x": 734,
+          "y": 223,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 1482,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 6,
+              "x": 734,
+              "y": 223,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 938,
+              "y": 247,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 933,
+              "y": 264,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 985,
+              "y": 85,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1008,
+              "y": 5,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.95282815198618,
+            125.46729274611398,
+            139.9004749568221
+          ],
+          "sky": [
+            109.84412780656304,
+            125.35405872193436,
+            139.79009375771034
+          ],
+          "backdrop": [
+            109.69190922545634,
+            125.15540207202763,
+            139.53626048347311
+          ]
+        },
+        "max_diff_levels": 0.36421447334899426,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.99540744229863,
+          125.51954780970325,
+          139.95772491756946
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.042275082430535,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.38667961955070496,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.010941043083900226,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.36421447334899426,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7c_goal_door_21x9",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7c_goal_door_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.38523390889167786,
+        "p1": 0.09810667484998703,
+        "p50": 0.43487846851348877,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9977350234985352
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.007486979166666666,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            432
+          ],
+          "max_run": 6,
+          "x": 1126,
+          "y": 74,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 1520,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1126,
+              "y": 74,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1145,
+              "y": 140,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1396,
+              "y": 202,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1146,
+              "y": 143,
+              "channel": "G",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1147,
+              "y": 146,
+              "channel": "G",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": {
+        "colours": {
+          "fog": [
+            109.96186496016716,
+            125.47877758913413,
+            139.91328196421574
+          ],
+          "sky": [
+            109.8766399135669,
+            125.3880614292329,
+            139.8255903688841
+          ],
+          "backdrop": [
+            109.60116015846067,
+            125.06932654216186,
+            139.45359366157328
+          ]
+        },
+        "max_diff_levels": 0.4596883026424621,
+        "worst_pair": [
+          "fog",
+          "backdrop"
+        ],
+        "limit_levels": 3,
+        "pass": true
+      },
+      "horizon_row": {
+        "mean_rgb": [
+          109.99344034573237,
+          125.52006482481865,
+          139.9585584195092
+        ],
+        "reference_rgb": [
+          132,
+          150,
+          165
+        ],
+        "max_diff_levels": 25.04144158049081,
+        "limit_levels": 2,
+        "pass": false,
+        "applies": false
+      },
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.38523390889167786,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.007486979166666666,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "horizon_agreement": {
+          "value": 0.4596883026424621,
+          "limit": 3,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7d_look_back",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7d_look_back.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.27510151267051697,
+        "p1": 0.0216101985424757,
+        "p50": 0.3309309780597687,
+        "p99": 0.37323451042175293,
+        "min": 0.0,
+        "max": 0.6090792417526245
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 16,
+          "x": 1068,
+          "y": 285,
+          "channel": "B",
+          "axis": "v",
+          "value": 60,
+          "qualifying_lines": 5463,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 16,
+              "x": 1068,
+              "y": 285,
+              "channel": "B",
+              "axis": "v",
+              "value": 60
+            },
+            {
+              "run": 12,
+              "x": 1901,
+              "y": 340,
+              "channel": "G",
+              "axis": "v",
+              "value": 88
+            },
+            {
+              "run": 12,
+              "x": 185,
+              "y": 233,
+              "channel": "B",
+              "axis": "v",
+              "value": 103
+            },
+            {
+              "run": 11,
+              "x": 243,
+              "y": 316,
+              "channel": "R",
+              "axis": "v",
+              "value": 78
+            },
+            {
+              "run": 11,
+              "x": 232,
+              "y": 342,
+              "channel": "R",
+              "axis": "v",
+              "value": 79
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 1,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": false
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.27510151267051697,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.37323451042175293,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 16,
+          "limit": 12.0,
+          "pass": false,
+          "advisory": false
+        }
+      },
+      "failures": [
+        "banding:sky_haze_top40"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -70
+        ],
+        "yaw": 0,
+        "pitch": 24,
+        "fov": 68
+      },
+      "clock": 655.3599650065,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7d_look_back_16x10",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7d_look_back_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.2701089382171631,
+        "p1": 0.011780393309891224,
+        "p50": 0.3270094096660614,
+        "p99": 0.37323451042175293,
+        "min": 0.0,
+        "max": 0.6306219696998596
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            420
+          ],
+          "max_run": 17,
+          "x": 945,
+          "y": 276,
+          "channel": "B",
+          "axis": "v",
+          "value": 60,
+          "qualifying_lines": 4756,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 17,
+              "x": 945,
+              "y": 276,
+              "channel": "B",
+              "axis": "v",
+              "value": 60
+            },
+            {
+              "run": 14,
+              "x": 67,
+              "y": 186,
+              "channel": "R",
+              "axis": "v",
+              "value": 76
+            },
+            {
+              "run": 14,
+              "x": 62,
+              "y": 202,
+              "channel": "G",
+              "axis": "v",
+              "value": 88
+            },
+            {
+              "run": 12,
+              "x": 143,
+              "y": 310,
+              "channel": "G",
+              "axis": "v",
+              "value": 90
+            },
+            {
+              "run": 11,
+              "x": 1240,
+              "y": 310,
+              "channel": "R",
+              "axis": "v",
+              "value": 40
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 4,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": false
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.2701089382171631,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.37323451042175293,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 17,
+          "limit": 11.666666666666666,
+          "pass": false,
+          "advisory": false
+        }
+      },
+      "failures": [
+        "banding:sky_haze_top40"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -70
+        ],
+        "yaw": 0,
+        "pitch": 24,
+        "fov": 68
+      },
+      "clock": 655.3599650065,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7d_look_back_21x9",
+      "beat": 7,
+      "zone": "outside",
+      "file": "beat07_reveal_KS7d_look_back_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.2933993637561798,
+        "p1": 0.025814905762672424,
+        "p50": 0.3424125611782074,
+        "p99": 0.37351763248443604,
+        "min": 0.0,
+        "max": 0.6051576137542725
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            432
+          ],
+          "max_run": 16,
+          "x": 81,
+          "y": 45,
+          "channel": "B",
+          "axis": "v",
+          "value": 100,
+          "qualifying_lines": 7068,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 16,
+              "x": 81,
+              "y": 45,
+              "channel": "B",
+              "axis": "v",
+              "value": 100
+            },
+            {
+              "run": 13,
+              "x": 39,
+              "y": 49,
+              "channel": "R",
+              "axis": "v",
+              "value": 77
+            },
+            {
+              "run": 13,
+              "x": 89,
+              "y": 96,
+              "channel": "R",
+              "axis": "v",
+              "value": 79
+            },
+            {
+              "run": 13,
+              "x": 81,
+              "y": 45,
+              "channel": "G",
+              "axis": "v",
+              "value": 88
+            },
+            {
+              "run": 13,
+              "x": 133,
+              "y": 397,
+              "channel": "G",
+              "axis": "v",
+              "value": 89
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 10.0,
+          "lines_over_limit": 7,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": false
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.2933993637561798,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.37351763248443604,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:sky_haze_top40": {
+          "value": 16,
+          "limit": 12.0,
+          "pass": false,
+          "advisory": false
+        }
+      },
+      "failures": [
+        "banding:sky_haze_top40"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -70
+        ],
+        "yaw": 0,
+        "pitch": 24,
+        "fov": 68
+      },
+      "clock": 655.3599650065,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS7b_honeycomb_px_base",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7b_honeycomb_px_base.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.3884444236755371,
+        "p1": 0.0989403948187828,
+        "p50": 0.42394745349884033,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9937710762023926
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0017843364197530865,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 6,
+          "x": 1013,
+          "y": 315,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 2612,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1013,
+              "y": 315,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1064,
+              "y": 28,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 870,
+              "y": 112,
+              "channel": "G",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 886,
+              "y": 201,
+              "channel": "B",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 915,
+              "y": 364,
+              "channel": "B",
+              "axis": "v",
+              "value": 2
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3884444236755371,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0017843364197530865,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "parallax"
+    },
+    {
+      "tag": "KS7b_honeycomb_px_move10",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7b_honeycomb_px_move10.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.3700016140937805,
+        "p1": 0.05972471088171005,
+        "p50": 0.42394745349884033,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9937710762023926
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0018325617283950616,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 5,
+          "x": 835,
+          "y": 171,
+          "channel": "R",
+          "axis": "v",
+          "value": 102,
+          "qualifying_lines": 3933,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 5,
+              "x": 835,
+              "y": 171,
+              "channel": "R",
+              "axis": "v",
+              "value": 102
+            },
+            {
+              "run": 5,
+              "x": 834,
+              "y": 195,
+              "channel": "R",
+              "axis": "v",
+              "value": 104
+            },
+            {
+              "run": 5,
+              "x": 832,
+              "y": 105,
+              "channel": "R",
+              "axis": "v",
+              "value": 96
+            },
+            {
+              "run": 5,
+              "x": 863,
+              "y": 143,
+              "channel": "R",
+              "axis": "v",
+              "value": 99
+            },
+            {
+              "run": 5,
+              "x": 861,
+              "y": 16,
+              "channel": "R",
+              "axis": "v",
+              "value": 89
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3700016140937805,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0018325617283950616,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 5,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -55,
+          -485.3,
+          -12
+        ],
+        "yaw": 180,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "parallax"
+    },
+    {
+      "tag": "KS7b_honeycomb_px_yaw2",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7b_honeycomb_px_yaw2.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.38861146569252014,
+        "p1": 0.0989403948187828,
+        "p50": 0.4242149293422699,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9937710762023926
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0017843364197530865,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 6,
+          "x": 1038,
+          "y": 17,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 2637,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1038,
+              "y": 17,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 859,
+              "y": 208,
+              "channel": "G",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 5,
+              "x": 838,
+              "y": 184,
+              "channel": "R",
+              "axis": "v",
+              "value": 103
+            },
+            {
+              "run": 5,
+              "x": 839,
+              "y": 13,
+              "channel": "R",
+              "axis": "v",
+              "value": 89
+            },
+            {
+              "run": 5,
+              "x": 840,
+              "y": 153,
+              "channel": "R",
+              "axis": "v",
+              "value": 100
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.38861146569252014,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.0017843364197530865,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -12
+        ],
+        "yaw": 182,
+        "pitch": 0,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "kind": "parallax"
+    },
+    {
+      "tag": "KS7c_goal_door_px_base",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7c_goal_door_px_base.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.38586392998695374,
+        "p1": 0.09109725803136826,
+        "p50": 0.430673748254776,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9977350234985352
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.009886188271604939,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 6,
+          "x": 812,
+          "y": 95,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 1511,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 812,
+              "y": 95,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 832,
+              "y": 164,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1059,
+              "y": 261,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1082,
+              "y": 181,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1087,
+              "y": 164,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.38586392998695374,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.009886188271604939,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "parallax"
+    },
+    {
+      "tag": "KS7c_goal_door_px_move10",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7c_goal_door_px_move10.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.36630842089653015,
+        "p1": 0.05243216082453728,
+        "p50": 0.4278690218925476,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9977350234985352
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.009114583333333334,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 5,
+          "x": 389,
+          "y": 86,
+          "channel": "R",
+          "axis": "v",
+          "value": 101,
+          "qualifying_lines": 3174,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 5,
+              "x": 389,
+              "y": 86,
+              "channel": "R",
+              "axis": "v",
+              "value": 101
+            },
+            {
+              "run": 5,
+              "x": 388,
+              "y": 51,
+              "channel": "R",
+              "axis": "v",
+              "value": 99
+            },
+            {
+              "run": 5,
+              "x": 400,
+              "y": 81,
+              "channel": "R",
+              "axis": "v",
+              "value": 101
+            },
+            {
+              "run": 5,
+              "x": 419,
+              "y": 79,
+              "channel": "R",
+              "axis": "v",
+              "value": 101
+            },
+            {
+              "run": 5,
+              "x": 416,
+              "y": 81,
+              "channel": "R",
+              "axis": "v",
+              "value": 101
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.36630842089653015,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.009114583333333334,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 5,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -55,
+          -485.3,
+          -44
+        ],
+        "yaw": 180,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "parallax"
+    },
+    {
+      "tag": "KS7c_goal_door_px_yaw2",
+      "beat": 7,
+      "zone": "outside",
+      "file": "test_KS7c_goal_door_px_yaw2.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.3858310282230377,
+        "p1": 0.09109725803136826,
+        "p50": 0.430673748254776,
+        "p99": 0.5051835179328918,
+        "min": 0.0,
+        "max": 0.9974518418312073
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00998263888888889,
+      "thresholds": {
+        "row": "beat 7 outside",
+        "mean": [
+          0.25,
+          0.45
+        ],
+        "p99_max": 0.92,
+        "clipped_max_pct": 1.0,
+        "band_limit_px": 12.0,
+        "band_desc": "sky and haze, top 40 %",
+        "alias_desc": "lattice rows, door frame"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            432
+          ],
+          "max_run": 6,
+          "x": 773,
+          "y": 67,
+          "channel": "R",
+          "axis": "v",
+          "value": 1,
+          "qualifying_lines": 1599,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 773,
+              "y": 67,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 793,
+              "y": 136,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1061,
+              "y": 148,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1084,
+              "y": 68,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 6,
+              "x": 1102,
+              "y": 5,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "sky_haze_top40",
+          "region": [
+            0,
+            0,
+            1,
+            0.4
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.3858310282230377,
+          "limit": [
+            0.25,
+            0.45
+          ],
+          "pass": true,
+          "advisory": true
+        },
+        "p99_luma": {
+          "value": 0.5051835179328918,
+          "limit": 0.92,
+          "pass": true,
+          "advisory": true
+        },
+        "clipped_pct": {
+          "value": 0.00998263888888889,
+          "limit": 1.0,
+          "pass": true,
+          "advisory": true
+        },
+        "banding:sky_haze_top40": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -45,
+          -485.3,
+          -44
+        ],
+        "yaw": 182,
+        "pitch": -2,
+        "fov": 64
+      },
+      "clock": 638.0266316732,
+      "kind": "parallax"
+    }
+  ],
+  "summary": {
+    "shots": 24,
+    "pass": 21,
+    "fail": 3,
+    "errors": 0,
+    "failures": [
+      "KS7d_look_back (beat07_reveal_KS7d_look_back.png): banding:sky_haze_top40",
+      "KS7d_look_back_16x10 (beat07_reveal_KS7d_look_back_16x10.png): banding:sky_haze_top40",
+      "KS7d_look_back_21x9 (beat07_reveal_KS7d_look_back_21x9.png): banding:sky_haze_top40"
+    ]
+  }
+}

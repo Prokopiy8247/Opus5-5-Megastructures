@@ -1,0 +1,100 @@
+{
+  "mode": "autotest",
+  "run": "20261030-172347",
+  "date": "2026-10-30T16:24:44Z",
+  "build": "player",
+  "development": false,
+  "unity": "6000.6.0f1",
+  "product": "Abyss",
+  "seed": 1,
+  "virtual_dt": 0.01666667,
+  "realtime": false,
+  "screen": "1280x720",
+  "graphics": "Direct3D11",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "load_seconds": 2.22777,
+  "args": "-screen-fullscreen 0 -screen-width 1280 -screen-height 720 -autotest -logFile W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\Logs\\player_autotest_final.log",
+  "finish": {
+    "finished": true,
+    "time": 656.5667009093,
+    "walk_start": 0.0,
+    "expected": 658.0300292969,
+    "tolerance": 8.0,
+    "walker_begun_by_harness": false,
+    "pass": true
+  },
+  "beats": {
+    "fired": [
+      {
+        "beat": 1,
+        "time": 0.0
+      },
+      {
+        "beat": 2,
+        "time": 40.4833354447
+      },
+      {
+        "beat": 3,
+        "time": 144.4833408687
+      },
+      {
+        "beat": 4,
+        "time": 198.1166769993
+      },
+      {
+        "beat": 5,
+        "time": 292.8000152707
+      },
+      {
+        "beat": 6,
+        "time": 436.1166894119
+      },
+      {
+        "beat": 7,
+        "time": 568.70002966
+      }
+    ],
+    "in_order": true,
+    "count": 7,
+    "backward_steps": 0,
+    "pass": true
+  },
+  "lift": {
+    "dwell": 305.9666826241,
+    "start": 307.9833493959,
+    "end": 427.9666889869,
+    "start_expected": 308.36,
+    "end_expected": 428.36,
+    "tolerance": 1.0,
+    "max_offset_error_mm": 0.04315837,
+    "offset_samples": 7199,
+    "offset_limit_mm": 0.5,
+    "rides": 1,
+    "pass": true
+  },
+  "log": {
+    "installed": true,
+    "errors": 0,
+    "exceptions": 0,
+    "asserts": 0,
+    "warnings": 0,
+    "total": 0,
+    "first": []
+  },
+  "camera_inside_collider": {
+    "frames": 0,
+    "probe_radius": 0.05,
+    "pass": true
+  },
+  "camera_roll_max_deg": 3.415095E-06,
+  "monitored_frames": 39575,
+  "beat_changes": 6,
+  "beat_decreases": 0,
+  "safety_returns": 0,
+  "player_safety_returns": 0,
+  "frames": 39601,
+  "real_seconds": 54.18745,
+  "aborted": false,
+  "failures": [],
+  "pass": true
+}

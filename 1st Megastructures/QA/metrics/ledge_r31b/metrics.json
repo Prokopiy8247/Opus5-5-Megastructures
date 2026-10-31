@@ -1,0 +1,21 @@
+{
+  "run": "ledge_r31b",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\ledge_r31b",
+  "generated": "2026-10-30T16:22:30+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [],
+  "summary": {
+    "shots": 0,
+    "pass": 0,
+    "fail": 0,
+    "errors": 0,
+    "failures": []
+  }
+}

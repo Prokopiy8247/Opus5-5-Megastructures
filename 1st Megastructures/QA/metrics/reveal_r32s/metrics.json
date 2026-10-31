@@ -1,0 +1,21 @@
+{
+  "run": "reveal_r32s",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\reveal_r32s",
+  "generated": "2026-10-30T17:14:37+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [],
+  "summary": {
+    "shots": 0,
+    "pass": 0,
+    "fail": 0,
+    "errors": 0,
+    "failures": []
+  }
+}

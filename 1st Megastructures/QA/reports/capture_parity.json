@@ -1,0 +1,18 @@
+{
+  "test": "11.2 window vs RenderTexture parity (same frame)",
+  "pose": "KS2a_bridge_ahead",
+  "window": "1920x1080",
+  "window_is_1920x1080": true,
+  "mean_abs_diff_levels": 0.0613241062,
+  "mean_abs_diff": 0.0002404867,
+  "limit_levels": 1,
+  "diff_rows_as_read": 0.0613241062,
+  "diff_rows_reversed": 13.0279505851,
+  "orientation": "as read",
+  "capture_flip_flag": false,
+  "rt_mean_luma": 0.0539613802,
+  "readback": "async",
+  "msaa": 4,
+  "note": "the window includes overlay UI, the RenderTexture never does; capture mode hides the title",
+  "pass": true
+}

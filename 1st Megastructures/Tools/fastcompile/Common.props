@@ -1,0 +1,33 @@
+<Project>
+  <!-- Fast type-check of the game code against the Unity 6000.6 managed assemblies without launching Unity.
+       This is a pre-check only; the authoritative compile is the Unity batchmode compile (Tools/unity-queue.ps1). -->
+  <PropertyGroup>
+    <UnityData>C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data</UnityData>
+    <ProjRoot>$(MSBuildThisFileDirectory)..\..\</ProjRoot>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <OutputType>Library</OutputType>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+    <NoWarn>0169;0649;CS1591</NoWarn>
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CommonDefines>UNITY_6000_6_0;UNITY_6000_6;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_6_OR_NEWER;UNITY_64;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_MONO;NET_STANDARD_2_1;NETSTANDARD2_1;ENABLE_INPUT_SYSTEM;ENABLE_AUDIO;ENABLE_PHYSICS;CSHARP_7_3_OR_NEWER</CommonDefines>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="netstandard"><HintPath>$(UnityData)\NetStandard\ref\2.1.0\netstandard.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="$(UnityData)\Managed\UnityEngine\UnityEngine*.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\Unity.InputSystem.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ProjRoot)Library\ScriptAssemblies\UnityEngine.UI.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

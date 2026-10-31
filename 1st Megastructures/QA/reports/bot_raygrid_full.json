@@ -1,0 +1,237 @@
+{
+  "mode": "bot_raygrid",
+  "run": "20261030-094649",
+  "date": "2026-10-30T08:46:51Z",
+  "build": "player",
+  "development": false,
+  "unity": "6000.6.0f1",
+  "product": "Abyss",
+  "seed": 1,
+  "virtual_dt": 0.01666667,
+  "realtime": false,
+  "screen": "1280x720",
+  "graphics": "Direct3D11",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "load_seconds": 1.722652,
+  "args": "-screen-fullscreen 0 -screen-width 1280 -screen-height 720 -bot all -logFile W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\Logs\\player_bots3.log",
+  "grid_step": 0.25,
+  "floor_tolerance": 0.3,
+  "excluded": "lift deck d 449.54-469.54 (kinematic)",
+  "points_listed_max": 400,
+  "point_fields": "x, y, z = probe column on the expected floor (sideways: expected wall point at 1 m); floor_y = expected floor y (PathGuide.FloorPoint); hit_y = y of the collider hit (null = none); dy = hit_y - floor_y; offset = metres right of the centreline",
+  "down": {
+    "points": 50275,
+    "judged": 36965,
+    "failures": 0,
+    "edge_band_points": 13310,
+    "edge_band_misses": 0,
+    "max_abs_dy_ok": 0.1497889,
+    "failures_listed": 0,
+    "failing_points": [],
+    "failure_clusters": [],
+    "edge_band_miss_points": []
+  },
+  "ceiling": {
+    "points": 1413,
+    "failures": 0,
+    "failures_listed": 0,
+    "failing_points": []
+  },
+  "sideways_advisory": {
+    "points": 6086,
+    "at_half_width": 5719,
+    "narrower": 361,
+    "gaps": 6,
+    "gap_points": [
+      {
+        "d": 216.8,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 216.8,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      },
+      {
+        "d": 217.05,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 217.05,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      },
+      {
+        "d": 217.3,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 217.3,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      },
+      {
+        "d": 217.55,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 217.55,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      },
+      {
+        "d": 217.8,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 217.8,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      },
+      {
+        "d": 218.05,
+        "offset": 3,
+        "side": "right",
+        "region": "ledge",
+        "x": 3,
+        "y": -2,
+        "z": 218.05,
+        "floor_y": -3,
+        "hit_distance": null,
+        "expected_distance": [2.95, 3.15],
+        "reason": "no wall within 4.00 m"
+      }
+    ]
+  },
+  "regions": [
+    {
+      "region": "gallery",
+      "points": 2640,
+      "judged": 1680,
+      "failures": 0,
+      "edge_band": 960,
+      "edge_band_misses": 0,
+      "max_abs_dy": 3.099442E-06
+    },
+    {
+      "region": "landing",
+      "points": 792,
+      "judged": 696,
+      "failures": 0,
+      "edge_band": 96,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "bridge",
+      "points": 4200,
+      "judged": 1800,
+      "failures": 0,
+      "edge_band": 2400,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "ledge",
+      "points": 8140,
+      "judged": 6522,
+      "failures": 0,
+      "edge_band": 1618,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0.1497889
+    },
+    {
+      "region": "apron",
+      "points": 7296,
+      "judged": 6784,
+      "failures": 0,
+      "edge_band": 512,
+      "edge_band_misses": 0,
+      "max_abs_dy": 4.768372E-07
+    },
+    {
+      "region": "catwalk",
+      "points": 3080,
+      "judged": 1320,
+      "failures": 0,
+      "edge_band": 1760,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "dock",
+      "points": 3240,
+      "judged": 3080,
+      "failures": 0,
+      "edge_band": 160,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "gantry",
+      "points": 10335,
+      "judged": 7155,
+      "failures": 0,
+      "edge_band": 3180,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "tunnel",
+      "points": 4080,
+      "judged": 2640,
+      "failures": 0,
+      "edge_band": 1440,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "balcony",
+      "points": 4312,
+      "judged": 4088,
+      "failures": 0,
+      "edge_band": 224,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    },
+    {
+      "region": "pier",
+      "points": 2160,
+      "judged": 1200,
+      "failures": 0,
+      "edge_band": 960,
+      "edge_band_misses": 0,
+      "max_abs_dy": 0
+    }
+  ],
+  "log": {
+    "installed": true,
+    "errors": 0,
+    "exceptions": 0,
+    "asserts": 0,
+    "warnings": 0,
+    "total": 0,
+    "first": []
+  },
+  "pass": true
+}

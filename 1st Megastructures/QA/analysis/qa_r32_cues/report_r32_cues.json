@@ -1,0 +1,466 @@
+{
+  "run": "r32_cues",
+  "run_stamp": "20261030-161435",
+  "date": "2026-10-30T15:16:51Z",
+  "build": "player",
+  "editor": false,
+  "development": false,
+  "unity": "6000.6.0f1",
+  "seed": 1,
+  "nopost": false,
+  "selector": "cues,B3_middle",
+  "lint_only": false,
+  "complete": true,
+  "capture": {
+    "color_format": "R16G16B16A16_SFloat",
+    "depth_format": "D32_SFloat_S8_UInt",
+    "msaa": 4,
+    "encode": "linear to sRGB 8-bit on the CPU (exact piecewise, rounded)",
+    "readback": "async",
+    "flip_rows": false,
+    "settle_frames": 3,
+    "ui_included": false,
+    "screen": "1920x1080",
+    "graphics": "Direct3D11",
+    "dither": "Static",
+    "dither_amp_lsb": 2,
+    "post_processing": true
+  },
+  "shots": [
+    {
+      "tag": "B3_middle",
+      "base_tag": "B3_middle",
+      "kind": "still",
+      "beat": 3,
+      "file": "beat03_ledge_B3_middle.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [24.95502, -3.223607, 242.5009],
+        "yaw": 3.4377,
+        "pitch": 0,
+        "fov": 64
+      },
+      "clock": 171.1800130208,
+      "d": 256.77,
+      "e": 256.77,
+      "game_beat": 3,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "column_fog_top25": [0, 0, 1, 0.25]
+        }
+      },
+      "ok": true,
+      "mean_luma": 0.1558828439,
+      "readback": "async",
+      "render_ms": 40.73858,
+      "png_bytes": 1873963
+    },
+    {
+      "tag": "cue_freight_t30",
+      "base_tag": "cue_freight_t30",
+      "kind": "cue",
+      "beat": 5,
+      "file": "beat05_lift_cue_freight_t30.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-138.6, -101.3, 269],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 338.3599853516,
+      "ride_seconds": 30,
+      "d": 459.54,
+      "e": 489.54,
+      "game_beat": 5,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "shaft_fog_top": [0, 0, 1, 0.35],
+          "shaft_fog_bottom": [0, 0.65, 1, 1]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "role": "base"
+    },
+      "ok": true,
+      "mean_luma": 0.1180523572,
+      "readback": "async",
+      "render_ms": 25.23994,
+      "png_bytes": 1897568
+    },
+    {
+      "tag": "cue_freight_t31",
+      "base_tag": "cue_freight_t31",
+      "kind": "cue",
+      "beat": 5,
+      "file": "beat05_lift_cue_freight_t31.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-138.6, -101.3, 269],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 339.3599853516,
+      "ride_seconds": 30,
+      "d": 459.54,
+      "e": 489.54,
+      "game_beat": 5,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "shaft_fog_top": [0, 0, 1, 0.35],
+          "shaft_fog_bottom": [0, 0.65, 1, 1]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "pair_of": "cue_freight_t30",
+      "test": "R1-40 freight lights climbing face 210 (ride 30 s, 1 s apart, platform frozen)",
+      "changed_pixels": 263,
+      "moving_blobs": 3,
+      "diff_threshold_levels": 12,
+      "diff_image": "C:/Users/<user>/AppData/Local/Temp/claude/W--YouTube-Megastructures-1st-Megastructures-1st-Megastructures/5701b659-2980-4331-b8e2-ecd1860d7675/scratchpad/build_b01/QA/analysis/r32_cues/test_cue_freight_diff.png",
+      "limit": "at least 1 moving light",
+      "pass": true
+    },
+      "ok": true,
+      "mean_luma": 0.1180082128,
+      "readback": "async",
+      "render_ms": 28.88584,
+      "png_bytes": 1896907
+    },
+    {
+      "tag": "cue_b6_lookback_p0",
+      "base_tag": "cue_b6_lookback_p0",
+      "kind": "cue",
+      "beat": 6,
+      "file": "beat06_fan_cue_b6_lookback_p0.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-45, -485.3, 160],
+        "yaw": 0,
+        "pitch": -5.965757,
+        "fov": 66
+      },
+      "clock": 502.0266316732,
+      "d": 568.54,
+      "e": 689.54,
+      "game_beat": 6,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "beam_region": [0.2, 0, 0.8, 0.6]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "role": "base"
+    },
+      "ok": true,
+      "mean_luma": 0.1725294821,
+      "readback": "async",
+      "render_ms": 112.2255,
+      "png_bytes": 2106314
+    },
+    {
+      "tag": "cue_b6_lookback_p1",
+      "base_tag": "cue_b6_lookback_p1",
+      "kind": "cue",
+      "beat": 6,
+      "file": "beat06_fan_cue_b6_lookback_p1.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-45, -485.3, 160],
+        "yaw": 0,
+        "pitch": -5.965757,
+        "fov": 66
+      },
+      "clock": 502.8599649866,
+      "d": 568.54,
+      "e": 689.54,
+      "game_beat": 6,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "beam_region": [0.2, 0, 0.8, 0.6]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "pair_of": "cue_b6_lookback_p0",
+      "test": "R1-40 / R2-28 far-wall lighthouse patches turning (quarter-period phase steps), far wall only",
+      "patch_region": [0.4043443, 0.3224777, 0.5956557, 0.6694877],
+      "mean_abs_diff_levels_unmasked": 10.3794371981,
+      "depth": "ok",
+      "far_wall_min_depth_m": 500,
+      "far_wall_pixels": 56202,
+      "mean_abs_diff_levels": 7.1469639277,
+      "limit_levels": 0.3,
+      "patch_lift_p95": 0.1103545129,
+      "patch_lift_p99": 0.123838447,
+      "lift_limit": 0.08,
+      "pass": true
+    },
+      "ok": true,
+      "mean_luma": 0.1653544492,
+      "readback": "async",
+      "render_ms": 99.92313,
+      "png_bytes": 2090325
+    },
+    {
+      "tag": "cue_b6_lookback_p2",
+      "base_tag": "cue_b6_lookback_p2",
+      "kind": "cue",
+      "beat": 6,
+      "file": "beat06_fan_cue_b6_lookback_p2.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-45, -485.3, 160],
+        "yaw": 0,
+        "pitch": -5.965757,
+        "fov": 66
+      },
+      "clock": 503.6932983001,
+      "d": 568.54,
+      "e": 689.54,
+      "game_beat": 6,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "beam_region": [0.2, 0, 0.8, 0.6]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "pair_of": "cue_b6_lookback_p0",
+      "test": "R1-40 / R2-28 far-wall lighthouse patches turning (quarter-period phase steps), far wall only",
+      "patch_region": [0.4043443, 0.3224777, 0.5956557, 0.6694877],
+      "mean_abs_diff_levels_unmasked": 10.5953574879,
+      "depth": "ok",
+      "far_wall_min_depth_m": 500,
+      "far_wall_pixels": 56202,
+      "mean_abs_diff_levels": 7.8424018125,
+      "limit_levels": 0.3,
+      "patch_lift_p95": 0.110637635,
+      "patch_lift_p99": 0.1280431449,
+      "lift_limit": 0.08,
+      "pass": true
+    },
+      "ok": true,
+      "mean_luma": 0.1813014693,
+      "readback": "async",
+      "render_ms": 103.2243,
+      "png_bytes": 2104199
+    },
+    {
+      "tag": "cue_b6_lookback_p3",
+      "base_tag": "cue_b6_lookback_p3",
+      "kind": "cue",
+      "beat": 6,
+      "file": "beat06_fan_cue_b6_lookback_p3.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-45, -485.3, 160],
+        "yaw": 0,
+        "pitch": -5.965757,
+        "fov": 66
+      },
+      "clock": 504.5266316136,
+      "d": 568.54,
+      "e": 689.54,
+      "game_beat": 6,
+      "nopost": false,
+      "regions": {
+        "banding": {
+          "beam_region": [0.2, 0, 0.8, 0.6]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "analysis": {
+      "pair_of": "cue_b6_lookback_p0",
+      "test": "R1-40 / R2-28 far-wall lighthouse patches turning (quarter-period phase steps), far wall only",
+      "patch_region": [0.4043443, 0.3224777, 0.5956557, 0.6694877],
+      "mean_abs_diff_levels_unmasked": 2.4486111111,
+      "depth": "ok",
+      "far_wall_min_depth_m": 500,
+      "far_wall_pixels": 56202,
+      "mean_abs_diff_levels": 5.7706487314,
+      "limit_levels": 0.3,
+      "patch_lift_p95": 0.107549794,
+      "patch_lift_p99": 0.1114713624,
+      "lift_limit": 0.08,
+      "pass": true
+    },
+      "ok": true,
+      "mean_luma": 0.1909968523,
+      "readback": "async",
+      "render_ms": 95.34073,
+      "png_bytes": 2132434
+    },
+    {
+      "tag": "KS7b_honeycomb_nopost",
+      "base_tag": "KS7b_honeycomb_nopost",
+      "kind": "cue",
+      "beat": 7,
+      "file": "beat07_reveal_KS7b_honeycomb_nopost.png",
+      "width": 1920,
+      "height": 1080,
+      "aspect": "16:9",
+      "variant": "1080p",
+      "pose": {
+        "pos": [-45, -485.3, -12],
+        "yaw": 180,
+        "pitch": -12,
+        "fov": 68
+      },
+      "clock": 616.6932983398,
+      "d": 740.54,
+      "e": 861.54,
+      "game_beat": 7,
+      "zone": "outside",
+      "nopost": true,
+      "regions": {
+        "banding": {
+          "sky_haze_top40": [0, 0, 1, 0.4]
+        },
+        "horizon_row": {
+          "rects": [
+            [0.02, 0.337436, 0.25, 0.347436],
+            [0.75, 0.337436, 0.98, 0.347436]
+          ]
+        },
+        "horizon_sky": {
+          "rects": [
+            [0.02, 0.307436, 0.25, 0.327436],
+            [0.75, 0.307436, 0.98, 0.327436]
+          ]
+        },
+        "horizon_fog": {
+          "rects": [
+            [0.02, 0.3454359, 0.25, 0.3574359],
+            [0.75, 0.3454359, 0.98, 0.3574359]
+          ]
+        },
+        "horizon_backdrop": {
+          "rects": [
+            [0.02, 0.3694333, 0.0775, 0.3746826],
+            [0.0775, 0.3678016, 0.135, 0.3725784],
+            [0.135, 0.3662789, 0.1925, 0.3706583],
+            [0.1925, 0.3648892, 0.25, 0.3689618],
+            [0.9225, 0.3694333, 0.98, 0.3746826],
+            [0.865, 0.3678016, 0.9225, 0.3725784],
+            [0.8075, 0.3662789, 0.865, 0.3706583],
+            [0.75, 0.3648892, 0.8075, 0.3689618]
+          ]
+        }
+      },
+      "advisory": [
+        "mean_luma",
+        "p99_luma",
+        "clipped_pct"
+      ],
+      "ok": true,
+      "mean_luma": 0.4748996742,
+      "readback": "async",
+      "render_ms": 23.8533,
+      "png_bytes": 1845629
+    }
+  ],
+  "lint_summary": {
+    "pass": 0,
+    "pass_with_known_conflict": 0,
+    "fail": 0,
+    "no_subjects": 0,
+    "failed_shots": [],
+    "known_conflicts": []
+  },
+  "cue_tests": [
+    {
+      "name": "cue_ignition:sweep",
+      "result": {
+          "test": "R2-20 ignition: on-screen sweep (warm pixels of the lower 66 % from 2 % to 95 % of their final count)",
+          "limit_s": 6.0,
+          "warm_px_before": 0,
+          "final_warm_px_growth": 0,
+          "error": "no warm growth after the ignition",
+          "pass": false
+        }
+    },
+    {
+      "name": "cue_ending:amber_sliver",
+      "result": {
+          "test": "R2-05 ending: warm pixels of the lower half at goal +3 s (the amber sliver on the pier)",
+          "limit_pct": 0.1,
+          "frame": "frame_00095.png",
+          "goal_s": 3.0000000447,
+          "warm_pct": 0.3784239969,
+          "pass": true
+        }
+    }
+  ],
+  "tests_summary": {
+    "pass": 5,
+    "fail": 1,
+    "inconclusive": 0
+  },
+  "capture_failures": 0,
+  "hook_errors": 0,
+  "log": {
+    "installed": true,
+    "errors": 0,
+    "exceptions": 0,
+    "asserts": 0,
+    "warnings": 0,
+    "total": 0,
+    "first": []
+  }
+}

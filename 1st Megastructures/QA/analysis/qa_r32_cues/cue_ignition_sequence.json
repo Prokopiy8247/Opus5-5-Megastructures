@@ -1,0 +1,52 @@
+{
+  "name": "cue_ignition",
+  "group": "cues",
+  "kind": "WalkPinned",
+  "note": "14.5.7 / R1-24 / R2-20 honeycomb lamp ignition seen in the KS7b frame while the player walks onto the balcony front; frames.csv cue_s = seconds since the ignition, warm_px = warm pixels of the lower 66 %",
+  "fps": 20,
+  "seconds": 26,
+  "frames": 260,
+  "written": 260,
+  "simulated_frames": 520,
+  "record_every": 2,
+  "written_fps": 10,
+  "width": 1920,
+  "height": 1080,
+  "start_clock": 608.5266316732,
+  "clock_frozen": false,
+  "d_min": 730.7119,
+  "d_max": 769.5792,
+  "mean_luma_min": 0.3949374125,
+  "mean_luma_max": 0.3996958398,
+  "pinned_eye": [-45, -485.3, -12],
+  "pinned_yaw": 180,
+  "pinned_pitch": -12,
+  "pinned_fov": 68,
+  "cue": {
+    "reference": "Ignition",
+    "reference_seen": true,
+    "reference_scene_time": -2980.5424804688,
+    "warm_rule": "(R - B) > 0.08 and R > 0.12, R >= G >= B, rows below 0.34 of the frame",
+    "cue_frames": {
+      "plus_0.0s": null,
+      "plus_0.5s": null,
+      "plus_1.5s": null,
+      "plus_3.0s": null,
+      "plus_4.5s": null,
+      "plus_6.0s": null,
+      "plus_12.0s": null,
+      "plus_13.5s": null,
+      "plus_14.5s": null
+    },
+    "test": {
+      "test": "R2-20 ignition: on-screen sweep (warm pixels of the lower 66 % from 2 % to 95 % of their final count)",
+      "limit_s": 6.0,
+      "warm_px_before": 0,
+      "final_warm_px_growth": 0,
+      "error": "no warm growth after the ignition",
+      "pass": false
+    }
+  },
+  "suggested": "python -I Tools/qa/sequence_metrics.py \"C:\\Users\\<user>\\AppData\\Local\\Temp\\claude\\W--YouTube-Megastructures-1st-Megastructures-1st-Megastructures\\5701b659-2980-4331-b8e2-ecd1860d7675\\scratchpad\\r32_cues\\cue_ignition\" --fps 10 --plot --judge spikes",
+  "ok": true
+}

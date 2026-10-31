@@ -1,0 +1,4852 @@
+{
+  "run": "global_r03",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\global_r03",
+  "generated": "2026-10-30T10:05:21+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [
+    {
+      "tag": "KS2a_bridge_ahead",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2a_bridge_ahead.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08776311576366425,
+        "p1": 0.03392549231648445,
+        "p50": 0.0641968697309494,
+        "p99": 0.3810933530330658,
+        "min": 0.014868236146867275,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.007571373456790122,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            324
+          ],
+          "max_run": 10,
+          "x": 1091,
+          "y": 155,
+          "channel": "G",
+          "axis": "v",
+          "value": 74,
+          "qualifying_lines": 701,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1091,
+              "y": 155,
+              "channel": "G",
+              "axis": "v",
+              "value": 74
+            },
+            {
+              "run": 9,
+              "x": 1113,
+              "y": 168,
+              "channel": "G",
+              "axis": "v",
+              "value": 81
+            },
+            {
+              "run": 9,
+              "x": 1078,
+              "y": 71,
+              "channel": "B",
+              "axis": "v",
+              "value": 54
+            },
+            {
+              "run": 8,
+              "x": 623,
+              "y": 96,
+              "channel": "G",
+              "axis": "v",
+              "value": 21
+            },
+            {
+              "run": 8,
+              "x": 1091,
+              "y": 157,
+              "channel": "B",
+              "axis": "v",
+              "value": 88
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            1920,
+            1080
+          ],
+          "max_run": 10,
+          "x": 846,
+          "y": 842,
+          "channel": "R",
+          "axis": "v",
+          "value": 33,
+          "qualifying_lines": 2002,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 10,
+              "x": 846,
+              "y": 842,
+              "channel": "R",
+              "axis": "v",
+              "value": 33
+            },
+            {
+              "run": 9,
+              "x": 394,
+              "y": 1039,
+              "channel": "B",
+              "axis": "v",
+              "value": 12
+            },
+            {
+              "run": 8,
+              "x": 49,
+              "y": 1069,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 8,
+              "x": 846,
+              "y": 844,
+              "channel": "G",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 8,
+              "x": 845,
+              "y": 825,
+              "channel": "G",
+              "axis": "v",
+              "value": 35
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08776311576366425,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.3810933530330658,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.007571373456790122,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          120
+        ],
+        "yaw": 0,
+        "pitch": -10,
+        "fov": 66
+      },
+      "clock": 80.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2a_bridge_ahead_4k",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2a_bridge_ahead_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.08750440180301666,
+        "p1": 0.03392549231648445,
+        "p50": 0.06364627927541733,
+        "p99": 0.38164395093917847,
+        "min": 0.015418823808431625,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.008198302469135802,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 24.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            648
+          ],
+          "max_run": 11,
+          "x": 2220,
+          "y": 395,
+          "channel": "G",
+          "axis": "v",
+          "value": 97,
+          "qualifying_lines": 1876,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 11,
+              "x": 2220,
+              "y": 395,
+              "channel": "G",
+              "axis": "v",
+              "value": 97
+            },
+            {
+              "run": 11,
+              "x": 2215,
+              "y": 417,
+              "channel": "G",
+              "axis": "v",
+              "value": 106
+            },
+            {
+              "run": 11,
+              "x": 2210,
+              "y": 287,
+              "channel": "B",
+              "axis": "v",
+              "value": 100
+            },
+            {
+              "run": 10,
+              "x": 2220,
+              "y": 395,
+              "channel": "R",
+              "axis": "v",
+              "value": 83
+            },
+            {
+              "run": 10,
+              "x": 2180,
+              "y": 115,
+              "channel": "R",
+              "axis": "v",
+              "value": 44
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1296,
+            3840,
+            2160
+          ],
+          "max_run": 10,
+          "x": 308,
+          "y": 1312,
+          "channel": "R",
+          "axis": "v",
+          "value": 9,
+          "qualifying_lines": 5562,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 10,
+              "x": 308,
+              "y": 1312,
+              "channel": "R",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 10,
+              "x": 1080,
+              "y": 1427,
+              "channel": "G",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 10,
+              "x": 1053,
+              "y": 1590,
+              "channel": "G",
+              "axis": "v",
+              "value": 13
+            },
+            {
+              "run": 10,
+              "x": 648,
+              "y": 1540,
+              "channel": "G",
+              "axis": "v",
+              "value": 13
+            },
+            {
+              "run": 10,
+              "x": 595,
+              "y": 1606,
+              "channel": "G",
+              "axis": "v",
+              "value": 13
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08750440180301666,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.38164395093917847,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.008198302469135802,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 11,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 10,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          120
+        ],
+        "yaw": 0,
+        "pitch": -10,
+        "fov": 66
+      },
+      "clock": 80.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2a_bridge_ahead_16x10",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2a_bridge_ahead_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.08878622204065323,
+        "p1": 0.03392549231648445,
+        "p50": 0.0641968697309494,
+        "p99": 0.38192710280418396,
+        "min": 0.015701962634921074,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.007312925170068027,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            315
+          ],
+          "max_run": 9,
+          "x": 954,
+          "y": 69,
+          "channel": "B",
+          "axis": "v",
+          "value": 53,
+          "qualifying_lines": 645,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 954,
+              "y": 69,
+              "channel": "B",
+              "axis": "v",
+              "value": 53
+            },
+            {
+              "run": 8,
+              "x": 958,
+              "y": 150,
+              "channel": "G",
+              "axis": "v",
+              "value": 54
+            },
+            {
+              "run": 8,
+              "x": 948,
+              "y": 67,
+              "channel": "B",
+              "axis": "v",
+              "value": 46
+            },
+            {
+              "run": 7,
+              "x": 969,
+              "y": 224,
+              "channel": "B",
+              "axis": "v",
+              "value": 107
+            },
+            {
+              "run": 6,
+              "x": 976,
+              "y": 37,
+              "channel": "R",
+              "axis": "v",
+              "value": 45
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            630,
+            1680,
+            1050
+          ],
+          "max_run": 9,
+          "x": 728,
+          "y": 802,
+          "channel": "G",
+          "axis": "v",
+          "value": 35,
+          "qualifying_lines": 1612,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 728,
+              "y": 802,
+              "channel": "G",
+              "axis": "v",
+              "value": 35
+            },
+            {
+              "run": 9,
+              "x": 23,
+              "y": 792,
+              "channel": "G",
+              "axis": "v",
+              "value": 12
+            },
+            {
+              "run": 8,
+              "x": 146,
+              "y": 852,
+              "channel": "R",
+              "axis": "v",
+              "value": 11
+            },
+            {
+              "run": 8,
+              "x": 70,
+              "y": 857,
+              "channel": "G",
+              "axis": "v",
+              "value": 17
+            },
+            {
+              "run": 8,
+              "x": 63,
+              "y": 877,
+              "channel": "B",
+              "axis": "v",
+              "value": 21
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.889999999999873,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08878622204065323,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.38192710280418396,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.007312925170068027,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          120
+        ],
+        "yaw": 0,
+        "pitch": -10,
+        "fov": 66
+      },
+      "clock": 80.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2a_bridge_ahead_21x9",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2a_bridge_ahead_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08604180067777634,
+        "p1": 0.03420862928032875,
+        "p50": 0.0672847107052803,
+        "p99": 0.3780055046081543,
+        "min": 0.015701962634921074,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.007378472222222222,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            324
+          ],
+          "max_run": 9,
+          "x": 4,
+          "y": 276,
+          "channel": "R",
+          "axis": "v",
+          "value": 9,
+          "qualifying_lines": 838,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 9,
+              "x": 4,
+              "y": 276,
+              "channel": "R",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 9,
+              "x": 146,
+              "y": 276,
+              "channel": "R",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 8,
+              "x": 1409,
+              "y": 215,
+              "channel": "R",
+              "axis": "v",
+              "value": 65
+            },
+            {
+              "run": 8,
+              "x": 1407,
+              "y": 192,
+              "channel": "G",
+              "axis": "v",
+              "value": 71
+            },
+            {
+              "run": 8,
+              "x": 1413,
+              "y": 226,
+              "channel": "B",
+              "axis": "v",
+              "value": 109
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            2560,
+            1080
+          ],
+          "max_run": 10,
+          "x": 1176,
+          "y": 841,
+          "channel": "G",
+          "axis": "v",
+          "value": 36,
+          "qualifying_lines": 2922,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1176,
+              "y": 841,
+              "channel": "G",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 9,
+              "x": 106,
+              "y": 857,
+              "channel": "R",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 9,
+              "x": 106,
+              "y": 857,
+              "channel": "G",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 8,
+              "x": 367,
+              "y": 1070,
+              "channel": "G",
+              "axis": "v",
+              "value": 10
+            },
+            {
+              "run": 8,
+              "x": 380,
+              "y": 814,
+              "channel": "G",
+              "axis": "v",
+              "value": 13
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08604180067777634,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.3780055046081543,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.007378472222222222,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          120
+        ],
+        "yaw": 0,
+        "pitch": -10,
+        "fov": 66
+      },
+      "clock": 80.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.11367223411798477,
+        "p1": 0.01962353102862835,
+        "p50": 0.0420517660677433,
+        "p99": 0.6323498487472534,
+        "min": 0.0036541179288178682,
+        "max": 0.8766157627105713
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            324
+          ],
+          "max_run": 9,
+          "x": 196,
+          "y": 221,
+          "channel": "R",
+          "axis": "v",
+          "value": 9,
+          "qualifying_lines": 377,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 9,
+              "x": 196,
+              "y": 221,
+              "channel": "R",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 9,
+              "x": 204,
+              "y": 240,
+              "channel": "G",
+              "axis": "v",
+              "value": 12
+            },
+            {
+              "run": 9,
+              "x": 204,
+              "y": 239,
+              "channel": "B",
+              "axis": "v",
+              "value": 17
+            },
+            {
+              "run": 9,
+              "x": 56,
+              "y": 6,
+              "channel": "B",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 9,
+              "x": 101,
+              "y": 69,
+              "channel": "B",
+              "axis": "v",
+              "value": 15
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            1920,
+            1080
+          ],
+          "max_run": 12,
+          "x": 282,
+          "y": 1057,
+          "channel": "R",
+          "axis": "v",
+          "value": 4,
+          "qualifying_lines": 3813,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 12,
+              "x": 282,
+              "y": 1057,
+              "channel": "R",
+              "axis": "v",
+              "value": 4
+            },
+            {
+              "run": 11,
+              "x": 511,
+              "y": 656,
+              "channel": "B",
+              "axis": "v",
+              "value": 16
+            },
+            {
+              "run": 10,
+              "x": 130,
+              "y": 653,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 299,
+              "y": 854,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 346,
+              "y": 782,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11367223411798477,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6323498487472534,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 12,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_4k",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.11251122504472733,
+        "p1": 0.01934039406478405,
+        "p50": 0.0420517660677433,
+        "p99": 0.6332510113716125,
+        "min": 0.0036541179288178682,
+        "max": 0.8892141580581665
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 24.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            648
+          ],
+          "max_run": 10,
+          "x": 455,
+          "y": 411,
+          "channel": "R",
+          "axis": "v",
+          "value": 7,
+          "qualifying_lines": 1462,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 10,
+              "x": 455,
+              "y": 411,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 484,
+              "y": 254,
+              "channel": "G",
+              "axis": "v",
+              "value": 10
+            },
+            {
+              "run": 9,
+              "x": 436,
+              "y": 635,
+              "channel": "G",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 9,
+              "x": 526,
+              "y": 420,
+              "channel": "G",
+              "axis": "v",
+              "value": 10
+            },
+            {
+              "run": 9,
+              "x": 210,
+              "y": 362,
+              "channel": "G",
+              "axis": "v",
+              "value": 9
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1296,
+            3840,
+            2160
+          ],
+          "max_run": 11,
+          "x": 551,
+          "y": 1870,
+          "channel": "B",
+          "axis": "v",
+          "value": 26,
+          "qualifying_lines": 5869,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 11,
+              "x": 551,
+              "y": 1870,
+              "channel": "B",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 10,
+              "x": 2677,
+              "y": 1835,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 10,
+              "x": 784,
+              "y": 1459,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 10,
+              "x": 2911,
+              "y": 1377,
+              "channel": "G",
+              "axis": "v",
+              "value": 19
+            },
+            {
+              "run": 10,
+              "x": 551,
+              "y": 1870,
+              "channel": "G",
+              "axis": "v",
+              "value": 18
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 9.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11251122504472733,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6332510113716125,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 10,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 11,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_16x10",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.1214279904961586,
+        "p1": 0.0224282369017601,
+        "p50": 0.0451396107673645,
+        "p99": 0.6371051669120789,
+        "min": 0.0036541179288178682,
+        "max": 0.8729772567749023
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            315
+          ],
+          "max_run": 10,
+          "x": 12,
+          "y": 179,
+          "channel": "B",
+          "axis": "v",
+          "value": 17,
+          "qualifying_lines": 299,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 10,
+              "x": 12,
+              "y": 179,
+              "channel": "B",
+              "axis": "v",
+              "value": 17
+            },
+            {
+              "run": 7,
+              "x": 75,
+              "y": 169,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 7,
+              "x": 24,
+              "y": 160,
+              "channel": "G",
+              "axis": "v",
+              "value": 8
+            },
+            {
+              "run": 7,
+              "x": 12,
+              "y": 167,
+              "channel": "G",
+              "axis": "v",
+              "value": 8
+            },
+            {
+              "run": 7,
+              "x": 72,
+              "y": 216,
+              "channel": "B",
+              "axis": "v",
+              "value": 13
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            630,
+            1680,
+            1050
+          ],
+          "max_run": 10,
+          "x": 84,
+          "y": 632,
+          "channel": "R",
+          "axis": "v",
+          "value": 7,
+          "qualifying_lines": 3261,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 10,
+              "x": 84,
+              "y": 632,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 1493,
+              "y": 846,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 274,
+              "y": 1021,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 544,
+              "y": 654,
+              "channel": "R",
+              "axis": "v",
+              "value": 8
+            },
+            {
+              "run": 9,
+              "x": 168,
+              "y": 758,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1214279904961586,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6371051669120789,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS2b_bridge_down_21x9",
+      "beat": 2,
+      "zone": null,
+      "file": "beat02_bridge_KS2b_bridge_down_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09680551290512085,
+        "p1": 0.015701962634921074,
+        "p50": 0.0420517660677433,
+        "p99": 0.6190007328987122,
+        "min": 0.0036541179288178682,
+        "max": 0.8766157627105713
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0,
+      "thresholds": {
+        "row": "beat 2",
+        "mean": [
+          0.05,
+          0.13
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 30 % fog, lower 40 % void",
+        "alias_desc": "bridge edges, truss, posts"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            324
+          ],
+          "max_run": 9,
+          "x": 382,
+          "y": 9,
+          "channel": "B",
+          "axis": "v",
+          "value": 15,
+          "qualifying_lines": 896,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 9,
+              "x": 382,
+              "y": 9,
+              "channel": "B",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 8,
+              "x": 420,
+              "y": 69,
+              "channel": "R",
+              "axis": "v",
+              "value": 8
+            },
+            {
+              "run": 8,
+              "x": 442,
+              "y": 207,
+              "channel": "R",
+              "axis": "v",
+              "value": 10
+            },
+            {
+              "run": 8,
+              "x": 99,
+              "y": 134,
+              "channel": "R",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 8,
+              "x": 71,
+              "y": 193,
+              "channel": "R",
+              "axis": "v",
+              "value": 7
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "fog_top30",
+          "region": [
+            0,
+            0,
+            1,
+            0.3
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            648,
+            2560,
+            1080
+          ],
+          "max_run": 11,
+          "x": 468,
+          "y": 654,
+          "channel": "G",
+          "axis": "v",
+          "value": 10,
+          "qualifying_lines": 5109,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 11,
+              "x": 468,
+              "y": 654,
+              "channel": "G",
+              "axis": "v",
+              "value": 10
+            },
+            {
+              "run": 11,
+              "x": 2461,
+              "y": 1025,
+              "channel": "B",
+              "axis": "v",
+              "value": 24
+            },
+            {
+              "run": 10,
+              "x": 2054,
+              "y": 745,
+              "channel": "G",
+              "axis": "v",
+              "value": 11
+            },
+            {
+              "run": 10,
+              "x": 829,
+              "y": 655,
+              "channel": "B",
+              "axis": "v",
+              "value": 16
+            },
+            {
+              "run": 10,
+              "x": 2540,
+              "y": 825,
+              "channel": "B",
+              "axis": "v",
+              "value": 15
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "void_bottom40",
+          "region": [
+            0,
+            0.6,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09680551290512085,
+          "limit": [
+            0.05,
+            0.13
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6190007328987122,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:fog_top30": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:void_bottom40": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          0,
+          -1.3,
+          141
+        ],
+        "yaw": 0,
+        "pitch": -90,
+        "fov": 66
+      },
+      "clock": 94.0,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS3_column_up",
+      "beat": 3,
+      "zone": null,
+      "file": "beat03_ledge_KS3_column_up.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.11674048006534576,
+        "p1": 0.02044156938791275,
+        "p50": 0.11574353277683258,
+        "p99": 0.28438669443130493,
+        "min": 0.0033709807321429253,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.03356481481481481,
+      "thresholds": {
+        "row": "beat 3",
+        "mean": [
+          0.06,
+          0.15
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 25 % column fog",
+        "alias_desc": "kerb, lamps"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            270
+          ],
+          "max_run": 6,
+          "x": 817,
+          "y": 44,
+          "channel": "R",
+          "axis": "v",
+          "value": 28,
+          "qualifying_lines": 761,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 817,
+              "y": 44,
+              "channel": "R",
+              "axis": "v",
+              "value": 28
+            },
+            {
+              "run": 5,
+              "x": 818,
+              "y": 42,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 5,
+              "x": 825,
+              "y": 52,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 5,
+              "x": 826,
+              "y": 55,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 5,
+              "x": 657,
+              "y": 86,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "column_fog_top25",
+          "region": [
+            0,
+            0,
+            1,
+            0.25
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11674048006534576,
+          "limit": [
+            0.06,
+            0.15
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.28438669443130493,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.03356481481481481,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:column_fog_top25": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          25,
+          -3.3,
+          244
+        ],
+        "yaw": 328,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 172.1800130208,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS3_column_up_4k",
+      "beat": 3,
+      "zone": null,
+      "file": "beat03_ledge_KS3_column_up_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.11652734130620956,
+        "p1": 0.01962353102862835,
+        "p50": 0.11546039581298828,
+        "p99": 0.28383612632751465,
+        "min": 0.00028313728398643434,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.03422791280864197,
+      "thresholds": {
+        "row": "beat 3",
+        "mean": [
+          0.06,
+          0.15
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 24.0,
+        "band_desc": "upper 25 % column fog",
+        "alias_desc": "kerb, lamps"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            540
+          ],
+          "max_run": 6,
+          "x": 1637,
+          "y": 84,
+          "channel": "B",
+          "axis": "v",
+          "value": 40,
+          "qualifying_lines": 1625,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1637,
+              "y": 84,
+              "channel": "B",
+              "axis": "v",
+              "value": 40
+            },
+            {
+              "run": 6,
+              "x": 1830,
+              "y": 481,
+              "channel": "B",
+              "axis": "v",
+              "value": 44
+            },
+            {
+              "run": 5,
+              "x": 2547,
+              "y": 178,
+              "channel": "R",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 5,
+              "x": 2548,
+              "y": 186,
+              "channel": "R",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 5,
+              "x": 1828,
+              "y": 302,
+              "channel": "R",
+              "axis": "v",
+              "value": 30
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "column_fog_top25",
+          "region": [
+            0,
+            0,
+            1,
+            0.25
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11652734130620956,
+          "limit": [
+            0.06,
+            0.15
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.28383612632751465,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.03422791280864197,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:column_fog_top25": {
+          "value": 6,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          25,
+          -3.3,
+          244
+        ],
+        "yaw": 328,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 172.1800130208,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS3_column_up_16x10",
+      "beat": 3,
+      "zone": null,
+      "file": "beat03_ledge_KS3_column_up_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.11836428195238113,
+        "p1": 0.01962353102862835,
+        "p50": 0.11744707077741623,
+        "p99": 0.28692391514778137,
+        "min": 0.0033709807321429253,
+        "max": 0.9991506338119507
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.03775510204081633,
+      "thresholds": {
+        "row": "beat 3",
+        "mean": [
+          0.06,
+          0.15
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "upper 25 % column fog",
+        "alias_desc": "kerb, lamps"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            262
+          ],
+          "max_run": 6,
+          "x": 701,
+          "y": 39,
+          "channel": "R",
+          "axis": "v",
+          "value": 27,
+          "qualifying_lines": 734,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 6,
+              "x": 701,
+              "y": 39,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 6,
+              "x": 701,
+              "y": 39,
+              "channel": "G",
+              "axis": "v",
+              "value": 33
+            },
+            {
+              "run": 6,
+              "x": 709,
+              "y": 52,
+              "channel": "G",
+              "axis": "v",
+              "value": 34
+            },
+            {
+              "run": 6,
+              "x": 702,
+              "y": 42,
+              "channel": "B",
+              "axis": "v",
+              "value": 41
+            },
+            {
+              "run": 5,
+              "x": 709,
+              "y": 52,
+              "channel": "R",
+              "axis": "v",
+              "value": 28
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "column_fog_top25",
+          "region": [
+            0,
+            0,
+            1,
+            0.25
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11836428195238113,
+          "limit": [
+            0.06,
+            0.15
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.28692391514778137,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.03775510204081633,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:column_fog_top25": {
+          "value": 6,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          25,
+          -3.3,
+          244
+        ],
+        "yaw": 328,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 172.1800130208,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS3_column_up_21x9",
+      "beat": 3,
+      "zone": null,
+      "file": "beat03_ledge_KS3_column_up_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.1117362231016159,
+        "p1": 0.021275294944643974,
+        "p50": 0.10960393399000168,
+        "p99": 0.2787976562976837,
+        "min": 0.00028313728398643434,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.02513744212962963,
+      "thresholds": {
+        "row": "beat 3",
+        "mean": [
+          0.06,
+          0.15
+        ],
+        "p99_max": 0.7,
+        "clipped_max_pct": 0.3,
+        "band_limit_px": 12.0,
+        "band_desc": "upper 25 % column fog",
+        "alias_desc": "kerb, lamps"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            270
+          ],
+          "max_run": 7,
+          "x": 1138,
+          "y": 42,
+          "channel": "B",
+          "axis": "v",
+          "value": 40,
+          "qualifying_lines": 865,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 7,
+              "x": 1138,
+              "y": 42,
+              "channel": "B",
+              "axis": "v",
+              "value": 40
+            },
+            {
+              "run": 6,
+              "x": 1145,
+              "y": 53,
+              "channel": "R",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 6,
+              "x": 218,
+              "y": 52,
+              "channel": "R",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 6,
+              "x": 236,
+              "y": 10,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            },
+            {
+              "run": 6,
+              "x": 233,
+              "y": 17,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "column_fog_top25",
+          "region": [
+            0,
+            0,
+            1,
+            0.25
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1117362231016159,
+          "limit": [
+            0.06,
+            0.15
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.2787976562976837,
+          "limit": 0.7,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.02513744212962963,
+          "limit": 0.3,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:column_fog_top25": {
+          "value": 7,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          25,
+          -3.3,
+          244
+        ],
+        "yaw": 328,
+        "pitch": 16,
+        "fov": 66
+      },
+      "clock": 172.1800130208,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.1321643590927124,
+        "p1": 0.0227113738656044,
+        "p50": 0.11689647287130356,
+        "p99": 0.564238429069519,
+        "min": 0.0030878433026373386,
+        "max": 0.936540424823761
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00636574074074074,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 9,
+          "x": 1865,
+          "y": 157,
+          "channel": "R",
+          "axis": "v",
+          "value": 23,
+          "qualifying_lines": 5656,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 9,
+              "x": 1865,
+              "y": 157,
+              "channel": "R",
+              "axis": "v",
+              "value": 23
+            },
+            {
+              "run": 9,
+              "x": 740,
+              "y": 323,
+              "channel": "R",
+              "axis": "v",
+              "value": 14
+            },
+            {
+              "run": 9,
+              "x": 1865,
+              "y": 157,
+              "channel": "G",
+              "axis": "v",
+              "value": 31
+            },
+            {
+              "run": 9,
+              "x": 105,
+              "y": 46,
+              "channel": "G",
+              "axis": "v",
+              "value": 45
+            },
+            {
+              "run": 9,
+              "x": 740,
+              "y": 323,
+              "channel": "G",
+              "axis": "v",
+              "value": 21
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.449999999999818,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 12,
+          "x": 369,
+          "y": 761,
+          "channel": "R",
+          "axis": "v",
+          "value": 18,
+          "qualifying_lines": 5680,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 12,
+              "x": 369,
+              "y": 761,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            },
+            {
+              "run": 12,
+              "x": 369,
+              "y": 761,
+              "channel": "G",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 11,
+              "x": 436,
+              "y": 762,
+              "channel": "G",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 11,
+              "x": 1170,
+              "y": 755,
+              "channel": "B",
+              "axis": "v",
+              "value": 35
+            },
+            {
+              "run": 10,
+              "x": 1215,
+              "y": 735,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.1321643590927124,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.564238429069519,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00636574074074074,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 12,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_4k",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_4k.png",
+      "width": 3840,
+      "height": 2160,
+      "luma": {
+        "mean": 0.13155260682106018,
+        "p1": 0.022160785272717476,
+        "p50": 0.11015452444553375,
+        "p99": 0.5552940964698792,
+        "min": 0.00028313728398643434,
+        "max": 0.9443835616111755
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.01099537037037037,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 24.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            3840,
+            756
+          ],
+          "max_run": 13,
+          "x": 69,
+          "y": 639,
+          "channel": "B",
+          "axis": "v",
+          "value": 53,
+          "qualifying_lines": 11378,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 13,
+              "x": 69,
+              "y": 639,
+              "channel": "B",
+              "axis": "v",
+              "value": 53
+            },
+            {
+              "run": 11,
+              "x": 2270,
+              "y": 621,
+              "channel": "G",
+              "axis": "v",
+              "value": 40
+            },
+            {
+              "run": 11,
+              "x": 3807,
+              "y": 10,
+              "channel": "B",
+              "axis": "v",
+              "value": 53
+            },
+            {
+              "run": 10,
+              "x": 3828,
+              "y": 498,
+              "channel": "R",
+              "axis": "v",
+              "value": 35
+            },
+            {
+              "run": 10,
+              "x": 3791,
+              "y": 6,
+              "channel": "R",
+              "axis": "v",
+              "value": 35
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            1404,
+            3840,
+            2160
+          ],
+          "max_run": 11,
+          "x": 2172,
+          "y": 1707,
+          "channel": "B",
+          "axis": "v",
+          "value": 15,
+          "qualifying_lines": 11401,
+          "total_lines": 11520,
+          "worst": [
+            {
+              "run": 11,
+              "x": 2172,
+              "y": 1707,
+              "channel": "B",
+              "axis": "v",
+              "value": 15
+            },
+            {
+              "run": 10,
+              "x": 751,
+              "y": 1527,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            },
+            {
+              "run": 10,
+              "x": 580,
+              "y": 1852,
+              "channel": "G",
+              "axis": "v",
+              "value": 9
+            },
+            {
+              "run": 10,
+              "x": 1870,
+              "y": 1486,
+              "channel": "B",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 10,
+              "x": 1551,
+              "y": 1514,
+              "channel": "B",
+              "axis": "v",
+              "value": 35
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 24.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            3840,
+            2160
+          ],
+          "limit": [
+            3840,
+            2160
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.13155260682106018,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5552940964698792,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.01099537037037037,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 13,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 11,
+          "limit": 24.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.12787891924381256,
+        "p1": 0.02299451269209385,
+        "p50": 0.11043766140937805,
+        "p99": 0.46846972793340746,
+        "min": 0.0030878433026373386,
+        "max": 0.9404619932174683
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.0066326530612244895,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 10,
+          "x": 1451,
+          "y": 266,
+          "channel": "R",
+          "axis": "v",
+          "value": 26,
+          "qualifying_lines": 4944,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1451,
+              "y": 266,
+              "channel": "R",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 8,
+              "x": 1656,
+              "y": 348,
+              "channel": "R",
+              "axis": "v",
+              "value": 36
+            },
+            {
+              "run": 8,
+              "x": 1295,
+              "y": 91,
+              "channel": "R",
+              "axis": "v",
+              "value": 39
+            },
+            {
+              "run": 8,
+              "x": 905,
+              "y": 0,
+              "channel": "R",
+              "axis": "v",
+              "value": 40
+            },
+            {
+              "run": 8,
+              "x": 258,
+              "y": 88,
+              "channel": "R",
+              "axis": "v",
+              "value": 39
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 10,
+          "x": 1083,
+          "y": 714,
+          "channel": "R",
+          "axis": "v",
+          "value": 19,
+          "qualifying_lines": 4982,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1083,
+              "y": 714,
+              "channel": "R",
+              "axis": "v",
+              "value": 19
+            },
+            {
+              "run": 10,
+              "x": 264,
+              "y": 740,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            },
+            {
+              "run": 10,
+              "x": 259,
+              "y": 741,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            },
+            {
+              "run": 10,
+              "x": 259,
+              "y": 741,
+              "channel": "G",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 10,
+              "x": 1364,
+              "y": 764,
+              "channel": "G",
+              "axis": "v",
+              "value": 25
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.12787891924381256,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.46846972793340746,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.0066326530612244895,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5a_lift_city_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5a_lift_city_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.14556416869163513,
+        "p1": 0.0227113738656044,
+        "p50": 0.11716393381357193,
+        "p99": 0.6099129915237427,
+        "min": 0.0033709807321429253,
+        "max": 0.936540424823761
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00538917824074074,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 11,
+          "x": 1912,
+          "y": 360,
+          "channel": "B",
+          "axis": "v",
+          "value": 42,
+          "qualifying_lines": 7465,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 11,
+              "x": 1912,
+              "y": 360,
+              "channel": "B",
+              "axis": "v",
+              "value": 42
+            },
+            {
+              "run": 10,
+              "x": 1015,
+              "y": 259,
+              "channel": "B",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 10,
+              "x": 1901,
+              "y": 82,
+              "channel": "B",
+              "axis": "v",
+              "value": 48
+            },
+            {
+              "run": 9,
+              "x": 2449,
+              "y": 156,
+              "channel": "R",
+              "axis": "v",
+              "value": 40
+            },
+            {
+              "run": 9,
+              "x": 1912,
+              "y": 362,
+              "channel": "R",
+              "axis": "v",
+              "value": 26
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 15,
+          "x": 2129,
+          "y": 808,
+          "channel": "G",
+          "axis": "v",
+          "value": 25,
+          "qualifying_lines": 7581,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 15,
+              "x": 2129,
+              "y": 808,
+              "channel": "G",
+              "axis": "v",
+              "value": 25
+            },
+            {
+              "run": 12,
+              "x": 2326,
+              "y": 811,
+              "channel": "G",
+              "axis": "v",
+              "value": 26
+            },
+            {
+              "run": 11,
+              "x": 2229,
+              "y": 827,
+              "channel": "G",
+              "axis": "v",
+              "value": 25
+            },
+            {
+              "run": 11,
+              "x": 2013,
+              "y": 815,
+              "channel": "B",
+              "axis": "v",
+              "value": 33
+            },
+            {
+              "run": 10,
+              "x": 528,
+              "y": 784,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 1,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": false
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.14556416869163513,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.6099129915237427,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00538917824074074,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 15,
+          "limit": 12.0,
+          "pass": false,
+          "advisory": false
+        }
+      },
+      "failures": [
+        "banding:shaft_fog_bottom"
+      ],
+      "warnings": [],
+      "pass": false,
+      "pose": {
+        "pos": [
+          -103.5,
+          -245.3,
+          269
+        ],
+        "yaw": 240,
+        "pitch": 3,
+        "fov": 66
+      },
+      "clock": 368.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.10031605511903763,
+        "p1": 0.019072940573096275,
+        "p50": 0.09838980436325073,
+        "p99": 0.502594530582428,
+        "min": 0.0036541179288178682,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00014467592592592592,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1920,
+            378
+          ],
+          "max_run": 9,
+          "x": 60,
+          "y": 33,
+          "channel": "R",
+          "axis": "v",
+          "value": 4,
+          "qualifying_lines": 5700,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 9,
+              "x": 60,
+              "y": 33,
+              "channel": "R",
+              "axis": "v",
+              "value": 4
+            },
+            {
+              "run": 9,
+              "x": 74,
+              "y": 221,
+              "channel": "R",
+              "axis": "v",
+              "value": 74
+            },
+            {
+              "run": 9,
+              "x": 60,
+              "y": 33,
+              "channel": "G",
+              "axis": "v",
+              "value": 6
+            },
+            {
+              "run": 9,
+              "x": 1789,
+              "y": 116,
+              "channel": "G",
+              "axis": "v",
+              "value": 7
+            },
+            {
+              "run": 9,
+              "x": 45,
+              "y": 16,
+              "channel": "B",
+              "axis": "v",
+              "value": 9
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            1920,
+            1080
+          ],
+          "max_run": 6,
+          "x": 475,
+          "y": 721,
+          "channel": "R",
+          "axis": "v",
+          "value": 24,
+          "qualifying_lines": 836,
+          "total_lines": 5760,
+          "worst": [
+            {
+              "run": 6,
+              "x": 475,
+              "y": 721,
+              "channel": "R",
+              "axis": "v",
+              "value": 24
+            },
+            {
+              "run": 6,
+              "x": 1480,
+              "y": 845,
+              "channel": "R",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 6,
+              "x": 1450,
+              "y": 1073,
+              "channel": "G",
+              "axis": "v",
+              "value": 25
+            },
+            {
+              "run": 6,
+              "x": 1455,
+              "y": 1072,
+              "channel": "B",
+              "axis": "v",
+              "value": 34
+            },
+            {
+              "run": 5,
+              "x": 431,
+              "y": 840,
+              "channel": "R",
+              "axis": "v",
+              "value": 25
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.10031605511903763,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.502594530582428,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00014467592592592592,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 9,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_16x10",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.09768859297037125,
+        "p1": 0.019072940573096275,
+        "p50": 0.09778746962547302,
+        "p99": 0.5067992210388184,
+        "min": 0.0036541179288178682,
+        "max": 0.9796102046966553
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00011337868480725623,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            1680,
+            368
+          ],
+          "max_run": 9,
+          "x": 55,
+          "y": 280,
+          "channel": "R",
+          "axis": "v",
+          "value": 49,
+          "qualifying_lines": 4980,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 9,
+              "x": 55,
+              "y": 280,
+              "channel": "R",
+              "axis": "v",
+              "value": 49
+            },
+            {
+              "run": 8,
+              "x": 1205,
+              "y": 308,
+              "channel": "R",
+              "axis": "v",
+              "value": 5
+            },
+            {
+              "run": 8,
+              "x": 1193,
+              "y": 273,
+              "channel": "R",
+              "axis": "v",
+              "value": 5
+            },
+            {
+              "run": 8,
+              "x": 1070,
+              "y": 297,
+              "channel": "R",
+              "axis": "v",
+              "value": 5
+            },
+            {
+              "run": 8,
+              "x": 1108,
+              "y": 308,
+              "channel": "R",
+              "axis": "v",
+              "value": 5
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 6.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            682,
+            1680,
+            1050
+          ],
+          "max_run": 6,
+          "x": 1314,
+          "y": 1032,
+          "channel": "R",
+          "axis": "v",
+          "value": 21,
+          "qualifying_lines": 816,
+          "total_lines": 5040,
+          "worst": [
+            {
+              "run": 6,
+              "x": 1314,
+              "y": 1032,
+              "channel": "R",
+              "axis": "v",
+              "value": 21
+            },
+            {
+              "run": 6,
+              "x": 1312,
+              "y": 1042,
+              "channel": "R",
+              "axis": "v",
+              "value": 21
+            },
+            {
+              "run": 6,
+              "x": 1331,
+              "y": 761,
+              "channel": "R",
+              "axis": "v",
+              "value": 30
+            },
+            {
+              "run": 6,
+              "x": 316,
+              "y": 844,
+              "channel": "G",
+              "axis": "v",
+              "value": 32
+            },
+            {
+              "run": 6,
+              "x": 1331,
+              "y": 761,
+              "channel": "G",
+              "axis": "v",
+              "value": 38
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09768859297037125,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5067992210388184,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00011337868480725623,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 9,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 6,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS5c_lift_down_21x9",
+      "beat": 5,
+      "zone": null,
+      "file": "beat05_lift_KS5c_lift_down_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.11088227480649948,
+        "p1": 0.021877646446228027,
+        "p50": 0.0995066687464714,
+        "p99": 0.4821529686450958,
+        "min": 0.0036541179288178682,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.00010850694444444444,
+      "thresholds": {
+        "row": "beat 5",
+        "mean": [
+          0.06,
+          0.16
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "shaft fog",
+        "alias_desc": "window grid, rails"
+      },
+      "banding": [
+        {
+          "box_px": [
+            0,
+            0,
+            2560,
+            378
+          ],
+          "max_run": 10,
+          "x": 43,
+          "y": 278,
+          "channel": "G",
+          "axis": "v",
+          "value": 57,
+          "qualifying_lines": 7620,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 10,
+              "x": 43,
+              "y": 278,
+              "channel": "G",
+              "axis": "v",
+              "value": 57
+            },
+            {
+              "run": 10,
+              "x": 219,
+              "y": 268,
+              "channel": "G",
+              "axis": "v",
+              "value": 47
+            },
+            {
+              "run": 10,
+              "x": 209,
+              "y": 244,
+              "channel": "G",
+              "axis": "v",
+              "value": 45
+            },
+            {
+              "run": 10,
+              "x": 298,
+              "y": 299,
+              "channel": "G",
+              "axis": "v",
+              "value": 42
+            },
+            {
+              "run": 10,
+              "x": 296,
+              "y": 204,
+              "channel": "B",
+              "axis": "v",
+              "value": 37
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 7.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_top",
+          "region": [
+            0,
+            0,
+            1,
+            0.35
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        },
+        {
+          "box_px": [
+            0,
+            702,
+            2560,
+            1080
+          ],
+          "max_run": 6,
+          "x": 770,
+          "y": 787,
+          "channel": "G",
+          "axis": "v",
+          "value": 31,
+          "qualifying_lines": 836,
+          "total_lines": 7680,
+          "worst": [
+            {
+              "run": 6,
+              "x": 770,
+              "y": 787,
+              "channel": "G",
+              "axis": "v",
+              "value": 31
+            },
+            {
+              "run": 6,
+              "x": 1767,
+              "y": 1072,
+              "channel": "B",
+              "axis": "v",
+              "value": 28
+            },
+            {
+              "run": 6,
+              "x": 1776,
+              "y": 1072,
+              "channel": "B",
+              "axis": "v",
+              "value": 35
+            },
+            {
+              "run": 5,
+              "x": 767,
+              "y": 826,
+              "channel": "R",
+              "axis": "v",
+              "value": 25
+            },
+            {
+              "run": 5,
+              "x": 782,
+              "y": 759,
+              "channel": "R",
+              "axis": "v",
+              "value": 26
+            }
+          ],
+          "line_run_p50": 4.0,
+          "line_run_p99": 5.0,
+          "lines_over_limit": 0,
+          "name": "shaft_fog_bottom",
+          "region": [
+            0,
+            0.65,
+            1,
+            1
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.11088227480649948,
+          "limit": [
+            0.06,
+            0.16
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.4821529686450958,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.00010850694444444444,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_top": {
+          "value": 10,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:shaft_fog_bottom": {
+          "value": 6,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -56.7,
+          -437.3,
+          261
+        ],
+        "yaw": 180,
+        "pitch": -55,
+        "fov": 68
+      },
+      "clock": 408.3599853516,
+      "kind": "keyshot"
+    }
+  ],
+  "summary": {
+    "shots": 19,
+    "pass": 18,
+    "fail": 1,
+    "errors": 0,
+    "failures": [
+      "KS5a_lift_city_21x9 (beat05_lift_KS5a_lift_city_21x9.png): banding:shaft_fog_bottom"
+    ]
+  }
+}

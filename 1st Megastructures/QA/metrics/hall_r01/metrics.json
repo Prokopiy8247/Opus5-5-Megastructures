@@ -1,0 +1,604 @@
+{
+  "run": "hall_r01",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\captures\\hall_r01",
+  "generated": "2026-10-30T10:24:29+01:00",
+  "tool": "image_metrics.py",
+  "tool_version": "1.0.0",
+  "has_report": true,
+  "unlisted_pngs": [],
+  "duplicates": {
+    "files": [],
+    "tag_sizes": []
+  },
+  "shots": [
+    {
+      "tag": "KS4_hall_pistons",
+      "beat": 4,
+      "zone": null,
+      "file": "beat04_hall_KS4_hall_pistons.png",
+      "width": 1920,
+      "height": 1080,
+      "luma": {
+        "mean": 0.09701181203126907,
+        "p1": 0.0,
+        "p50": 0.05889098346233368,
+        "p99": 0.5707133442163471,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.3116801697530864,
+      "thresholds": {
+        "row": "beat 4",
+        "mean": [
+          0.08,
+          0.18
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "far hall haze",
+        "alias_desc": "rails, truss, grating"
+      },
+      "banding": [
+        {
+          "box_px": [
+            480,
+            216,
+            1440,
+            648
+          ],
+          "max_run": 11,
+          "x": 1116,
+          "y": 296,
+          "channel": "R",
+          "axis": "v",
+          "value": 23,
+          "qualifying_lines": 2816,
+          "total_lines": 2880,
+          "worst": [
+            {
+              "run": 11,
+              "x": 1116,
+              "y": 296,
+              "channel": "R",
+              "axis": "v",
+              "value": 23
+            },
+            {
+              "run": 11,
+              "x": 1116,
+              "y": 296,
+              "channel": "G",
+              "axis": "v",
+              "value": 29
+            },
+            {
+              "run": 10,
+              "x": 494,
+              "y": 216,
+              "channel": "R",
+              "axis": "v",
+              "value": 1
+            },
+            {
+              "run": 10,
+              "x": 748,
+              "y": 602,
+              "channel": "R",
+              "axis": "v",
+              "value": 42
+            },
+            {
+              "run": 10,
+              "x": 526,
+              "y": 341,
+              "channel": "R",
+              "axis": "v",
+              "value": 14
+            }
+          ],
+          "line_run_p50": 6.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "hall_haze",
+          "region": [
+            0.25,
+            0.2,
+            0.75,
+            0.6
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1920,
+            1080
+          ],
+          "limit": [
+            1920,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.09701181203126907,
+          "limit": [
+            0.08,
+            0.18
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5707133442163471,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.3116801697530864,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:hall_haze": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -60,
+          -5.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 4,
+        "fov": 62
+      },
+      "clock": 238.3600056966,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS4_hall_pistons_16x10",
+      "beat": 4,
+      "zone": null,
+      "file": "beat04_hall_KS4_hall_pistons_16x10.png",
+      "width": 1680,
+      "height": 1050,
+      "luma": {
+        "mean": 0.0991811603307724,
+        "p1": 0.00028313728398643434,
+        "p50": 0.05999216064810753,
+        "p99": 0.5782729983329773,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.3473922902494331,
+      "thresholds": {
+        "row": "beat 4",
+        "mean": [
+          0.08,
+          0.18
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 11.666666666666666,
+        "band_desc": "far hall haze",
+        "alias_desc": "rails, truss, grating"
+      },
+      "banding": [
+        {
+          "box_px": [
+            420,
+            210,
+            1260,
+            630
+          ],
+          "max_run": 10,
+          "x": 1212,
+          "y": 352,
+          "channel": "R",
+          "axis": "v",
+          "value": 13,
+          "qualifying_lines": 2490,
+          "total_lines": 2520,
+          "worst": [
+            {
+              "run": 10,
+              "x": 1212,
+              "y": 352,
+              "channel": "R",
+              "axis": "v",
+              "value": 13
+            },
+            {
+              "run": 9,
+              "x": 575,
+              "y": 317,
+              "channel": "R",
+              "axis": "v",
+              "value": 18
+            },
+            {
+              "run": 9,
+              "x": 1170,
+              "y": 524,
+              "channel": "R",
+              "axis": "v",
+              "value": 90
+            },
+            {
+              "run": 9,
+              "x": 477,
+              "y": 446,
+              "channel": "R",
+              "axis": "v",
+              "value": 13
+            },
+            {
+              "run": 9,
+              "x": 569,
+              "y": 452,
+              "channel": "G",
+              "axis": "v",
+              "value": 35
+            }
+          ],
+          "line_run_p50": 6.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "hall_haze",
+          "region": [
+            0.25,
+            0.2,
+            0.75,
+            0.6
+          ],
+          "limit_px": 11.666666666666666,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            1680,
+            1050
+          ],
+          "limit": [
+            1680,
+            1050
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.0991811603307724,
+          "limit": [
+            0.08,
+            0.18
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5782729983329773,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.3473922902494331,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:hall_haze": {
+          "value": 10,
+          "limit": 11.666666666666666,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -60,
+          -5.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 4,
+        "fov": 62
+      },
+      "clock": 238.3600056966,
+      "kind": "keyshot"
+    },
+    {
+      "tag": "KS4_hall_pistons_21x9",
+      "beat": 4,
+      "zone": null,
+      "file": "beat04_hall_KS4_hall_pistons_21x9.png",
+      "width": 2560,
+      "height": 1080,
+      "luma": {
+        "mean": 0.08900386095046997,
+        "p1": 0.0,
+        "p50": 0.05441882461309433,
+        "p99": 0.5648408532142639,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "magenta": {
+        "count": 0,
+        "ratio": 0.0
+      },
+      "specks": {
+        "count": 0,
+        "white": 0,
+        "black": 0,
+        "magenta": 0,
+        "samples": []
+      },
+      "clipped_pct": 0.24670862268518517,
+      "thresholds": {
+        "row": "beat 4",
+        "mean": [
+          0.08,
+          0.18
+        ],
+        "p99_max": 0.8,
+        "clipped_max_pct": 0.5,
+        "band_limit_px": 12.0,
+        "band_desc": "far hall haze",
+        "alias_desc": "rails, truss, grating"
+      },
+      "banding": [
+        {
+          "box_px": [
+            640,
+            216,
+            1920,
+            648
+          ],
+          "max_run": 11,
+          "x": 1053,
+          "y": 382,
+          "channel": "G",
+          "axis": "v",
+          "value": 20,
+          "qualifying_lines": 3678,
+          "total_lines": 3840,
+          "worst": [
+            {
+              "run": 11,
+              "x": 1053,
+              "y": 382,
+              "channel": "G",
+              "axis": "v",
+              "value": 20
+            },
+            {
+              "run": 11,
+              "x": 1053,
+              "y": 382,
+              "channel": "B",
+              "axis": "v",
+              "value": 27
+            },
+            {
+              "run": 10,
+              "x": 1528,
+              "y": 385,
+              "channel": "R",
+              "axis": "v",
+              "value": 34
+            },
+            {
+              "run": 10,
+              "x": 1435,
+              "y": 276,
+              "channel": "R",
+              "axis": "v",
+              "value": 17
+            },
+            {
+              "run": 10,
+              "x": 1918,
+              "y": 286,
+              "channel": "G",
+              "axis": "v",
+              "value": 28
+            }
+          ],
+          "line_run_p50": 5.0,
+          "line_run_p99": 8.0,
+          "lines_over_limit": 0,
+          "name": "hall_haze",
+          "region": [
+            0.25,
+            0.2,
+            0.75,
+            0.6
+          ],
+          "limit_px": 12.0,
+          "pass": true
+        }
+      ],
+      "horizon": null,
+      "region_warnings": [],
+      "checks": {
+        "size": {
+          "value": [
+            2560,
+            1080
+          ],
+          "limit": [
+            2560,
+            1080
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "black_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "white_frame": {
+          "value": false,
+          "limit": false,
+          "pass": true,
+          "advisory": false
+        },
+        "magenta_ratio": {
+          "value": 0.0,
+          "limit": 0.0,
+          "pass": true,
+          "advisory": false
+        },
+        "nan_like_pixels": {
+          "value": 0,
+          "limit": 0,
+          "pass": true,
+          "advisory": false
+        },
+        "mean_luma": {
+          "value": 0.08900386095046997,
+          "limit": [
+            0.08,
+            0.18
+          ],
+          "pass": true,
+          "advisory": false
+        },
+        "p99_luma": {
+          "value": 0.5648408532142639,
+          "limit": 0.8,
+          "pass": true,
+          "advisory": false
+        },
+        "clipped_pct": {
+          "value": 0.24670862268518517,
+          "limit": 0.5,
+          "pass": true,
+          "advisory": false
+        },
+        "banding:hall_haze": {
+          "value": 11,
+          "limit": 12.0,
+          "pass": true,
+          "advisory": false
+        }
+      },
+      "failures": [],
+      "warnings": [],
+      "pass": true,
+      "pose": {
+        "pos": [
+          -60,
+          -5.3,
+          269
+        ],
+        "yaw": 270,
+        "pitch": 4,
+        "fov": 62
+      },
+      "clock": 238.3600056966,
+      "kind": "keyshot"
+    }
+  ],
+  "summary": {
+    "shots": 3,
+    "pass": 3,
+    "fail": 0,
+    "errors": 0,
+    "failures": []
+  }
+}

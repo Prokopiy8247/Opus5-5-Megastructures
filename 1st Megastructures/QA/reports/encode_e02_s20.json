@@ -1,0 +1,144 @@
+{
+  "name": "grad_KS7b",
+  "source": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\sequences\\e02_s20\\grad_KS7b",
+  "generated": "2026-10-30T11:31:13+01:00",
+  "tool": "encode_test.py",
+  "tool_version": "1.0.0",
+  "frames": 240,
+  "fps": 60.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "regions": {
+    "sky_haze_top40": [
+      0.0,
+      0.0,
+      1.0,
+      0.4
+    ]
+  },
+  "limit_px": 24.0,
+  "limit_px_1080": 24,
+  "still_limit_px": 12.0,
+  "ffmpeg": "C:\\Users\\<user>\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.EXE",
+  "encoders_available": {
+    "libx264": true,
+    "libvpx-vp9": true
+  },
+  "gates": [
+    "x264:20"
+  ],
+  "settings": {
+    "preset": "medium",
+    "x264_crf": "20,23",
+    "vp9_crf": 31,
+    "stride": 1,
+    "rgb_to_yuv": "BT.709 limited range, yuv420p"
+  },
+  "source_banding": {
+    "max_run": 8,
+    "frame": 0,
+    "where": {
+      "region": "sky_haze_top40",
+      "x": 389,
+      "y": 399,
+      "channel": "R",
+      "value": 112,
+      "axis": "v"
+    },
+    "frames_scored": 240,
+    "qualifying_lines_min": 1273,
+    "qualifying_lines_mean": 1296.1166666666666,
+    "lines_over_limit_max": 0,
+    "diag_low_contrast_max_run": 9,
+    "diag_where": {
+      "frame": 0,
+      "region": "sky_haze_top40",
+      "x": 760,
+      "y": 398,
+      "channel": "R"
+    },
+    "pass_still_limit": true,
+    "pass_encode_limit": true
+  },
+  "encodes": [
+    {
+      "encode": "x264_crf20",
+      "codec": "x264",
+      "crf": 20,
+      "gated": true,
+      "video_bytes": 639283,
+      "bitrate_kbps": 1278.566,
+      "decoded_frames": 240,
+      "max_run": 108,
+      "frame": 0,
+      "where": {
+        "region": "sky_haze_top40",
+        "x": 646,
+        "y": 84,
+        "channel": "B",
+        "value": 138,
+        "axis": "v"
+      },
+      "frames_scored": 240,
+      "qualifying_lines_min": 1320,
+      "qualifying_lines_mean": 1337.3666666666666,
+      "lines_over_limit_max": 407,
+      "diag_low_contrast_max_run": 117,
+      "diag_where": {
+        "frame": 0,
+        "region": "sky_haze_top40",
+        "x": 639,
+        "y": 84,
+        "channel": "B"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    },
+    {
+      "encode": "x264_crf23",
+      "codec": "x264",
+      "crf": 23,
+      "gated": false,
+      "video_bytes": 391286,
+      "bitrate_kbps": 782.572,
+      "decoded_frames": 240,
+      "max_run": 244,
+      "frame": 0,
+      "where": {
+        "region": "sky_haze_top40",
+        "x": 653,
+        "y": 76,
+        "channel": "B",
+        "value": 138,
+        "axis": "v"
+      },
+      "frames_scored": 240,
+      "qualifying_lines_min": 1309,
+      "qualifying_lines_mean": 1331.0166666666667,
+      "lines_over_limit_max": 1353,
+      "diag_low_contrast_max_run": 248,
+      "diag_where": {
+        "frame": 0,
+        "region": "sky_haze_top40",
+        "x": 643,
+        "y": 72,
+        "channel": "B"
+      },
+      "limit_px": 24.0,
+      "pass": false
+    }
+  ],
+  "crops": {
+    "file": "W:\\YouTube\\Megastructures\\1st Megastructures\\1st Megastructures\\QA\\encode\\e02_s20\\crops_worst.png",
+    "frame": 0,
+    "center": [
+      646,
+      138
+    ],
+    "size": 256,
+    "from": "x264_crf20"
+  },
+  "pass": false
+}
